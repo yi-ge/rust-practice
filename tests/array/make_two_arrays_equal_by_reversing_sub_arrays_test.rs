@@ -10,8 +10,8 @@ fn can_be_equal() {
     // 2- 翻转子数组 [4,2] ，arr 变成 [1,2,4,3]
     // 3- 翻转子数组 [4,3] ，arr 变成 [1,2,3,4]
     // 上述方法并不是唯一的，还存在多种将 arr 变成 target 的方法。
-    let target = vec![1,2,3,4];
-    let arr = vec![2,4,1,3];
+    let target = vec![1, 2, 3, 4];
+    let arr = vec![2, 4, 1, 3];
     assert_eq!(Solution::can_be_equal(target, arr), true);
 
     // 示例 2：

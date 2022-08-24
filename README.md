@@ -70,3 +70,7 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 ### 排序
 
 ### 其它
+
+- [最小栈](src/heap/min_stack.rs)  [栈, 设计]
+
+  - LeetCode 155. 最小栈 <https://leetcode.cn/problems/min-stack/>

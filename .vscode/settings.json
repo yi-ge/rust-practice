@@ -7,5 +7,6 @@
     "networkidle",
     "nums",
     "repost"
-  ]
+  ],
+  "editor.formatOnSave": true
 }
