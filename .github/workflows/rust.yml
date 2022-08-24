@@ -75,12 +75,12 @@ jobs:
           gistURL: https://gist.githubusercontent.com/yi-ge/00fdcacb47689d14b8e9fdf7fb0f7288
           file: badge.svg
 
-      - name: Generate coverage
-        uses: actions-rs/toolchain@v1
+      - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
           toolchain: nightly
           override: true
+      - name: Generate coverage
         env:
           PROJECT_NAME: 'rust_practice'
           RUSTFLAGS: '-Zprofile -Ccodegen-units=1 -Cinline-threshold=0 -Clink-dead-code -Coverflow-chec  ks=off -Zno-landing-pads'
