@@ -1,0 +1,13 @@
+[package]
+name = "rust-practice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# reformat_the_string = { path = "./src/string/reformat_the_string.rs" }
+
+[[test]]
+name = "integration"
+path = "tests/tests.rs"
