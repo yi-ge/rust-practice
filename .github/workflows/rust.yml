@@ -90,6 +90,7 @@ jobs:
           cargo build --verbose
           cargo test --verbose --test integration
           zip -0 cov.zip $(find . -name "$PROJECT_NAME*.gc*" -print)
+          cargo install grcov
           grcov cov.zip -s . -t lcov --llvm --ignore-not-existing --ignore "/*" -o lcov.info
 
       - name: Coveralls
