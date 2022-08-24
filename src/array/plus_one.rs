@@ -8,7 +8,7 @@ impl Solution {
     pub fn plus_one(mut digits: Vec<i32>) -> Vec<i32> { // 增加mut
       let mut i = digits.len() - 1;
       loop {
-        if (digits[i] < 9) { // 小于9直接+1返回
+        if digits[i] < 9 { // 小于9直接+1返回
           digits[i] += 1;
           return digits;
         }
