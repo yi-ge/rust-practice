@@ -101,6 +101,7 @@ jobs:
           github-token: ${{ secrets.github_token }}
           parallel: true
           flag-name: Unit
+          path-to-lcov: 'lcov.info'
 
   finish:
     needs: test
