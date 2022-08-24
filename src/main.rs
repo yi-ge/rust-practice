@@ -5,7 +5,8 @@ fn main() {
 #[cfg(test)]
 mod tests {
     #[test]
-    fn main() {
+    fn main_test() {
+        crate::main();
         let result = 2 + 2;
         assert_eq!(result, 4);
     }
