@@ -83,11 +83,12 @@ jobs:
       - name: Generate coverage
         env:
           PROJECT_NAME: 'rust_practice'
-          RUSTFLAGS: '-Zprofile -Ccodegen-units=1 -Cinline-threshold=0 -Clink-dead-code -Coverflow-chec  ks=off -Zno-landing-pads'
+          RUSTFLAGS: '-Zprofile -Ccodegen-units=1 -Copt-level=0 -Clink-dead-code -Coverflow-checks=off -Zpanic_abort_tests -Cpanic=abort'
+          RUSTDOCFLAGS: '-Cpanic=abort'
           CARGO_INCREMENTAL: 0
         run: |
           cargo build --verbose
-          cargo test --verbose
+          cargo test --verbose --test integration
           zip -0 cov.zip $(find . -name "$PROJECT_NAME*.gc*" -print)
           grcov cov.zip -s . -t lcov --llvm --ignore-not-existing --ignore "/*" -o lcov.info
 
