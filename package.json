@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "cargo build",
-    "test": "cargo test",
+    "test": "cargo test -v --test integration",
     "start": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node --loader ts-node/esm ./bin/createPractice.ts"
   },
   "dependencies": {
