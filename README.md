@@ -17,7 +17,7 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ## 测试环境
 
-安装最新版Rust<https://www.rust-lang.org/>和[Node.js](https://nodejs.org)。安装完成后执行`yarn`安装依赖。
+安装最新版[Rust](https://www.rust-lang.org/)和[Node.js](https://nodejs.org)。安装完成后执行`yarn`安装依赖。
 
 ## 基础排序算法
 
