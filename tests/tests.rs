@@ -2,3 +2,4 @@
 mod macros;
 
 mod string;
+mod array;
