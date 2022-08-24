@@ -43,6 +43,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 数组/队列/集合/映射
 
+- [加一](src/array/plus_one.rs)  [数组, 数学]
+
+  - LeetCode 66. 加一 <https://leetcode.cn/problems/plus-one/>
+
 - [移动零](src/array/move_zeroes.rs)  [数组, 双指针]
 
   - LeetCode 283. 移动零 <https://leetcode.cn/problems/move-zeroes/>
