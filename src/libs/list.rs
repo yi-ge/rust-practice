@@ -67,6 +67,47 @@ impl List {
         self.head.clone()
     }
 
+    /// 插入链表，在指定位置处插入节点
+    pub fn insert(&mut self, mut node: Option<Box<ListNode>>, index: i32) -> bool {
+        match self.head.as_ref() {
+            None => {
+              if index == 0 {
+                self.head = node;
+                return true
+              }
+            },
+            Some(_) => {
+                let head_mut = self.head.as_mut().unwrap();
+                let mut head_res = &mut *(head_mut);
+
+                if index == 0 {
+                  let head_node = self.head.take();
+                  node.as_mut().unwrap().next = head_node;
+                  self.head = node;
+                  return true;
+                }
+
+                let mut i = 0;
+                while head_res.next.is_some() && i != index - 1 {
+                    head_res = &mut *(head_res.next.as_mut().unwrap());
+                    i += 1;
+                }
+
+                if head_res.next.is_some() && i == index - 1 {
+                  let next_node = head_res.next.take().unwrap();
+                  node.as_mut().unwrap().next = Some(next_node);
+                  head_res.next = node;
+                  return true
+                } else if !head_res.next.is_some() && i == index - 1 {
+                  head_res.next = node;
+                  return true
+                }
+            }
+        }
+
+        return false
+    }
+
     /// 打印链表
     pub fn print_list(&mut self) -> String {
         let mut out = String::new();

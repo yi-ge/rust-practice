@@ -1,4 +1,4 @@
-use rust_practice::libs::list::List;
+use rust_practice::libs::{list::List, list_node::ListNode};
 
 #[test]
 fn new() {
@@ -41,4 +41,84 @@ fn reverse() {
     assert_eq!(list.pop(), Some(3));
     assert_eq!(list.pop(), Some(2));
     assert_eq!(list.pop(), Some(1));
+}
+
+#[test]
+fn inset() {
+    // 1 -> 4 -> 2 -> 3 -> None
+    let mut list = List::new();
+    list.push_front(3);
+    list.push_front(2);
+    list.push_front(1);
+    list.print_list();
+    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    assert_eq!(list.insert(node, 1), true);
+    list.print_list();
+    assert_eq!(list.pop(), Some(1));
+    assert_eq!(list.pop(), Some(4));
+    assert_eq!(list.pop(), Some(2));
+    assert_eq!(list.pop(), Some(3));
+
+    // 1 -> 2 -> 4 -> 3 -> None
+    list.push_front(3);
+    list.push_front(2);
+    list.push_front(1);
+    list.print_list();
+    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    assert_eq!(list.insert(node, 2), true);
+    list.print_list();
+    assert_eq!(list.pop(), Some(1));
+    assert_eq!(list.pop(), Some(2));
+    assert_eq!(list.pop(), Some(4));
+    assert_eq!(list.pop(), Some(3));
+
+    // 1 -> 2 -> 3 -> 4 -> None
+    list.push_front(3);
+    list.push_front(2);
+    list.push_front(1);
+    list.print_list();
+    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    assert_eq!(list.insert(node, 3), true);
+    list.print_list();
+    assert_eq!(list.pop(), Some(1));
+    assert_eq!(list.pop(), Some(2));
+    assert_eq!(list.pop(), Some(3));
+    assert_eq!(list.pop(), Some(4));
+
+    // 4 -> 1 -> 2 -> 3 -> None
+    list.push_front(3);
+    list.push_front(2);
+    list.push_front(1);
+    list.print_list();
+    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    assert_eq!(list.insert(node, 0), true);
+    list.print_list();
+    assert_eq!(list.pop(), Some(4));
+    assert_eq!(list.pop(), Some(1));
+    assert_eq!(list.pop(), Some(2));
+    assert_eq!(list.pop(), Some(3));
+
+    // -1
+    list.push_front(3);
+    list.push_front(2);
+    list.push_front(1);
+    list.print_list();
+    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    assert_eq!(list.insert(node, -1), false);
+    list.print_list();
+    assert_eq!(list.pop(), Some(1));
+    assert_eq!(list.pop(), Some(2));
+    assert_eq!(list.pop(), Some(3));
+
+    // 4
+    list.push_front(3);
+    list.push_front(2);
+    list.push_front(1);
+    list.print_list();
+    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    assert_eq!(list.insert(node, 4), false);
+    list.print_list();
+    assert_eq!(list.pop(), Some(1));
+    assert_eq!(list.pop(), Some(2));
+    assert_eq!(list.pop(), Some(3));
 }
