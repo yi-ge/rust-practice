@@ -51,8 +51,20 @@ impl List {
         let node = self.head.as_ref();
         match node {
             None => None,
-            Some(node) => Some(node.val)
+            Some(node) => Some(node.val),
         }
+    }
+
+    /// 反转链表
+    pub fn reverse(&mut self) -> Option<Box<ListNode>> {
+        let mut prev = None;
+        while let Some(mut node) = self.head.take() {
+            self.head = node.next;
+            node.next = prev;
+            prev = Some(node);
+        }
+        self.head = prev;
+        self.head.clone()
     }
 
     /// 打印链表

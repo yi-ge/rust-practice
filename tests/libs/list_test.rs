@@ -28,3 +28,17 @@ fn new() {
     assert_eq!(list.pop(), Some(2));
     assert_eq!(list.pop(), Some(3));
 }
+
+#[test]
+fn reverse() {
+    let mut list = List::new();
+    list.push_front(3);
+    list.push_front(2);
+    list.push_front(1);
+    list.print_list();
+    list.reverse();
+    list.print_list();
+    assert_eq!(list.pop(), Some(3));
+    assert_eq!(list.pop(), Some(2));
+    assert_eq!(list.pop(), Some(1));
+}
