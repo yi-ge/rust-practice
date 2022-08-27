@@ -5,7 +5,8 @@ pub struct ListNode {
 }
 
 impl ListNode {
-  pub fn new(val: i32) -> ListNode {
+  #[inline]
+  pub fn new(val: i32) -> Self {
     ListNode {
       val,
       next: None
