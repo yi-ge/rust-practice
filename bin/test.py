@@ -7,7 +7,7 @@ from os import path
 
 with open(path.abspath(path.join(path.dirname(__file__), r"test.log")), 'r') as log:
     str = log.readline()
-    res = re.findall(r'(\d)\s?passed;\s?(\d)\s?failed;', str)
+    res = re.findall(r'(\d*)\s?passed;\s?(\d*)\s?failed;', str)
     conclusion = "neutral"
     if "ok." in str:
       conclusion = "success"
