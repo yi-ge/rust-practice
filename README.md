@@ -69,6 +69,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 排序
 
+- [反转链表](src/sort/reverse_linked_list.rs)  [递归, 链表]
+
+  - LeetCode 206. 反转链表 <https://leetcode.cn/problems/reverse-linked-list/>
+
 ### 其它
 
 - [最小栈](src/heap/min_stack.rs)  [栈, 设计]
