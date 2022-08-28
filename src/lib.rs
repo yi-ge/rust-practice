@@ -5,3 +5,4 @@ pub mod array;
 pub mod heap;
 pub mod libs;
 pub mod sort;
+pub mod math;
