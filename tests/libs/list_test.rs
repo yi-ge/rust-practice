@@ -122,3 +122,22 @@ fn inset() {
     assert_eq!(list.pop(), Some(2));
     assert_eq!(list.pop(), Some(3));
 }
+
+#[test]
+fn get_middle_node_test() {
+    let mut list = List::new();
+    list.push_front(5);
+    list.push_front(4);
+    list.push_front(3);
+    list.push_front(2);
+    list.push_front(1);
+    list.print_list();
+    let node = list.get_middle_node();
+    assert_eq!(node.as_ref().unwrap().val, 3);
+    list.print_list();
+    assert_eq!(list.pop(), Some(1));
+    assert_eq!(list.pop(), Some(2));
+    assert_eq!(list.pop(), Some(3));
+    assert_eq!(list.pop(), Some(4));
+    assert_eq!(list.pop(), Some(5));
+}

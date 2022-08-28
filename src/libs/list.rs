@@ -71,20 +71,20 @@ impl List {
     pub fn insert(&mut self, mut node: Option<Box<ListNode>>, index: i32) -> bool {
         match self.head.as_ref() {
             None => {
-              if index == 0 {
-                self.head = node;
-                return true
-              }
-            },
+                if index == 0 {
+                    self.head = node;
+                    return true;
+                }
+            }
             Some(_) => {
                 let head_mut = self.head.as_mut().unwrap();
                 let mut head_res = &mut *(head_mut);
 
                 if index == 0 {
-                  let head_node = self.head.take();
-                  node.as_mut().unwrap().next = head_node;
-                  self.head = node;
-                  return true;
+                    let head_node = self.head.take();
+                    node.as_mut().unwrap().next = head_node;
+                    self.head = node;
+                    return true;
                 }
 
                 let mut i = 0;
@@ -94,18 +94,31 @@ impl List {
                 }
 
                 if head_res.next.is_some() && i == index - 1 {
-                  let next_node = head_res.next.take().unwrap();
-                  node.as_mut().unwrap().next = Some(next_node);
-                  head_res.next = node;
-                  return true
+                    let next_node = head_res.next.take().unwrap();
+                    node.as_mut().unwrap().next = Some(next_node);
+                    head_res.next = node;
+                    return true;
                 } else if !head_res.next.is_some() && i == index - 1 {
-                  head_res.next = node;
-                  return true
+                    head_res.next = node;
+                    return true;
                 }
             }
         }
 
-        return false
+        return false;
+    }
+
+    /// 获取链表中间节点
+    pub fn get_middle_node(&mut self) -> Option<Box<ListNode>> {
+        let mut fast = &self.head;
+        let mut slow = &self.head;
+
+        while fast.is_some() && fast.as_ref().unwrap().next.is_some() {
+            fast = &fast.as_ref().unwrap().next.as_ref().unwrap().next;
+            slow = &slow.as_ref().unwrap().next;
+        }
+
+        slow.clone()
     }
 
     /// 打印链表
