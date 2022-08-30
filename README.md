@@ -45,6 +45,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 数组/队列/集合/映射
 
+- [重新排列数组](src/array/shuffle_the_array.rs)  [数组]
+
+  - LeetCode 1470. 重新排列数组 <https://leetcode.cn/problems/shuffle-the-array/>
+
 - [删除有序数组中的重复项](src/array/remove_duplicates_from_sorted_array.rs)  [数组, 双指针]
 
   - LeetCode 26. 删除有序数组中的重复项 <https://leetcode.cn/problems/remove-duplicates-from-sorted-array/>
