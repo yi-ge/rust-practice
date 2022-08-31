@@ -45,6 +45,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 数组/队列/集合/映射
 
+- [两数之和](src/array/two_sum.rs)  [数组, 哈希表]
+
+  - LeetCode 1. 两数之和 <https://leetcode.cn/problems/two-sum>
+
 - [重新排列数组](src/array/shuffle_the_array.rs)  [数组]
 
   - LeetCode 1470. 重新排列数组 <https://leetcode.cn/problems/shuffle-the-array/>

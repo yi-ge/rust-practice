@@ -3,3 +3,4 @@ pub mod move_zeroes_test;
 pub mod plus_one_test;
 pub mod remove_duplicates_from_sorted_array_test;
 pub mod shuffle_the_array_test;
+pub mod two_sum_test;
