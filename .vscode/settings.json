@@ -3,6 +3,7 @@
     "backgrounding",
     "breakpad",
     "curr",
+    "Deque",
     "lcov",
     "leetcode",
     "networkidle",

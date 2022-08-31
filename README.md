@@ -96,3 +96,7 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 - [阶乘函数后 K 个零](src/math/preimage_size_of_factorial_zeroes_function.rs)  [数学, 二分查找]
 
   - LeetCode 793. 阶乘函数后 K 个零 <https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function>
+
+- [验证栈序列](src/heap/validate_stack_sequences.rs)  [栈, 数组, 模拟]
+
+  - LeetCode 946. 验证栈序列 <https://leetcode.cn/problems/validate-stack-sequences>
