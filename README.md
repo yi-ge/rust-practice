@@ -79,6 +79,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 排序
 
+- [合并两个有序链表](src/sort/merge_two_sorted_lists.rs)  [递归, 链表]
+
+  - LeetCode 21. 合并两个有序链表 <https://leetcode.cn/problems/merge-two-sorted-lists/>
+
 - [反转链表](src/sort/reverse_linked_list.rs)  [递归, 链表]
 
   - LeetCode 206. 反转链表 <https://leetcode.cn/problems/reverse-linked-list/>
