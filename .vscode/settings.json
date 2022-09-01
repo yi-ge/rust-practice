@@ -10,7 +10,8 @@
     "networkidle",
     "nums",
     "preimage",
-    "repost"
+    "repost",
+    "strs"
   ],
   "editor.formatOnSave": true,
   "[rust]": {

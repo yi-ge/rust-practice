@@ -5,3 +5,4 @@ pub mod remove_duplicates_from_sorted_array;
 pub mod shuffle_the_array;
 pub mod two_sum;
 pub mod sliding_window_maximum;
+pub mod group_anagrams;
