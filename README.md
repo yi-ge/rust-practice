@@ -75,6 +75,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 链表
 
+- [删除链表的倒数第 N 个结点](src/list/remove_nth_node_from_end_of_list.rs)  [链表, 双指针]
+
+  - LeetCode 19. 删除链表的倒数第 N 个结点 <https://leetcode.cn/problems/remove-nth-node-from-end-of-list/>
+
 - [链表的中间结点](src/list/middle_of_the_linked_list.rs)  [链表, 双指针]
 
   - LeetCode 876. 链表的中间结点 <https://leetcode.cn/problems/middle-of-the-linked-list/>
