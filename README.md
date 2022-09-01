@@ -45,6 +45,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 数组/队列/集合/映射
 
+- [滑动窗口最大值](src/array/sliding_window_maximum.rs)  [队列, 数组, 滑动窗口, 单调队列, 堆（优先队列）]
+
+  - LeetCode 239. 滑动窗口最大值 <https://leetcode.cn/problems/sliding-window-maximum>
+
 - [两数之和](src/array/two_sum.rs)  [数组, 哈希表]
 
   - LeetCode 1. 两数之和 <https://leetcode.cn/problems/two-sum>
