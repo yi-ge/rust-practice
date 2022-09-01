@@ -75,6 +75,22 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 栈
 
+- [最小栈](src/stack/min_stack.rs)  [栈, 设计]
+
+  - LeetCode 155. 最小栈 <https://leetcode.cn/problems/min-stack/>
+
+- [有效的括号](src/stack/valid_parentheses.rs)  [栈, 字符串]
+
+  - LeetCode 20. 有效的括号 <https://leetcode.cn/problems/valid-parentheses/>
+
+- [验证栈序列](src/stack/validate_stack_sequences.rs)  [栈, 数组, 模拟]
+
+  - LeetCode 946. 验证栈序列 <https://leetcode.cn/problems/validate-stack-sequences>
+
+- [商品折扣后的最终价格](src/stack/final_prices_with_a_special_discount_in_a_shop.rs)  [栈, 数组, 单调栈]
+
+  - LeetCode 1475. 商品折扣后的最终价格 <https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop>
+
 ### 树
 
 ### 链表
@@ -101,22 +117,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 其它
 
-- [最小栈](src/heap/min_stack.rs)  [栈, 设计]
+- [有效的字母异位词](src/map/valid_anagram.rs)  [哈希表, 字符串, 排序]
 
-  - LeetCode 155. 最小栈 <https://leetcode.cn/problems/min-stack/>
-
-- [有效的括号](src/heap/valid_parentheses.rs)  [栈, 字符串]
-
-  - LeetCode 20. 有效的括号 <https://leetcode.cn/problems/valid-parentheses/>
+  - LeetCode 242. 有效的字母异位词 <https://leetcode.cn/problems/valid-anagram>
 
 - [阶乘函数后 K 个零](src/math/preimage_size_of_factorial_zeroes_function.rs)  [数学, 二分查找]
 
   - LeetCode 793. 阶乘函数后 K 个零 <https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function>
-
-- [验证栈序列](src/heap/validate_stack_sequences.rs)  [栈, 数组, 模拟]
-
-  - LeetCode 946. 验证栈序列 <https://leetcode.cn/problems/validate-stack-sequences>
-
-- [商品折扣后的最终价格](src/heap/final_prices_with_a_special_discount_in_a_shop.rs)  [栈, 数组, 单调栈]
-
-  - LeetCode 1475. 商品折扣后的最终价格 <https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop>

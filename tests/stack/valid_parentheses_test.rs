@@ -1,4 +1,4 @@
-use rust_practice::heap::valid_parentheses::Solution;
+use rust_practice::stack::valid_parentheses::Solution;
 
 #[test]
 fn is_valid() {

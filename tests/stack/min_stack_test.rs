@@ -1,4 +1,4 @@
-use rust_practice::heap::min_stack::MinStack;
+use rust_practice::stack::min_stack::MinStack;
 
 #[test]
 fn new() {

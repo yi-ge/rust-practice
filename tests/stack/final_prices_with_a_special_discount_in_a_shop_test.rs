@@ -1,4 +1,4 @@
-use rust_practice::heap::final_prices_with_a_special_discount_in_a_shop::Solution;
+use rust_practice::stack::final_prices_with_a_special_discount_in_a_shop::Solution;
 
 #[test]
 fn final_prices() {

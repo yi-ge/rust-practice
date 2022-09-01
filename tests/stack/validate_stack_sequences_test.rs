@@ -1,4 +1,4 @@
-use rust_practice::heap::validate_stack_sequences::Solution;
+use rust_practice::stack::validate_stack_sequences::Solution;
 
 #[test]
 fn validate_stack_sequences() {
