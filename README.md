@@ -108,3 +108,7 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 - [验证栈序列](src/heap/validate_stack_sequences.rs)  [栈, 数组, 模拟]
 
   - LeetCode 946. 验证栈序列 <https://leetcode.cn/problems/validate-stack-sequences>
+
+- [商品折扣后的最终价格](src/heap/final_prices_with_a_special_discount_in_a_shop.rs)  [栈, 数组, 单调栈]
+
+  - LeetCode 1475. 商品折扣后的最终价格 <https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop>
