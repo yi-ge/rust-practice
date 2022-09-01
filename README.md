@@ -109,6 +109,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 图
 
+- [找到小镇的法官](src/graphs/find_the_town_judge.rs)  [图, 数组, 哈希表]
+
+  - LeetCode 997. 找到小镇的法官 <https://leetcode.cn/problems/find-the-town-judge>
+
 ### 排序
 
 - [合并两个有序链表](src/sort/merge_two_sorted_lists.rs)  [递归, 链表]
