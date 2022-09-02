@@ -11,7 +11,7 @@ impl ListNode {
     }
 }
 
-pub fn vec_to_list_node(vec: Vec<i32>) -> Option<Box<ListNode>> {
+pub fn vec_to_list_node(vec: &Vec<i32>) -> Option<Box<ListNode>> {
     let mut head = None;
     for i in 0..vec.len() {
         let node = Some(Box::new(ListNode {

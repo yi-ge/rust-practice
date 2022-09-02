@@ -11,19 +11,30 @@ fn new() {
 #[test]
 fn vec_to_list_node_test() {
     let vec = vec![1, 2, 3];
-    let list = vec_to_list_node(vec);
+    let list = vec_to_list_node(&vec);
     assert_eq!(list.as_ref().unwrap().val, 1);
     assert_eq!(list.as_ref().unwrap().next.as_ref().unwrap().val, 2);
-    assert_eq!(list.as_ref().unwrap().next.as_ref().unwrap().next.as_ref().unwrap().val, 3);
+    assert_eq!(
+        list.as_ref()
+            .unwrap()
+            .next
+            .as_ref()
+            .unwrap()
+            .next
+            .as_ref()
+            .unwrap()
+            .val,
+        3
+    );
 }
 
 #[test]
 fn list_node_to_vec_test() {
-  let vec = vec![1, 2, 3];
-  let list = vec_to_list_node(vec);
-  let out = list_node_to_vec(list);
-  assert_eq!(out.len(), 3);
-  assert_eq!(out[0], 1);
-  assert_eq!(out[1], 2);
-  assert_eq!(out[2], 3);
+    let vec = vec![1, 2, 3];
+    let list = vec_to_list_node(&vec);
+    let out = list_node_to_vec(list);
+    assert_eq!(out.len(), 3);
+    assert_eq!(out[0], 1);
+    assert_eq!(out[1], 2);
+    assert_eq!(out[2], 3);
 }

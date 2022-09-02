@@ -438,6 +438,7 @@ const updateCode = async (filePath: string, title: string) => {
   let fileContent = fs.readFileSync(filePath, 'utf-8')
   fileContent = fileContent.replace('pub struct Solution {}', '')
   fileContent = fileContent.replace('use crate::libs::list_node::ListNode;\n', '')
+  fileContent = fileContent.replace('use crate::libs::tree_node::TreeNode;\n', '')
   await page.evaluate(`monaco.editor.getModels()[0].setValue(\`${fileContent}\`)`)
   console.log(`${title} 代码已同步。`)
 }

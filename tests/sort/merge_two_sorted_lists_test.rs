@@ -12,8 +12,8 @@ fn merge_two_lists() {
     let l2 = vec![1, 3, 4];
     assert_eq!(
         list_node_to_vec(Solution::merge_two_lists(
-            vec_to_list_node(l1),
-            vec_to_list_node(l2)
+            vec_to_list_node(&l1),
+            vec_to_list_node(&l2)
         )),
         &vec![1, 1, 2, 3, 4, 4][..]
     );
@@ -25,8 +25,8 @@ fn merge_two_lists() {
     let l2 = vec![];
     assert_eq!(
         list_node_to_vec(Solution::merge_two_lists(
-            vec_to_list_node(l1),
-            vec_to_list_node(l2)
+            vec_to_list_node(&l1),
+            vec_to_list_node(&l2)
         )),
         &vec![][..]
     );
@@ -38,8 +38,8 @@ fn merge_two_lists() {
     let l2 = vec![0];
     assert_eq!(
         list_node_to_vec(Solution::merge_two_lists(
-            vec_to_list_node(l1),
-            vec_to_list_node(l2)
+            vec_to_list_node(&l1),
+            vec_to_list_node(&l2)
         )),
         &vec![0][..]
     );
