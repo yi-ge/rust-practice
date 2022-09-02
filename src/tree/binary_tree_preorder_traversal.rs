@@ -1,6 +1,6 @@
 // 二叉树的前序遍历
 // https://leetcode.cn/problems/binary-tree-preorder-traversal/
-// INLINE  ../../images/stack/binary_tree_preorder_traversal.jpeg
+// INLINE  ../../images/tree/binary_tree_preorder_traversal.jpeg
 use std::cell::RefCell;
 use std::rc::Rc;
 

@@ -1,6 +1,6 @@
 // 二叉树的中序遍历
 // https://leetcode.cn/problems/binary-tree-inorder-traversal
-// INLINE  ../../images/stack/binary_tree_inorder_traversal.jpeg
+// INLINE  ../../images/tree/binary_tree_inorder_traversal.jpeg
 
 pub struct Solution {}
 

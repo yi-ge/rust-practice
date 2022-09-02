@@ -1,6 +1,6 @@
 // 二叉树的后序遍历
 // https://leetcode.cn/problems/binary-tree-postorder-traversal
-// INLINE  ../../images/stack/binary_tree_postorder_traversal.jpeg
+// INLINE  ../../images/tree/binary_tree_postorder_traversal.jpeg
 
 pub struct Solution {}
 

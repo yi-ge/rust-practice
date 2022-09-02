@@ -79,18 +79,6 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 栈
 
-- [二叉树的后序遍历](src/stack/binary_tree_postorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
-
-  - LeetCode 145. 二叉树的后序遍历 <https://leetcode.cn/problems/binary-tree-postorder-traversal>
-
-- [二叉树的中序遍历](src/stack/binary_tree_inorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
-
-  - LeetCode 94. 二叉树的中序遍历 <https://leetcode.cn/problems/binary-tree-inorder-traversal>
-
-- [二叉树的前序遍历](src/stack/binary_tree_preorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
-
-  - LeetCode 144. 二叉树的前序遍历 <https://leetcode.cn/problems/binary-tree-preorder-traversal/>
-
 - [最小栈](src/stack/min_stack.rs)  [栈, 设计]
 
   - LeetCode 155. 最小栈 <https://leetcode.cn/problems/min-stack/>
@@ -108,6 +96,18 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
   - LeetCode 1475. 商品折扣后的最终价格 <https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop>
 
 ### 树
+
+- [二叉树的前序遍历](src/tree/binary_tree_preorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
+
+  - LeetCode 144. 二叉树的前序遍历 <https://leetcode.cn/problems/binary-tree-preorder-traversal/>
+
+- [二叉树的中序遍历](src/tree/binary_tree_inorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
+
+  - LeetCode 94. 二叉树的中序遍历 <https://leetcode.cn/problems/binary-tree-inorder-traversal>
+
+- [二叉树的后序遍历](src/tree/binary_tree_postorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
+
+  - LeetCode 145. 二叉树的后序遍历 <https://leetcode.cn/problems/binary-tree-postorder-traversal>
 
 - [二叉树的层序遍历](src/tree/binary_tree_level_order_traversal.rs)  [树, 广度优先搜索, 二叉树]
 
