@@ -4,3 +4,4 @@ pub mod valid_parentheses;
 pub mod validate_stack_sequences;
 pub mod binary_tree_preorder_traversal;
 pub mod binary_tree_inorder_traversal;
+pub mod binary_tree_postorder_traversal;

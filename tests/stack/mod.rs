@@ -4,3 +4,4 @@ pub mod validate_stack_sequences_test;
 pub mod final_prices_with_a_special_discount_in_a_shop_test;
 pub mod binary_tree_preorder_traversal_test;
 pub mod binary_tree_inorder_traversal_test;
+pub mod binary_tree_postorder_traversal_test;
