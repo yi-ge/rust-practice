@@ -79,6 +79,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 栈
 
+- [二叉树的中序遍历](src/stack/binary_tree_inorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
+
+  - LeetCode 94. 二叉树的中序遍历 <https://leetcode.cn/problems/binary-tree-inorder-traversal>
+
 - [二叉树的前序遍历](src/stack/binary_tree_preorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
 
   - LeetCode 144. 二叉树的前序遍历 <https://leetcode.cn/problems/binary-tree-preorder-traversal/>
