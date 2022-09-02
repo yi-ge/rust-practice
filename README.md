@@ -97,6 +97,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 树
 
+- [二叉搜索树中的插入操作](src/tree/insert_into_a_binary_search_tree.rs)  [树, 二叉搜索树, 二叉树]
+
+  - LeetCode 701. 二叉搜索树中的插入操作 <https://leetcode.cn/problems/insert-into-a-binary-search-tree>
+
 - [二叉树的前序遍历](src/tree/binary_tree_preorder_traversal.rs)  [栈, 树, 深度优先搜索, 二叉树]
 
   - LeetCode 144. 二叉树的前序遍历 <https://leetcode.cn/problems/binary-tree-preorder-traversal/>

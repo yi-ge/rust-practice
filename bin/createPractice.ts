@@ -315,7 +315,10 @@ if (!fileName) {
   exit(1)
 }
 
-const keyFuncStr = code.match(/.*(\(([^)]*)\))\s?.*?\{/ig)?.shift()
+const noCommentCode = code.replace(reg, function (word) { // 去除注释后的代码
+  return /^\/{2,}/.test(word) || /^\/\*/.test(word) ? "" : word
+})
+const keyFuncStr = noCommentCode.match(/.*(\(([^)]*)\))\s?.*?\{/ig)?.shift()
 const functionName = keyFuncStr?.match(/((\w+)?([\s\*]+)(\w+|\w+::\w+))\(/i)?.[4]
 
 // * 不要删除下面存在的空行
