@@ -10,3 +10,4 @@ mod sort;
 mod stack;
 mod string;
 mod graphs;
+mod tree;

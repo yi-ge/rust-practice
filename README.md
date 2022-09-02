@@ -101,6 +101,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 树
 
+- [最长同值路径](src/tree/longest_univalue_path.rs)  [树, 深度优先搜索, 二叉树]
+
+  - LeetCode 687. 最长同值路径 <https://leetcode.cn/problems/longest-univalue-path>
+
 ### 链表
 
 - [删除链表的倒数第 N 个结点](src/list/remove_nth_node_from_end_of_list.rs)  [链表, 双指针]

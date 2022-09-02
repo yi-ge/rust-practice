@@ -9,3 +9,4 @@ pub mod math;
 pub mod sort;
 pub mod stack;
 pub mod graphs;
+pub mod tree;

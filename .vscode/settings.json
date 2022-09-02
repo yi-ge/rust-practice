@@ -12,7 +12,8 @@
     "preimage",
     "preorder",
     "repost",
-    "strs"
+    "strs",
+    "univalue"
   ],
   "editor.formatOnSave": true,
   "[rust]": {

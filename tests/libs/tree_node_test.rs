@@ -107,7 +107,7 @@ fn test_tree_node_to_vec() {
 
 #[test]
 fn test_macro_rules_tree() {
-    let tree = tree!(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    let tree = tree![1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     let vec = vec![
         Some(1),
         Some(2),
