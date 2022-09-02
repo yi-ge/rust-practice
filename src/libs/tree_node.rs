@@ -1,4 +1,4 @@
-use std::{cell::RefCell, rc::Rc};
+use std::{cell::RefCell, collections::VecDeque, rc::Rc};
 
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
@@ -44,7 +44,7 @@ pub fn vec_to_tree_node(vec: &Vec<Option<i32>>) -> Option<Rc<RefCell<TreeNode>>>
     }
     if let Some(v) = vec[0] {
         let root = Some(Rc::new(RefCell::new(TreeNode::new(v))));
-        let mut queue = std::collections::VecDeque::new();
+        let mut queue = VecDeque::new();
         queue.push_back(root.as_ref().unwrap().clone());
         for children in vec[1..].chunks(2) {
             let mut iter = children.into_iter();
@@ -62,4 +62,50 @@ pub fn vec_to_tree_node(vec: &Vec<Option<i32>>) -> Option<Rc<RefCell<TreeNode>>>
     } else {
         None
     }
+}
+
+pub fn tree_node_to_vec(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Option<i32>> {
+    let mut res: Vec<Option<i32>> = vec![];
+    if root.is_none() {
+        return res;
+    }
+
+    let mut deque = VecDeque::new();
+    deque.push_back(root);
+
+    while !deque.is_empty() {
+        for _ in 0..deque.len() {
+            let node = deque.pop_front();
+            if let Some(Some(v)) = node {
+                // 当前节点
+                res.push(Some(v.borrow().val));
+
+                // 左节点
+                if v.borrow().left.is_some() {
+                    deque.push_back(v.borrow().left.clone());
+                } else {
+                    deque.push_back(None);
+                }
+
+                // 右节点
+                if v.borrow().right.is_some() {
+                    deque.push_back(v.borrow().right.clone());
+                } else {
+                    deque.push_back(None);
+                }
+            } else {
+                res.push(None);
+            }
+        }
+    }
+
+    for i in (0..res.len()).rev() {
+        if res[i].is_none() {
+            res.pop();
+        } else {
+            break;
+        }
+    }
+
+    res
 }
