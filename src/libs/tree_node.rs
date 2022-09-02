@@ -109,3 +109,18 @@ pub fn tree_node_to_vec(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Option<i32>>
 
     res
 }
+
+#[macro_export]
+macro_rules! tree {
+    () => { None };
+    ($( $e:expr ), *) => {
+        {
+            let vec = vec![$(stringify!($e)), *];
+            let vec: Vec<_> = vec
+                .into_iter()
+                .map(|x| x.parse::<i32>().ok()).collect();
+            vec_to_tree_node(&vec)
+        }
+    };
+    ($( $e:expr, ) *) => { tree![$($e), *] };
+}

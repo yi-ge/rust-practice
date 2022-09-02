@@ -1,6 +1,9 @@
 use std::{cell::RefCell, rc::Rc};
 
-use rust_practice::libs::tree_node::{tree_node_to_vec, vec_to_tree_node, TreeNode};
+use rust_practice::{
+    libs::tree_node::{tree_node_to_vec, vec_to_tree_node, TreeNode},
+    tree,
+};
 
 #[test]
 fn test_tree_node_new() {
@@ -100,4 +103,22 @@ fn test_tree_node_to_vec() {
 
     let vec = vec![Some(1), None, Some(2), Some(3)];
     assert_eq!(tree_node_to_vec(vec_to_tree_node(&vec)), vec);
+}
+
+#[test]
+fn test_macro_rules_tree() {
+    let tree = tree!(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    let vec = vec![
+        Some(1),
+        Some(2),
+        Some(3),
+        Some(4),
+        Some(5),
+        Some(6),
+        Some(7),
+        Some(8),
+        Some(9),
+        Some(10),
+    ];
+    assert_eq!(tree_node_to_vec(tree), vec);
 }
