@@ -5,7 +5,7 @@ pub struct ListNode {
 }
 
 impl ListNode {
-    #[inline]
+    // * #[inline] 如果存在inline则单元覆盖测试不到此函数，对性能要求不高，故注释
     pub fn new(val: i32) -> Self {
         ListNode { val, next: None }
     }
