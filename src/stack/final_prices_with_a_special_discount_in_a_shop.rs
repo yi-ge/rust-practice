@@ -2,7 +2,7 @@
 // https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop
 // INLINE  ../../images/heap/final_prices_with_a_special_discount_in_a_shop.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn final_prices(mut prices: Vec<i32>) -> Vec<i32> {

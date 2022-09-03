@@ -3,7 +3,7 @@
 // INLINE  ../../images/array/remove_duplicates_from_sorted_array.jpeg
 // 解题思路：双指针。
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {

@@ -2,7 +2,7 @@
 // https://leetcode.cn/problems/binary-tree-inorder-traversal
 // INLINE  ../../images/tree/binary_tree_inorder_traversal.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]

@@ -2,7 +2,7 @@
 // https://leetcode.cn/problems/shuffle-the-array/
 // INLINE  ../../images/array/shuffle_the_array.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn shuffle(nums: Vec<i32>, n: i32) -> Vec<i32> {

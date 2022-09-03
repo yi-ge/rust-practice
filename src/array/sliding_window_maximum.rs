@@ -5,7 +5,7 @@
 
 use std::collections::VecDeque;
 
-pub struct Solution {}
+pub struct Solution;
 
 pub trait MonotonousQueue {
     fn push(&mut self, n: i32);

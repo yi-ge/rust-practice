@@ -2,7 +2,7 @@
 // https://leetcode.cn/problems/find-the-town-judge
 // INLINE  ../../images/graphs/find_the_town_judge.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn find_judge(n: i32, trust: Vec<Vec<i32>>) -> i32 {

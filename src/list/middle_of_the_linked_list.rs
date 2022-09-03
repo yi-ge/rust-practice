@@ -5,7 +5,7 @@
 
 use crate::libs::list_node::ListNode;
 
-pub struct Solution {}
+pub struct Solution;
 
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]

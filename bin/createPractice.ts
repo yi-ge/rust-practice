@@ -327,7 +327,7 @@ if (!code.includes(`// ${url}`)) {
 // ${url}
 // INLINE  ../../images/${classificationStr}/${fileName}.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 ` + code
 
@@ -439,7 +439,7 @@ console.log('可以开始写代码了。')
 // 代码更新（回写到LeetCode编辑框）
 const updateCode = async (filePath: string, title: string) => {
   let fileContent = fs.readFileSync(filePath, 'utf-8')
-  fileContent = fileContent.replace('pub struct Solution {}', '')
+  fileContent = fileContent.replace('pub struct Solution;', '')
   fileContent = fileContent.replace('use crate::libs::list_node::ListNode;\n', '')
   fileContent = fileContent.replace('use crate::libs::tree_node::TreeNode;\n', '')
   await page.evaluate(`monaco.editor.getModels()[0].setValue(\`${fileContent}\`)`)

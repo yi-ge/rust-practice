@@ -2,7 +2,7 @@
 // https://leetcode.cn/problems/move-zeroes/
 // INLINE  ../../images/array/move_zeroes.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn move_zeroes(nums: &mut Vec<i32>) {

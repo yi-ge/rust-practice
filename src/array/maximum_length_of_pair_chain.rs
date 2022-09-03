@@ -3,7 +3,7 @@
 // INLINE  ../../images/array/maximum_length_of_pair_chain.jpeg
 // 解题思路：贪心
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn find_longest_chain(mut pairs: Vec<Vec<i32>>) -> i32 {

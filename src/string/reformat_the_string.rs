@@ -2,7 +2,7 @@
 // https://leetcode.cn/problems/reformat-the-string
 // INLINE  ../../images/string/reformat_the_string.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn reformat(s: String) -> String {

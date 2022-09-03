@@ -4,7 +4,7 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
-pub struct Solution {}
+pub struct Solution;
 
 use crate::libs::tree_node::TreeNode;
 impl Solution {

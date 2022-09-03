@@ -15,4 +15,11 @@ fn is_anagram() {
     let s = String::from("rat");
     let t = String::from("car");
     assert_eq!(Solution::is_anagram(s, t), false);
+
+    // 示例 3:
+    // 输入: s = "rat", t = "ca"
+    // 输出: false
+    let s = String::from("rat");
+    let t = String::from("ca");
+    assert_eq!(Solution::is_anagram(s, t), false);
 }

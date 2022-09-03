@@ -6,7 +6,7 @@ use std::rc::Rc;
 
 use crate::libs::tree_node::TreeNode;
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     // 解决方法1：循环

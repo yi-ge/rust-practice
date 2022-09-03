@@ -2,7 +2,7 @@
 // https://leetcode.cn/problems/binary-tree-level-order-traversal
 // INLINE  ../../images/tree/binary_tree_level_order_traversal.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]

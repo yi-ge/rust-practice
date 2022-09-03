@@ -2,7 +2,7 @@
 // https://leetcode.cn/problems/insert-into-a-binary-search-tree
 // INLINE  ../../images/tree/insert_into_a_binary_search_tree.jpeg
 
-pub struct Solution {}
+pub struct Solution;
 
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
