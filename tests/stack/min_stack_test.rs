@@ -1,7 +1,7 @@
 use rust_practice::stack::min_stack::MinStack;
 
 #[test]
-fn new() {
+fn min_stack_new() {
     // 示例 1:
     // 输入：
     // ["MinStack","push","push","push","getMin","pop","top","getMin"]

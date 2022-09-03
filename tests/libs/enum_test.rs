@@ -5,7 +5,7 @@ pub enum EnumTest {
 }
 
 #[test]
-fn new() {
+fn test_enum() {
     println!("{:?}", EnumTest::None);
     println!(
         "{:?}",

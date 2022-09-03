@@ -6,7 +6,7 @@ use rust_practice::{
 };
 
 #[test]
-fn test_tree_node_new() {
+fn tree_node_new() {
     let node = Some(Rc::new(RefCell::new(TreeNode::new(1))));
 
     assert_eq!(node.is_some(), true);
@@ -94,6 +94,8 @@ fn test_vec_to_tree_node() {
         vec_to_tree_node(&vec![Some(1), None, Some(2), Some(3)]),
         root,
     );
+
+    assert_eq!(vec_to_tree_node(&vec![]), None);
 }
 
 #[test]
@@ -103,6 +105,8 @@ fn test_tree_node_to_vec() {
 
     let vec = vec![Some(1), None, Some(2), Some(3)];
     assert_eq!(tree_node_to_vec(vec_to_tree_node(&vec)), vec);
+
+    assert_eq!(tree_node_to_vec(tree![]), vec![]);
 }
 
 #[test]

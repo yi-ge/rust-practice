@@ -2,7 +2,7 @@ use rust_practice::libs::list_node::{list_node_to_vec, vec_to_list_node};
 use rust_practice::sort::reverse_linked_list::Solution;
 
 #[test]
-fn new() {
+fn reverse_list() {
     // 示例 1：
     // 输入：head = [1,2,3,4,5]
     // 输出：[5,4,3,2,1]

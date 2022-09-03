@@ -1,6 +1,6 @@
 use super::list_node::ListNode;
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, Eq, PartialEq)]
 pub struct List {
     pub head: Option<Box<ListNode>>,
 }

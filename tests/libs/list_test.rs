@@ -1,7 +1,7 @@
 use rust_practice::libs::{list::List, list_node::ListNode};
 
 #[test]
-fn new() {
+fn list_new() {
     let mut list = List::new();
 
     assert_eq!(list.peek(), None);
@@ -27,6 +27,8 @@ fn new() {
     assert_eq!(list.pop(), Some(1));
     assert_eq!(list.pop(), Some(2));
     assert_eq!(list.pop(), Some(3));
+
+    assert_eq!(List::new(), List { head: None })
 }
 
 #[test]
@@ -124,7 +126,7 @@ fn inset() {
 }
 
 #[test]
-fn get_middle_node_test() {
+fn test_get_middle_node() {
     let mut list = List::new();
     list.push_front(5);
     list.push_front(4);
