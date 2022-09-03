@@ -96,6 +96,9 @@ fn test_vec_to_tree_node() {
     );
 
     assert_eq!(vec_to_tree_node(&vec![]), None);
+    let vec_none: Vec<Option<i32>> = vec![None];
+    assert_eq!(vec_none.get(0).is_none(), false);
+    assert_eq!(vec_to_tree_node(&vec_none), None);
 }
 
 #[test]

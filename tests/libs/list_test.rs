@@ -28,7 +28,13 @@ fn list_new() {
     assert_eq!(list.pop(), Some(2));
     assert_eq!(list.pop(), Some(3));
 
-    assert_eq!(List::new(), List { head: None })
+    assert_eq!(List::new(), List { head: None });
+
+    let list_struct = List { head: None };
+    println!("{:?}", list_struct);
+    assert_eq!(list_struct.head, None);
+    assert_eq!(list_struct.clone().head, None);
+    assert_eq!(list_struct, list_struct.clone());
 }
 
 #[test]
@@ -53,7 +59,7 @@ fn inset() {
     list.push_front(2);
     list.push_front(1);
     list.print_list();
-    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    let node = Some(Box::new(ListNode::new(4)));
     assert_eq!(list.insert(node, 1), true);
     list.print_list();
     assert_eq!(list.pop(), Some(1));
@@ -66,7 +72,7 @@ fn inset() {
     list.push_front(2);
     list.push_front(1);
     list.print_list();
-    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    let node = Some(Box::new(ListNode::new(4)));
     assert_eq!(list.insert(node, 2), true);
     list.print_list();
     assert_eq!(list.pop(), Some(1));
@@ -79,7 +85,7 @@ fn inset() {
     list.push_front(2);
     list.push_front(1);
     list.print_list();
-    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    let node = Some(Box::new(ListNode::new(4)));
     assert_eq!(list.insert(node, 3), true);
     list.print_list();
     assert_eq!(list.pop(), Some(1));
@@ -92,7 +98,7 @@ fn inset() {
     list.push_front(2);
     list.push_front(1);
     list.print_list();
-    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    let node = Some(Box::new(ListNode::new(4)));
     assert_eq!(list.insert(node, 0), true);
     list.print_list();
     assert_eq!(list.pop(), Some(4));
@@ -105,7 +111,7 @@ fn inset() {
     list.push_front(2);
     list.push_front(1);
     list.print_list();
-    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    let node = Some(Box::new(ListNode::new(4)));
     assert_eq!(list.insert(node, -1), false);
     list.print_list();
     assert_eq!(list.pop(), Some(1));
@@ -117,7 +123,7 @@ fn inset() {
     list.push_front(2);
     list.push_front(1);
     list.print_list();
-    let node = Some(Box::new(ListNode { val: 4, next: None }));
+    let node = Some(Box::new(ListNode::new(4)));
     assert_eq!(list.insert(node, 4), false);
     list.print_list();
     assert_eq!(list.pop(), Some(1));
