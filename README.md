@@ -23,13 +23,26 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ## 基础排序算法
 
-- [插入排序](src/sort/insert_sort.cpp)
-- [冒泡排序](src/sort/bubble_sort.cpp)
-- [选择排序](src/sort/select_sort.cpp)
-- [快速排序](src/sort/quick_sort.cpp)
-- [归并排序](src/sort/merge_sort.cpp)
+- [插入排序](src/sort/insert_sort.rs)
+- [冒泡排序](src/sort/bubble_sort.rs)
+- [选择排序](src/sort/select_sort.rs)
+- [快速排序](src/sort/quick_sort.rs)
+- [归并排序](src/sort/merge_sort.rs)
 
 ## 基础数据结构
+
+Rust标准库 std::collections 提供了4重通用容器类型，包含一下8种数据结构。
+
+| 类型     | 容器        | 描述                     |
+| -------- | :---------- | ------------------------ |
+| 线性序列 | Vec\<T>      | 连续存储的可变长数组     |
+| 线性序列 | VecDeque\<T> | 连续存储的可变长双端队列 |
+| 线性序列 | LinkedList\<T> | 非连续存储的双向链表 |
+| 键 - 值对 | HashMap\<K, V> | 基于哈希表的无序键 - 值对 |
+| 键 - 值对 | BTreeMap\<K, V> | 基于B树的有序键 - 值对，按 Key 排序 |
+| 集合 | HashSet\<T> | 基于哈希表的无序集合 |
+| 集合 | BTreeSet\<T> | 基于B树的有序集合 |
+| 优先队列 | BinaryHeap\<T> | 基于二叉堆的优先队列 |
 
 ## 算法题
 

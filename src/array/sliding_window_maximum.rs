@@ -1,7 +1,7 @@
 // 滑动窗口最大值
 // https://leetcode.cn/problems/sliding-window-maximum
 // INLINE  ../../images/array/sliding_window_maximum.jpeg
-// 解题思路：单调队列
+// 解题思路：使用双端队列实现单调递减队列。
 
 use std::collections::VecDeque;
 

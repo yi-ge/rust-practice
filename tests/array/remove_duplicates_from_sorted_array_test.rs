@@ -18,4 +18,12 @@ fn remove_duplicates() {
     let mut nums = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
     assert_eq!(Solution::remove_duplicates(&mut nums), 5);
     assert_eq!(&nums[..5], &[0, 1, 2, 3, 4][..]);
+
+    // 示例 3：
+    // 输入：nums = []
+    // 输出：0, nums = []
+    // 解释：函数应该返回新的长度 5 ， 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4 。不需要考虑数组中超出新长度后面的元素。
+    let mut nums = vec![];
+    assert_eq!(Solution::remove_duplicates(&mut nums), 0);
+    assert!(nums.is_empty());
 }

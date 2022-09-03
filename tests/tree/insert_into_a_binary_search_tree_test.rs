@@ -27,5 +27,10 @@ fn insert_into_bst() {
     assert_eq!(
         Solution::insert_into_bst(tree![4, 2, 7, 1, 3, None, None, None, None, None, None], 5),
         tree![4, 2, 7, 1, 3, 5]
-    )
+    );
+
+    // 示例 4：
+    // 输入：root = [], val = 1
+    // 输出：[1]
+    assert_eq!(Solution::insert_into_bst(tree![], 1), tree![1]);
 }

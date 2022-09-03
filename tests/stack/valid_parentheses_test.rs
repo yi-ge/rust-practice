@@ -26,4 +26,9 @@ fn is_valid() {
     // 输入：s = "{[]}"
     // 输出：true
     assert_eq!(Solution::is_valid("{[]}".to_string()), true);
+
+    // 示例 6：
+    // 输入：s = ""
+    // 输出：true
+    assert_eq!(Solution::is_valid("".to_string()), true);
 }

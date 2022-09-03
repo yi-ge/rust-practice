@@ -28,4 +28,9 @@ fn erase_overlap_intervals() {
         Solution::erase_overlap_intervals(vec![vec![1, 2], vec![2, 3]]),
         0
     );
+
+    // 示例 4:
+    // 输入: intervals = []
+    // 输出: 0
+    assert_eq!(Solution::erase_overlap_intervals(vec![]), 0);
 }

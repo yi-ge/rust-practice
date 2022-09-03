@@ -9,7 +9,7 @@ fn two_sum() {
     let nums = vec![2, 7, 11, 15];
     let target = 9;
     let res = Solution::two_sum(nums, target);
-    assert_eq!(res, vec![1, 0][..]);
+    assert_eq!(res, [1, 0]);
 
     // 示例 2：
     // 输入：nums = [3,2,4], target = 6
@@ -17,7 +17,7 @@ fn two_sum() {
     let nums = vec![3, 2, 4];
     let target = 6;
     let res = Solution::two_sum(nums, target);
-    assert_eq!(res, vec![2, 1][..]);
+    assert_eq!(res, [2, 1]);
 
     // 示例 3：
     // 输入：nums = [3,3], target = 6
@@ -25,5 +25,8 @@ fn two_sum() {
     let nums = vec![3, 3];
     let target = 6;
     let res = Solution::two_sum(nums, target);
-    assert_eq!(res, vec![1, 0][..]);
+    assert_eq!(res, [1, 0]);
+
+    // 示例 4：
+    assert_eq!(Solution::two_sum(vec![], 1), [])
 }

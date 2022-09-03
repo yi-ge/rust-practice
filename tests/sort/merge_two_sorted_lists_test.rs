@@ -43,4 +43,17 @@ fn merge_two_lists() {
         )),
         &vec![0][..]
     );
+
+    // 示例 4：
+    // 输入：l1 = [0], l2 = []
+    // 输出：[0]
+    let l1 = vec![0];
+    let l2 = vec![];
+    assert_eq!(
+        list_node_to_vec(Solution::merge_two_lists(
+            vec_to_list_node(&l1),
+            vec_to_list_node(&l2)
+        )),
+        &vec![0][..]
+    );
 }
