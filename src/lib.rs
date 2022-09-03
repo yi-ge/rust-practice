@@ -1,6 +1,8 @@
+#[macro_use]
+pub mod libs;
+
 pub mod array;
 pub mod graphs;
-pub mod libs;
 pub mod list;
 pub mod main;
 pub mod map;

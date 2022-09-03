@@ -129,6 +129,10 @@ fn inset() {
     assert_eq!(list.pop(), Some(1));
     assert_eq!(list.pop(), Some(2));
     assert_eq!(list.pop(), Some(3));
+
+    let mut list_none = List::new();
+    let node = Some(Box::new(ListNode::new(-1)));
+    assert_eq!(list_none.insert(node, 0), true);
 }
 
 #[test]

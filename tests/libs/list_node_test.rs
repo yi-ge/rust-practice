@@ -6,6 +6,9 @@ fn list_node_new() {
 
     assert_eq!(node.as_mut().unwrap().val, 1);
     assert_eq!(node.as_ref().unwrap().next == None, true);
+
+    assert_eq!(ListNode::new(1), ListNode { val: 1, next: None });
+    assert_eq!(ListNode::new(2).clone().val, 2);
 }
 
 #[test]
