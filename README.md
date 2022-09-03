@@ -45,6 +45,10 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 ### 数组/队列/集合/映射
 
+- [无重叠区间](src/array/non_overlapping_intervals.rs)  [贪心, 数组, 动态规划, 排序]
+
+  - LeetCode 435. 无重叠区间 <https://leetcode.cn/problems/non-overlapping-intervals/>
+
 - [最长数对链](src/array/maximum_length_of_pair_chain.rs)  [贪心, 数组, 动态规划, 排序]
 
   - LeetCode 646. 最长数对链 <https://leetcode.cn/problems/maximum-length-of-pair-chain>

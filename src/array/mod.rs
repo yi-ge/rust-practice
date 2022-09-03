@@ -7,3 +7,4 @@ pub mod two_sum;
 pub mod sliding_window_maximum;
 pub mod group_anagrams;
 pub mod maximum_length_of_pair_chain;
+pub mod non_overlapping_intervals;
