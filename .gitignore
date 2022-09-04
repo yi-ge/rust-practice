@@ -11,3 +11,9 @@ Cargo.lock
 
 # Node.js
 node_modules/
+
+# Coverage test
+/coverage/
+
+# xtask
+/xtask/target/

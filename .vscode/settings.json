@@ -1,9 +1,26 @@
 {
+  "coverage-gutters.coverageFileNames": [
+    "coverage/tests.lcov",
+    "lcov.info",
+    "cov.xml",
+    "coverage.xml",
+    "jacoco.xml",
+    "coverage.cobertura.xml"
+  ],
   "cSpell.words": [
+    "andymckay",
     "backgrounding",
     "breakpad",
+    "Ccodegen",
+    "coverallsapp",
+    "Coverflow",
+    "Cpanic",
     "curr",
     "Deque",
+    "dialoguer",
+    "emibcn",
+    "esac",
+    "grcov",
     "inorder",
     "lcov",
     "leetcode",
@@ -14,8 +31,14 @@
     "preimage",
     "preorder",
     "repost",
+    "RUSTDOCFLAGS",
+    "RUSTFLAGS",
+    "rustup",
     "strs",
-    "univalue"
+    "univalue",
+    "xtask",
+    "xtaskops",
+    "Zpanic"
   ],
   "editor.formatOnSave": true,
   "[rust]": {

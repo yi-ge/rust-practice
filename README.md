@@ -21,6 +21,40 @@ Rust 基础算法、数据结构练习，包含 LeetCode 或其它算法练习�
 
 安装最新版[Rust](https://www.rust-lang.org/)和[Node.js](https://nodejs.org)。安装完成后执行`yarn`安装依赖。
 
+### 非CI环境的Linux x86平台下
+
+单元覆盖率测试依赖：`cargo install cargo-watch cargo-tarpaulin`以及`VSCode`插件[Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)。
+
+执行命令`cargo watch -x 'tarpaulin --ignore-tests --out Lcov' -i lcov.info`，可以在`VSCode`中查看覆盖情况。
+
+可[参考](https://dev.to/marcoieni/2-videos-about-rust-code-coverage-in-vscode-38kf)进行覆盖率测试。
+
+### 非CI环境的MacOS x86/ARM平台下
+
+需要安装`nightly`版本的构建工具用于单元覆盖率测试（仅用于单元覆盖率测试，否则可以使用`stable`版本）。
+
+如果已经通过`brew`安装了rust，可以先`brew uninstall rust`再执行`brew install rustup-init`安装`rustup-init`。执行`rustup-init`就有了`rustup`。后续通过`rustup`管理`rust`版本（如非覆盖率测试必要，仍然建议使用`brew install rust`安装稳定的`rust`版本）。
+
+设置为`nightly`版本：
+
+```bash
+rustup default nightly
+```
+
+安装覆盖率测试相关依赖：
+
+```bash
+rustup component add llvm-tools-preview
+cargo install grcov
+cargo xtask install
+```
+
+执行本地覆盖率测试：
+
+```bash
+cargo xtask coverage --dev
+```
+
 ## 基础排序算法
 
 - [插入排序](src/sort/insert_sort.rs)
