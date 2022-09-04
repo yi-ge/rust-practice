@@ -58,6 +58,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [二进制矩阵中的特殊位置](src/array/special_positions_in_a_binary_matrix.rs)  [数组, 矩阵]
+
+  - LeetCode 1582. 二进制矩阵中的特殊位置 <https://leetcode.cn/problems/special-positions-in-a-binary-matrix>
+
 - [无重叠区间](src/array/non_overlapping_intervals.rs)  [贪心, 数组, 动态规划, 排序]
 
   - LeetCode 435. 无重叠区间 <https://leetcode.cn/problems/non-overlapping-intervals/>

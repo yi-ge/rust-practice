@@ -8,3 +8,4 @@ pub mod sliding_window_maximum;
 pub mod group_anagrams;
 pub mod maximum_length_of_pair_chain;
 pub mod non_overlapping_intervals;
+pub mod special_positions_in_a_binary_matrix;
