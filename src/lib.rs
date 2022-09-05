@@ -1,3 +1,5 @@
+#![allow(special_module_name)]
+
 #[macro_use]
 pub mod libs;
 
