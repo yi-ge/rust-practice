@@ -49,11 +49,19 @@ cargo install grcov
 cargo xtask install
 ```
 
-执行本地覆盖率测试：
+执行本地覆盖率测试（在HTML中查看）：
 
 ```bash
 cargo xtask coverage --dev
 ```
+
+安装`VSCode`插件[Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)。执行本地覆盖率测试（`VSCode`中查看）：
+
+```bash
+cargo xtask coverage
+```
+
+右键：`Coverage Gutters: Display Coverage`。
 
 ## 基础排序算法
 
