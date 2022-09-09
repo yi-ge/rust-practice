@@ -146,6 +146,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [文件夹操作日志搜集器](src/stack/crawler_log_folder.rs)  [栈, 数组, 字符串]
+
+  - LeetCode 1598. 文件夹操作日志搜集器 <https://leetcode.cn/problems/crawler-log-folder>
+
 - [最小栈](src/stack/min_stack.rs)  [栈, 设计]
 
   - LeetCode 155. 最小栈 <https://leetcode.cn/problems/min-stack/>
