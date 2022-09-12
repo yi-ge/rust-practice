@@ -66,7 +66,7 @@ cargo xtask coverage
 ## 基础排序算法
 
 - [冒泡排序](src/sort/bubble_sort.rs)
-<!-- - [插入排序](src/sort/insert_sort.rs) -->
+- [插入排序](src/sort/insert_sort.rs)
 <!-- - [选择排序](src/sort/select_sort.rs) -->
 <!-- - [快速排序](src/sort/quick_sort.rs) -->
 <!-- - [归并排序](src/sort/merge_sort.rs) -->
