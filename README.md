@@ -100,6 +100,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [数组的相对排序](src/array/relative_sort_array.rs)  [数组, 哈希表, 计数排序, 排序]
+
+  - LeetCode 1122. 数组的相对排序 <https://leetcode.cn/problems/relative-sort-array/>
+
 - [二进制矩阵中的特殊位置](src/array/special_positions_in_a_binary_matrix.rs)  [数组, 矩阵]
 
   - LeetCode 1582. 二进制矩阵中的特殊位置 <https://leetcode.cn/problems/special-positions-in-a-binary-matrix>
