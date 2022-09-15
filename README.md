@@ -227,3 +227,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [阶乘函数后 K 个零](src/math/preimage_size_of_factorial_zeroes_function.rs)  [数学, 二分查找]
 
   - LeetCode 793. 阶乘函数后 K 个零 <https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function>
+
+- [灯泡开关 Ⅱ](src/math/bulb_switcher_ii.rs)  [位运算, 深度优先搜索, 广度优先搜索, 数学]
+
+  - LeetCode 672. 灯泡开关 Ⅱ <https://leetcode.cn/problems/bulb-switcher-ii>
