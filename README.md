@@ -65,11 +65,11 @@ cargo xtask coverage
 
 ## 基础排序算法
 
-- [插入排序](src/sort/insert_sort.rs)
 - [冒泡排序](src/sort/bubble_sort.rs)
+- [插入排序](src/sort/insert_sort.rs)
 - [选择排序](src/sort/select_sort.rs)
-- [快速排序](src/sort/quick_sort.rs)
-- [归并排序](src/sort/merge_sort.rs)
+<!-- - [快速排序](src/sort/quick_sort.rs) -->
+<!-- - [归并排序](src/sort/merge_sort.rs) -->
 
 ## 基础数据结构
 
@@ -99,6 +99,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
   - LeetCode 1417. 重新格式化字符串 <https://leetcode.cn/problems/reformat-the-string>
 
 ### 数组/队列/集合/映射
+
+- [数组的相对排序](src/array/relative_sort_array.rs)  [数组, 哈希表, 计数排序, 排序]
+
+  - LeetCode 1122. 数组的相对排序 <https://leetcode.cn/problems/relative-sort-array/>
 
 - [二进制矩阵中的特殊位置](src/array/special_positions_in_a_binary_matrix.rs)  [数组, 矩阵]
 
