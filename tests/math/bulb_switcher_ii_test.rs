@@ -28,4 +28,8 @@ fn flip_lights() {
     // - 按压开关 3 ，[开, 关, 开]
     // - 按压开关 4 ，[关, 开, 开]
     assert_eq!(Solution::flip_lights(3, 1), 4);
+
+    assert_eq!(Solution::flip_lights(1, 0), 1);
+    assert_eq!(Solution::flip_lights(8, 2), 7);
+    assert_eq!(Solution::flip_lights(8, 3), 8);
 }
