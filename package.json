@@ -16,10 +16,11 @@
   "scripts": {
     "build": "cargo build",
     "test": "cargo test -v --test integration",
-    "start": "node --no-warnings --experimental-vm-modules --experimental-specifier-resolution=node --loader ts-node/esm ./bin/createPractice.ts"
+    "start": "lcp rust"
   },
   "dependencies": {
     "lcov-parse": "^1.0.0",
+    "leetcode-test-helper": "^0.3.6",
     "puppeteer": "^15.3.0",
     "puppeteer-extra": "^3.3.1",
     "puppeteer-extra-plugin-stealth": "^2.10.2",
