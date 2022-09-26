@@ -235,3 +235,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [灯泡开关 Ⅱ](src/math/bulb_switcher_ii.rs)  [位运算, 深度优先搜索, 广度优先搜索, 数学]
 
   - LeetCode 672. 灯泡开关 Ⅱ <https://leetcode.cn/problems/bulb-switcher-ii>
+
+- [消失的两个数字](src/math/missing_two_lcci.rs)  [位运算, 数组, 哈希表]
+
+  - LeetCode 面试题 17.19. 消失的两个数字 <https://leetcode.cn/problems/missing-two-lcci>
