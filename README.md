@@ -73,6 +73,8 @@ cargo xtask coverage
 
 ## 基础数据结构
 
+### Rust标准库中的数据结构
+
 Rust标准库`std::collections`提供了4种通用容器类型，包含一下8种数据结构。
 
 | 类型     | 容器        | 描述                     |
@@ -85,6 +87,13 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 | 集合 | HashSet\<T> | 基于哈希表的无序集合 |
 | 集合 | BTreeSet\<T> | 基于B树的有序集合 |
 | 优先队列 | BinaryHeap\<T> | 基于二叉堆的优先队列 |
+
+### 通过Rust实现的数据结构及其常见操作
+
+- [链表结点](src/libs/list_node.rs)
+- [链表操作](src/libs/list.rs)
+- [树结点](src/libs/tree_node.rs)
+- [堆化、插入及删除堆元素](src/libs/heap.rs)
 
 ## 算法题
 
