@@ -233,6 +233,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [判定是否互为字符重排](src/map/check_permutation_lcci.rs)  [哈希表, 字符串, 排序]
+
+  - LeetCode 面试题 01.02. 判定是否互为字符重排 <https://leetcode.cn/problems/check-permutation-lcci>
+
 - [有效的字母异位词](src/map/valid_anagram.rs)  [哈希表, 字符串, 排序]
 
   - LeetCode 242. 有效的字母异位词 <https://leetcode.cn/problems/valid-anagram>
