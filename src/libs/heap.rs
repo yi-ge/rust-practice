@@ -1,4 +1,7 @@
 // * 堆化（heapify）：把一个无序数组整理成满足堆特性的堆数组
+// 堆适合用数组来存储。
+// 每个结点的值都大于等于子树中每个结点值的堆，成为大顶堆。
+// 以大顶堆为例，结点的索引是i，则左结点的索引是2i + 1，右结点的索引是2i + 2，父节点的索引是(i - 1) / 2
 
 // 从下往上的堆化
 // 从索引为1的元素开始，依次与父结点值比较大小。
@@ -56,4 +59,33 @@ fn heapify_up_down(nums: &mut Vec<i32>, index: usize, len: usize) {
 
         index = max_pos;
     }
+}
+
+// 在堆中插入元素
+pub fn insert(nums: &mut Vec<i32>, val: i32) -> bool {
+    nums.push(val);
+
+    if nums.len() > 1 {
+        // 如果数组里面不止有新加入这个元素，进行堆化处理，让其重新满足堆的特性
+        heapify_down_up(nums, nums.len() - 1); // 从下往上堆化
+    }
+
+    true
+}
+
+// 删除堆顶元素
+pub fn remove_max(nums: &mut Vec<i32>) -> Option<i32> {
+    if nums.len() == 0 {
+        return None;
+    }
+
+    let max_value = nums[0];
+    nums[0] = nums[nums.len() - 1]; // 将最后一个元素移到堆顶
+    nums.remove(nums.len() - 1); // 移除最后一个元素
+
+    if nums.len() > 1 {
+        heapify_up_down(nums, 0, nums.len()); // 从上往下堆化
+    }
+
+    Some(max_value)
 }

@@ -17,4 +17,9 @@ fn check_permutation() {
         Solution::check_permutation("abc".to_string(), "bad".to_string()),
         false
     );
+
+    assert_eq!(
+        Solution::check_permutation("abc".to_string(), "d".to_string()),
+        false
+    );
 }
