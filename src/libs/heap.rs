@@ -36,7 +36,7 @@ pub fn build_heap_up_down(nums: &mut Vec<i32>) {
     }
 }
 
-fn heapify_up_down(nums: &mut Vec<i32>, index: usize, len: usize) {
+pub fn heapify_up_down(nums: &mut Vec<i32>, index: usize, len: usize) {
     let mut index = index;
     loop {
         let mut max_pos = index; // 假设当前结点是最大值的结点
