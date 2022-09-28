@@ -69,7 +69,7 @@ cargo xtask coverage
 - [插入排序](src/sort/insert_sort.rs)
 - [选择排序](src/sort/select_sort.rs)
 - [堆排序](src/sort/heap_sort.rs)
-<!-- - [快速排序](src/sort/quick_sort.rs) -->
+- [快速排序](src/sort/quick_sort.rs)
 <!-- - [归并排序](src/sort/merge_sort.rs) -->
 
 ## 基础数据结构
