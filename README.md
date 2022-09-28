@@ -234,6 +234,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [第 k 个数](src/map/get_kth_magic_number_lcci.rs)  [哈希表, 数学, 动态规划, 堆（优先队列）]
+
+  - LeetCode 面试题 17.09. 第 k 个数 <https://leetcode.cn/problems/get-kth-magic-number-lcci>
+
 - [判定是否互为字符重排](src/map/check_permutation_lcci.rs)  [哈希表, 字符串, 排序]
 
   - LeetCode 面试题 01.02. 判定是否互为字符重排 <https://leetcode.cn/problems/check-permutation-lcci>
