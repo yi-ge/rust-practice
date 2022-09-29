@@ -8,6 +8,7 @@
     "coverage.cobertura.xml"
   ],
   "cSpell.words": [
+    "acdb",
     "andymckay",
     "backgrounding",
     "breakpad",
@@ -19,7 +20,9 @@
     "Deque",
     "dialoguer",
     "emibcn",
+    "erbottlewat",
     "esac",
+    "fliped",
     "grcov",
     "inorder",
     "lcci",
@@ -38,6 +41,7 @@
     "rustup",
     "strs",
     "univalue",
+    "waterbottle",
     "xtask",
     "xtaskops",
     "Zpanic"

@@ -100,6 +100,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [字符串轮转](src/string/string_rotation_lcci.rs)  [字符串, 字符串匹配]
+
+  - LeetCode 面试题 01.09. 字符串轮转 <https://leetcode.cn/problems/string-rotation-lcci>
+
 - [检查单词是否为句中其他单词的前缀](src/string/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence.rs)  [字符串, 字符串匹配]
 
   - LeetCode 1455. 检查单词是否为句中其他单词的前缀 <https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence>
