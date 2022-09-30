@@ -114,6 +114,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [数组中的第K个最大元素](src/array/kth_largest_element_in_an_array.rs)  [数组, 分治, 快速选择, 排序, 堆（优先队列）]
+
+  - LeetCode 215. 数组中的第K个最大元素 <https://leetcode.cn/problems/kth-largest-element-in-an-array/>
+
 - [数组的相对排序](src/array/relative_sort_array.rs)  [数组, 哈希表, 计数排序, 排序]
 
   - LeetCode 1122. 数组的相对排序 <https://leetcode.cn/problems/relative-sort-array/>
