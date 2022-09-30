@@ -11,3 +11,4 @@ pub mod non_overlapping_intervals_test;
 pub mod special_positions_in_a_binary_matrix_test;
 pub mod relative_sort_array_test;
 pub mod kth_largest_element_in_an_array_test;
+pub mod zero_matrix_lcci_test;
