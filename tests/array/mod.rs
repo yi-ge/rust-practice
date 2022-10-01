@@ -13,3 +13,4 @@ pub mod relative_sort_array_test;
 pub mod kth_largest_element_in_an_array_test;
 pub mod zero_matrix_lcci_test;
 pub mod merge_intervals_test;
+pub mod reverse_pairs_test;
