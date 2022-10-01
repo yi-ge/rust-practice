@@ -94,6 +94,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [链表结点](src/libs/list_node.rs)
 - [链表操作](src/libs/list.rs)
 - [树结点](src/libs/tree_node.rs)
+- [二叉树的前序遍历](src/tree/binary_tree_preorder_traversal.rs)
+- [二叉树的中序遍历](src/tree/binary_tree_inorder_traversal.rs)
+- [二叉树的后序遍历](src/tree/binary_tree_postorder_traversal.rs)
+- [二叉树的层序遍历](src/tree/binary_tree_level_order_traversal.rs)
 - [堆化、插入及删除堆元素](src/libs/heap.rs)
 
 ## 算法题
