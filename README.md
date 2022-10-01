@@ -118,6 +118,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [合并区间](src/array/merge_intervals.rs)  [数组, 排序]
+
+  - LeetCode 56. 合并区间 <https://leetcode.cn/problems/merge-intervals/>
+
 - [零矩阵](src/array/zero_matrix_lcci.rs)  [数组, 哈希表, 矩阵]
 
   - LeetCode 面试题 01.08. 零矩阵 <https://leetcode.cn/problems/zero-matrix-lcci>
