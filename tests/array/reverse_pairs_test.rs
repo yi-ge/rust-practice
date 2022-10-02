@@ -11,4 +11,7 @@ fn reverse_pairs() {
     // 输入: [2,4,3,5,1]
     // 输出: 3
     assert_eq!(Solution::reverse_pairs(vec![2, 4, 3, 5, 1]), 3);
+
+    assert_eq!(Solution::reverse_pairs(vec![1]), 0);
+    assert_eq!(Solution::reverse_pairs(vec![]), 0);
 }
