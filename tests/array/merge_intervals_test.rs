@@ -15,4 +15,7 @@ fn merge() {
     // 解释：区间 [1,4] 和 [4,5] 可被视为重叠区间。
     let intervals = vec![vec![1, 4], vec![4, 5]];
     assert_eq!(Solution::merge(intervals), [[1, 5]]);
+
+    let intervals = vec![vec![1, 2]];
+    assert_eq!(Solution::merge(intervals), [[1, 2]]);
 }
