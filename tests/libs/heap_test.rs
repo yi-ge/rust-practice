@@ -26,4 +26,7 @@ fn test_remove_max() {
     let mut nums = vec![5, 4, 2, 1, 3];
     remove_max(&mut nums);
     assert_eq!(nums, [4, 3, 2, 1]);
+
+    let mut nums = vec![];
+    assert_eq!(remove_max(&mut nums), None);
 }
