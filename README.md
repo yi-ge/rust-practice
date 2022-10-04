@@ -276,6 +276,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [排序数组](src/sort/sort_an_array.rs)  [数组, 分治, 桶排序, 计数排序, 基数排序, 排序, 堆（优先队列）, 归并排序]
+
+  - LeetCode 912. 排序数组 <https://leetcode.cn/problems/sort-an-array/>
+
 - [合并两个有序链表](src/sort/merge_two_sorted_lists.rs)  [递归, 链表]
 
   - LeetCode 21. 合并两个有序链表 <https://leetcode.cn/problems/merge-two-sorted-lists/>

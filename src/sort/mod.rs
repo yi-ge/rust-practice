@@ -6,3 +6,4 @@ pub mod merge_two_sorted_lists;
 pub mod quick_sort;
 pub mod reverse_linked_list;
 pub mod select_sort;
+pub mod sort_an_array;
