@@ -126,6 +126,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [单调数列](src/array/monotonic_array.rs)  [数组]
+
+  - LeetCode 896. 单调数列 <https://leetcode.cn/problems/monotonic-array/>
+
 - [统计好三元组](src/array/count_good_triplets.rs)  [数组, 枚举]
 
   - LeetCode 1534. 统计好三元组 <https://leetcode.cn/problems/count-good-triplets/>

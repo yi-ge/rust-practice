@@ -15,3 +15,4 @@ pub mod zero_matrix_lcci;
 pub mod merge_intervals;
 pub mod reverse_pairs;
 pub mod count_good_triplets;
+pub mod monotonic_array;
