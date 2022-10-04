@@ -14,3 +14,4 @@ pub mod kth_largest_element_in_an_array;
 pub mod zero_matrix_lcci;
 pub mod merge_intervals;
 pub mod reverse_pairs;
+pub mod count_good_triplets;

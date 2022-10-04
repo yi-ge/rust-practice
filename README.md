@@ -126,6 +126,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [统计好三元组](src/array/count_good_triplets.rs)  [数组, 枚举]
+
+  - LeetCode 1534. 统计好三元组 <https://leetcode.cn/problems/count-good-triplets/>
+
 - [翻转对](src/array/reverse_pairs.rs)  [树状数组, 线段树, 数组, 二分查找, 分治, 有序集合, 归并排序]
 
   - LeetCode 493. 翻转对 <https://leetcode.cn/problems/reverse-pairs/>
