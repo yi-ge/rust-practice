@@ -192,6 +192,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [使括号有效的最少添加](src/stack/minimum_add_to_make_parentheses_valid.rs)  [栈, 贪心, 字符串]
+
+  - LeetCode 921. 使括号有效的最少添加 <https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid>
+
 - [文件夹操作日志搜集器](src/stack/crawler_log_folder.rs)  [栈, 数组, 字符串]
 
   - LeetCode 1598. 文件夹操作日志搜集器 <https://leetcode.cn/problems/crawler-log-folder>

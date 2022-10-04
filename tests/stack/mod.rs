@@ -3,3 +3,4 @@ pub mod min_stack_test;
 pub mod valid_parentheses_test;
 pub mod validate_stack_sequences_test;
 pub mod crawler_log_folder_test;
+pub mod minimum_add_to_make_parentheses_valid_test;
