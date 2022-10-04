@@ -17,3 +17,4 @@ pub mod reverse_pairs;
 pub mod count_good_triplets;
 pub mod monotonic_array;
 pub mod teemo_attacking;
+pub mod maximum_size_subarray_sum_equals_k;

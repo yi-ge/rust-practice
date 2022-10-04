@@ -126,6 +126,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [和等于 k 的最长子数组长度](src/array/maximum_size_subarray_sum_equals_k.rs)  [数组, 哈希表]
+
+  - LeetCode 325. 和等于 k 的最长子数组长度 <https://leetcode.cn/problems/maximum-size-subarray-sum-equals-k/>
+
 - [提莫攻击](src/array/teemo_attacking.rs)  [数组, 模拟]
 
   - LeetCode 495. 提莫攻击 <https://leetcode.cn/problems/teemo-attacking/>
