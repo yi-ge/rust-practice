@@ -40,6 +40,7 @@
     "RUSTFLAGS",
     "rustup",
     "strs",
+    "teemo",
     "univalue",
     "waterbottle",
     "xtask",
