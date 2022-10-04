@@ -13,4 +13,10 @@ fn sort_array() {
     // 输出：[0,0,1,1,2,5]
     let nums = vec![5, 1, 1, 2, 0, 0];
     assert_eq!(Solution::sort_array(nums), [0, 0, 1, 1, 2, 5]);
+
+    let nums = vec![];
+    assert_eq!(Solution::sort_array(nums), []);
+
+    let nums = vec![-2, 3, -5];
+    assert_eq!(Solution::sort_array(nums), [-5, -2, 3]);
 }
