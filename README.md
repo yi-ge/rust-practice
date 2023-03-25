@@ -46,7 +46,6 @@ rustup default nightly
 ```bash
 rustup component add llvm-tools-preview
 cargo install grcov
-cargo xtask install
 ```
 
 执行本地覆盖率测试（在HTML中查看）：
