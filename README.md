@@ -208,6 +208,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [删除最短的子数组使剩余数组有序](src/stack/shortest_subarray_to_be_removed_to_make_array_sorted.rs)  [栈, 数组, 双指针, 二分查找, 单调栈]
+
+  - LeetCode 1574. 删除最短的子数组使剩余数组有序 <https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted>
+
 - [使括号有效的最少添加](src/stack/minimum_add_to_make_parentheses_valid.rs)  [栈, 贪心, 字符串]
 
   - LeetCode 921. 使括号有效的最少添加 <https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid>
