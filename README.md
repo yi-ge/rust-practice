@@ -297,6 +297,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [统计只差一个字符的子串数目](src/map/count_substrings_that_differ_by_one_character.rs)  [哈希表, 字符串, 动态规划]
+
+  - LeetCode 1638. 统计只差一个字符的子串数目 <https://leetcode.cn/problems/count-substrings-that-differ-by-one-character>
+
 - [第 k 个数](src/map/get_kth_magic_number_lcci.rs)  [哈希表, 数学, 动态规划, 堆（优先队列）]
 
   - LeetCode 面试题 17.09. 第 k 个数 <https://leetcode.cn/problems/get-kth-magic-number-lcci>
