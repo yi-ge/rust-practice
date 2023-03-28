@@ -103,6 +103,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [最短公共超序列](src/string/shortest_common_supersequence.rs)  [字符串, 动态规划]
+
+  - LeetCode 1092. 最短公共超序列 <https://leetcode.cn/problems/shortest-common-supersequence>
+
 - [检查二进制字符串字段](src/string/check_if_binary_string_has_at_most_one_segment_of_ones.rs)  [字符串]
 
   - LeetCode 1784. 检查二进制字符串字段 <https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones>
