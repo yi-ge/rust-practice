@@ -287,6 +287,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [两点之间不包含任何点的最宽垂直区域](src/sort/widest_vertical_area_between_two_points_containing_no_points.rs)  [数组, 排序]
+
+  - LeetCode 1637. 两点之间不包含任何点的最宽垂直区域 <https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points>
+
 - [排序数组](src/sort/sort_an_array.rs)  [数组, 分治, 桶排序, 计数排序, 基数排序, 排序, 堆（优先队列）, 归并排序]
 
   - LeetCode 912. 排序数组 <https://leetcode.cn/problems/sort-an-array/>

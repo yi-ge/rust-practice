@@ -7,3 +7,4 @@ pub mod quick_sort;
 pub mod reverse_linked_list;
 pub mod select_sort;
 pub mod sort_an_array;
+pub mod widest_vertical_area_between_two_points_containing_no_points;
