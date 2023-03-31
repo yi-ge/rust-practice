@@ -129,6 +129,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [算术三元组的数目](src/array/number_of_arithmetic_triplets.rs)  [数组, 哈希表, 双指针, 枚举]
+
+  - LeetCode 2367. 算术三元组的数目 <https://leetcode.cn/problems/number-of-arithmetic-triplets>
+
 - [和相等的子数组](src/array/find_subarrays_with_equal_sum.rs)  [数组, 哈希表]
 
   - LeetCode 2395. 和相等的子数组 <https://leetcode.cn/problems/find-subarrays-with-equal-sum>
