@@ -20,3 +20,4 @@ pub mod teemo_attacking_test;
 pub mod maximum_size_subarray_sum_equals_k_test;
 pub mod find_subarrays_with_equal_sum_test;
 pub mod number_of_arithmetic_triplets_test;
+pub mod minimum_score_triangulation_of_polygon_test;
