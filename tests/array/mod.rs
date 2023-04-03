@@ -21,3 +21,4 @@ pub mod maximum_size_subarray_sum_equals_k_test;
 pub mod find_subarrays_with_equal_sum_test;
 pub mod number_of_arithmetic_triplets_test;
 pub mod minimum_score_triangulation_of_polygon_test;
+pub mod previous_permutation_with_one_swap_test;

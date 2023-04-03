@@ -133,6 +133,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [交换一次的先前排列](src/array/previous_permutation_with_one_swap.rs)  [贪心, 数组]
+
+  - LeetCode 1053. 交换一次的先前排列 <https://leetcode.cn/problems/previous-permutation-with-one-swap>
+
 - [多边形三角剖分的最低得分](src/array/minimum_score_triangulation_of_polygon.rs)  [数组, 动态规划]
 
   - LeetCode 1039. 多边形三角剖分的最低得分 <https://leetcode.cn/problems/minimum-score-triangulation-of-polygon>
