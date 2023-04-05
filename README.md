@@ -356,3 +356,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [统计字典序元音字符串的数目](src/math/count_sorted_vowel_strings.rs)  [数学, 动态规划, 组合数学]
 
   - LeetCode 1641. 统计字典序元音字符串的数目 <https://leetcode.cn/problems/count-sorted-vowel-strings>
+
+- [公因子的数目](src/math/number_of_common_factors.rs)  [数学, 枚举, 数论]
+
+  - LeetCode 2427. 公因子的数目 <https://leetcode.cn/problems/number-of-common-factors>
