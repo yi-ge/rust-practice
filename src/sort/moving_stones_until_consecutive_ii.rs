@@ -9,10 +9,9 @@ impl Solution {
         let mut stones = stones;
         stones.sort();
         let n = stones.len();
-        let mut max = stones[n - 1] - stones[0] + 1 - n as i32;
-        max -= std::cmp::min(
-            stones[n - 2] - stones[0] + 1 - (n - 1) as i32,
-            stones[n - 1] - stones[1] + 1 - (n - 1) as i32,
+        let max = std::cmp::max(
+            stones[n - 1] - stones[1] - n as i32 + 2,
+            stones[n - 2] - stones[0] - n as i32 + 2,
         );
         let mut min = max;
         let mut i = 0;
