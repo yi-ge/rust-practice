@@ -368,3 +368,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [负二进制转换](src/math/convert_to_base_2.rs)  [数学]
 
   - LeetCode 1017. 负二进制转换 <https://leetcode.cn/problems/convert-to-base-2>
+
+- [最小的必要团队](src/math/smallest_sufficient_team.rs)  [位运算, 数组, 动态规划, 状态压缩]
+
+  - LeetCode 1125. 最小的必要团队 <https://leetcode.cn/problems/smallest-sufficient-team>
