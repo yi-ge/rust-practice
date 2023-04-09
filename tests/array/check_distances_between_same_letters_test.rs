@@ -28,4 +28,11 @@ fn check_distances() {
         1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ];
     assert_eq!(Solution::check_distances(s2.to_string(), distance2), false);
+
+    // 测试 3：
+    let s3 = "abbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzza";
+    let distance3 = vec![
+        49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    ];
+    assert_eq!(Solution::check_distances(s3.to_string(), distance3), false);
 }

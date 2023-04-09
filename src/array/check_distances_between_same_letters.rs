@@ -10,7 +10,7 @@ impl Solution {
         for (i, c) in s.chars().enumerate() {
             let index = (c as u8 - b'a') as usize;
             if let Some(last) = last_index[index] {
-                if i as i32 - last - 1 < distance[index] {
+                if i as i32 - last - 1 != distance[index] {
                     return false;
                 }
             }
