@@ -239,6 +239,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [链表中的下一个更大节点](src/stack/next_greater_node_in_linked_list.rs)  [栈, 数组, 链表, 单调栈]
+
+  - LeetCode 1019. 链表中的下一个更大节点 <https://leetcode.cn/problems/next-greater-node-in-linked-list>
+
 - [删除最短的子数组使剩余数组有序](src/stack/shortest_subarray_to_be_removed_to_make_array_sorted.rs)  [栈, 数组, 双指针, 二分查找, 单调栈]
 
   - LeetCode 1574. 删除最短的子数组使剩余数组有序 <https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted>
