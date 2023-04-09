@@ -133,6 +133,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [检查相同字母间的距离](src/array/check_distances_between_same_letters.rs)  [数组, 哈希表, 字符串]
+
+  - LeetCode 2399. 检查相同字母间的距离 <https://leetcode.cn/problems/check-distances-between-same-letters>
+
 - [合并石头的最低成本](src/array/minimum_cost_to_merge_stones.rs)  [数组, 动态规划]
 
   - LeetCode 1000. 合并石头的最低成本 <https://leetcode.cn/problems/minimum-cost-to-merge-stones>

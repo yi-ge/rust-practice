@@ -23,3 +23,4 @@ pub mod number_of_arithmetic_triplets;
 pub mod minimum_score_triangulation_of_polygon;
 pub mod previous_permutation_with_one_swap;
 pub mod minimum_cost_to_merge_stones;
+pub mod check_distances_between_same_letters;
