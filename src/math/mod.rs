@@ -5,3 +5,4 @@ pub mod count_sorted_vowel_strings;
 pub mod number_of_common_factors;
 pub mod convert_to_base_2;
 pub mod smallest_sufficient_team;
+pub mod robot_bounded_in_circle;

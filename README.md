@@ -380,3 +380,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [最小的必要团队](src/math/smallest_sufficient_team.rs)  [位运算, 数组, 动态规划, 状态压缩]
 
   - LeetCode 1125. 最小的必要团队 <https://leetcode.cn/problems/smallest-sufficient-team>
+
+- [困于环中的机器人](src/math/robot_bounded_in_circle.rs)  [数学, 字符串, 模拟]
+
+  - LeetCode 1041. 困于环中的机器人 <https://leetcode.cn/problems/robot-bounded-in-circle>
