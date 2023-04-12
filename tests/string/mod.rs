@@ -5,3 +5,4 @@ pub mod reformat_phone_number_test;
 pub mod check_if_binary_string_has_at_most_one_segment_of_ones_test;
 pub mod shortest_common_supersequence_test;
 pub mod masking_personal_information_test;
+pub mod longest_chunked_palindrome_decomposition_test;

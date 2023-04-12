@@ -103,6 +103,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [段式回文](src/string/longest_chunked_palindrome_decomposition.rs)  [贪心, 双指针, 字符串, 动态规划, 哈希函数, 滚动哈希]
+
+  - LeetCode 1147. 段式回文 <https://leetcode.cn/problems/longest-chunked-palindrome-decomposition>
+
 - [隐藏个人信息](src/string/masking_personal_information.rs)  [字符串]
 
   - LeetCode 831. 隐藏个人信息 <https://leetcode.cn/problems/masking-personal-information>
