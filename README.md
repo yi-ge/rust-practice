@@ -137,6 +137,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [出现最频繁的偶数元素](src/array/most_frequent_even_element.rs)  [数组, 哈希表, 计数]
+
+  - LeetCode 2404. 出现最频繁的偶数元素 <https://leetcode.cn/problems/most-frequent-even-element>
+
 - [检查相同字母间的距离](src/array/check_distances_between_same_letters.rs)  [数组, 哈希表, 字符串]
 
   - LeetCode 2399. 检查相同字母间的距离 <https://leetcode.cn/problems/check-distances-between-same-letters>

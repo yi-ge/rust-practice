@@ -24,3 +24,4 @@ pub mod minimum_score_triangulation_of_polygon_test;
 pub mod previous_permutation_with_one_swap_test;
 pub mod minimum_cost_to_merge_stones_test;
 pub mod check_distances_between_same_letters_test;
+pub mod most_frequent_even_element_test;
