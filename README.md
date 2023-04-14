@@ -281,6 +281,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 树
 
+- [驼峰式匹配](src/tree/camelcase_matching.rs)  [字典树, 双指针, 字符串, 字符串匹配]
+
+  - LeetCode 1023. 驼峰式匹配 <https://leetcode.cn/problems/camelcase-matching>
+
 - [二叉搜索树中的插入操作](src/tree/insert_into_a_binary_search_tree.rs)  [树, 二叉搜索树, 二叉树]
 
   - LeetCode 701. 二叉搜索树中的插入操作 <https://leetcode.cn/problems/insert-into-a-binary-search-tree>
