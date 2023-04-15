@@ -321,6 +321,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 图
 
+- [不邻接植花](src/graphs/flower_planting_with_no_adjacent.rs)  [深度优先搜索, 广度优先搜索, 图]
+
+  - LeetCode 1042. 不邻接植花 <https://leetcode.cn/problems/flower-planting-with-no-adjacent>
+
 - [找到小镇的法官](src/graphs/find_the_town_judge.rs)  [图, 数组, 哈希表]
 
   - LeetCode 997. 找到小镇的法官 <https://leetcode.cn/problems/find-the-town-judge>
