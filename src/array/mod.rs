@@ -25,3 +25,4 @@ pub mod previous_permutation_with_one_swap;
 pub mod minimum_cost_to_merge_stones;
 pub mod check_distances_between_same_letters;
 pub mod most_frequent_even_element;
+pub mod online_majority_element_in_subarray;

@@ -25,3 +25,4 @@ pub mod previous_permutation_with_one_swap_test;
 pub mod minimum_cost_to_merge_stones_test;
 pub mod check_distances_between_same_letters_test;
 pub mod most_frequent_even_element_test;
+pub mod online_majority_element_in_subarray_test;

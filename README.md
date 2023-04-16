@@ -137,6 +137,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [子数组中占绝大多数的元素](src/array/online_majority_element_in_subarray.rs)  [设计, 树状数组, 线段树, 数组, 二分查找]
+
+  - LeetCode 1157. 子数组中占绝大多数的元素 <https://leetcode.cn/problems/online-majority-element-in-subarray>
+
 - [出现最频繁的偶数元素](src/array/most_frequent_even_element.rs)  [数组, 哈希表, 计数]
 
   - LeetCode 2404. 出现最频繁的偶数元素 <https://leetcode.cn/problems/most-frequent-even-element>
