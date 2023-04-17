@@ -6,3 +6,4 @@ pub mod number_of_common_factors_test;
 pub mod convert_to_base_2_test;
 pub mod smallest_sufficient_team_test;
 pub mod robot_bounded_in_circle_test;
+pub mod count_days_spent_together_test;
