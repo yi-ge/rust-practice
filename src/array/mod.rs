@@ -26,3 +26,4 @@ pub mod minimum_cost_to_merge_stones;
 pub mod check_distances_between_same_letters;
 pub mod most_frequent_even_element;
 pub mod online_majority_element_in_subarray;
+pub mod partition_array_for_maximum_sum;

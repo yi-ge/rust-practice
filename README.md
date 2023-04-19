@@ -137,6 +137,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [分隔数组以得到最大和](src/array/partition_array_for_maximum_sum.rs)  [数组, 动态规划]
+
+  - LeetCode 1043. 分隔数组以得到最大和 <https://leetcode.cn/problems/partition-array-for-maximum-sum>
+
 - [子数组中占绝大多数的元素](src/array/online_majority_element_in_subarray.rs)  [设计, 树状数组, 线段树, 数组, 二分查找]
 
   - LeetCode 1157. 子数组中占绝大多数的元素 <https://leetcode.cn/problems/online-majority-element-in-subarray>
