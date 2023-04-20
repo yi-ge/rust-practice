@@ -343,6 +343,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [使数组严格递增](src/sort/make_array_strictly_increasing.rs)  [数组, 二分查找, 动态规划, 排序]
+
+  - LeetCode 1187. 使数组严格递增 <https://leetcode.cn/problems/make-array-strictly-increasing>
+
 - [移动石子直到连续 II](src/sort/moving_stones_until_consecutive_ii.rs)  [数组, 数学, 双指针, 排序]
 
   - LeetCode 1040. 移动石子直到连续 II <https://leetcode.cn/problems/moving-stones-until-consecutive-ii>
