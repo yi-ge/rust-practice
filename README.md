@@ -420,3 +420,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [统计共同度过的日子数](src/math/count_days_spent_together.rs)  [数学, 字符串]
 
   - LeetCode 2409. 统计共同度过的日子数 <https://leetcode.cn/problems/count-days-spent-together>
+
+- [最小偶倍数](src/math/smallest_even_multiple.rs)  [数学, 数论]
+
+  - LeetCode 2413. 最小偶倍数 <https://leetcode.cn/problems/smallest-even-multiple>
