@@ -7,3 +7,6 @@ pub mod quick_sort_test;
 pub mod reverse_linked_list_test;
 pub mod select_sort_test;
 pub mod sort_an_array_test;
+pub mod widest_vertical_area_between_two_points_containing_no_points_test;
+pub mod moving_stones_until_consecutive_ii_test;
+pub mod make_array_strictly_increasing_test;

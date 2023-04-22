@@ -4,3 +4,5 @@ pub mod binary_tree_postorder_traversal_test;
 pub mod binary_tree_preorder_traversal_test;
 pub mod longest_univalue_path_test;
 pub mod insert_into_a_binary_search_tree_test;
+pub mod camelcase_matching_test;
+pub mod maximum_difference_between_node_and_ancestor_test;

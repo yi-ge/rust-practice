@@ -46,7 +46,6 @@ rustup default nightly
 ```bash
 rustup component add llvm-tools-preview
 cargo install grcov
-cargo xtask install
 ```
 
 执行本地覆盖率测试（在HTML中查看）：
@@ -104,6 +103,18 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [段式回文](src/string/longest_chunked_palindrome_decomposition.rs)  [贪心, 双指针, 字符串, 动态规划, 哈希函数, 滚动哈希]
+
+  - LeetCode 1147. 段式回文 <https://leetcode.cn/problems/longest-chunked-palindrome-decomposition>
+
+- [隐藏个人信息](src/string/masking_personal_information.rs)  [字符串]
+
+  - LeetCode 831. 隐藏个人信息 <https://leetcode.cn/problems/masking-personal-information>
+
+- [最短公共超序列](src/string/shortest_common_supersequence.rs)  [字符串, 动态规划]
+
+  - LeetCode 1092. 最短公共超序列 <https://leetcode.cn/problems/shortest-common-supersequence>
+
 - [检查二进制字符串字段](src/string/check_if_binary_string_has_at_most_one_segment_of_ones.rs)  [字符串]
 
   - LeetCode 1784. 检查二进制字符串字段 <https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones>
@@ -129,6 +140,42 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [最长等差数列](src/array/longest_arithmetic_subsequence.rs)  [数组, 哈希表, 二分查找, 动态规划]
 
   - LeetCode 1027. 最长等差数列 <https://leetcode.cn/problems/longest-arithmetic-subsequence>
+
+- [分隔数组以得到最大和](src/array/partition_array_for_maximum_sum.rs)  [数组, 动态规划]
+
+  - LeetCode 1043. 分隔数组以得到最大和 <https://leetcode.cn/problems/partition-array-for-maximum-sum>
+
+- [子数组中占绝大多数的元素](src/array/online_majority_element_in_subarray.rs)  [设计, 树状数组, 线段树, 数组, 二分查找]
+
+  - LeetCode 1157. 子数组中占绝大多数的元素 <https://leetcode.cn/problems/online-majority-element-in-subarray>
+
+- [出现最频繁的偶数元素](src/array/most_frequent_even_element.rs)  [数组, 哈希表, 计数]
+
+  - LeetCode 2404. 出现最频繁的偶数元素 <https://leetcode.cn/problems/most-frequent-even-element>
+
+- [检查相同字母间的距离](src/array/check_distances_between_same_letters.rs)  [数组, 哈希表, 字符串]
+
+  - LeetCode 2399. 检查相同字母间的距离 <https://leetcode.cn/problems/check-distances-between-same-letters>
+
+- [合并石头的最低成本](src/array/minimum_cost_to_merge_stones.rs)  [数组, 动态规划]
+
+  - LeetCode 1000. 合并石头的最低成本 <https://leetcode.cn/problems/minimum-cost-to-merge-stones>
+
+- [交换一次的先前排列](src/array/previous_permutation_with_one_swap.rs)  [贪心, 数组]
+
+  - LeetCode 1053. 交换一次的先前排列 <https://leetcode.cn/problems/previous-permutation-with-one-swap>
+
+- [多边形三角剖分的最低得分](src/array/minimum_score_triangulation_of_polygon.rs)  [数组, 动态规划]
+
+  - LeetCode 1039. 多边形三角剖分的最低得分 <https://leetcode.cn/problems/minimum-score-triangulation-of-polygon>
+
+- [算术三元组的数目](src/array/number_of_arithmetic_triplets.rs)  [数组, 哈希表, 双指针, 枚举]
+
+  - LeetCode 2367. 算术三元组的数目 <https://leetcode.cn/problems/number-of-arithmetic-triplets>
+
+- [和相等的子数组](src/array/find_subarrays_with_equal_sum.rs)  [数组, 哈希表]
+
+  - LeetCode 2395. 和相等的子数组 <https://leetcode.cn/problems/find-subarrays-with-equal-sum>
 
 - [和等于 k 的最长子数组长度](src/array/maximum_size_subarray_sum_equals_k.rs)  [数组, 哈希表]
 
@@ -212,6 +259,14 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [链表中的下一个更大节点](src/stack/next_greater_node_in_linked_list.rs)  [栈, 数组, 链表, 单调栈]
+
+  - LeetCode 1019. 链表中的下一个更大节点 <https://leetcode.cn/problems/next-greater-node-in-linked-list>
+
+- [删除最短的子数组使剩余数组有序](src/stack/shortest_subarray_to_be_removed_to_make_array_sorted.rs)  [栈, 数组, 双指针, 二分查找, 单调栈]
+
+  - LeetCode 1574. 删除最短的子数组使剩余数组有序 <https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted>
+
 - [使括号有效的最少添加](src/stack/minimum_add_to_make_parentheses_valid.rs)  [栈, 贪心, 字符串]
 
   - LeetCode 921. 使括号有效的最少添加 <https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid>
@@ -237,6 +292,14 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
   - LeetCode 1475. 商品折扣后的最终价格 <https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop>
 
 ### 树
+
+- [节点与其祖先之间的最大差值](src/tree/maximum_difference_between_node_and_ancestor.rs)  [树, 深度优先搜索, 二叉树]
+
+  - LeetCode 1026. 节点与其祖先之间的最大差值 <https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor>
+
+- [驼峰式匹配](src/tree/camelcase_matching.rs)  [字典树, 双指针, 字符串, 字符串匹配]
+
+  - LeetCode 1023. 驼峰式匹配 <https://leetcode.cn/problems/camelcase-matching>
 
 - [二叉搜索树中的插入操作](src/tree/insert_into_a_binary_search_tree.rs)  [树, 二叉搜索树, 二叉树]
 
@@ -274,11 +337,27 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 图
 
+- [不邻接植花](src/graphs/flower_planting_with_no_adjacent.rs)  [深度优先搜索, 广度优先搜索, 图]
+
+  - LeetCode 1042. 不邻接植花 <https://leetcode.cn/problems/flower-planting-with-no-adjacent>
+
 - [找到小镇的法官](src/graphs/find_the_town_judge.rs)  [图, 数组, 哈希表]
 
   - LeetCode 997. 找到小镇的法官 <https://leetcode.cn/problems/find-the-town-judge>
 
 ### 排序
+
+- [使数组严格递增](src/sort/make_array_strictly_increasing.rs)  [数组, 二分查找, 动态规划, 排序]
+
+  - LeetCode 1187. 使数组严格递增 <https://leetcode.cn/problems/make-array-strictly-increasing>
+
+- [移动石子直到连续 II](src/sort/moving_stones_until_consecutive_ii.rs)  [数组, 数学, 双指针, 排序]
+
+  - LeetCode 1040. 移动石子直到连续 II <https://leetcode.cn/problems/moving-stones-until-consecutive-ii>
+
+- [两点之间不包含任何点的最宽垂直区域](src/sort/widest_vertical_area_between_two_points_containing_no_points.rs)  [数组, 排序]
+
+  - LeetCode 1637. 两点之间不包含任何点的最宽垂直区域 <https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points>
 
 - [排序数组](src/sort/sort_an_array.rs)  [数组, 分治, 桶排序, 计数排序, 基数排序, 排序, 堆（优先队列）, 归并排序]
 
@@ -293,6 +372,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
   - LeetCode 206. 反转链表 <https://leetcode.cn/problems/reverse-linked-list/>
 
 ### 其它
+
+- [统计只差一个字符的子串数目](src/map/count_substrings_that_differ_by_one_character.rs)  [哈希表, 字符串, 动态规划]
+
+  - LeetCode 1638. 统计只差一个字符的子串数目 <https://leetcode.cn/problems/count-substrings-that-differ-by-one-character>
 
 - [第 k 个数](src/map/get_kth_magic_number_lcci.rs)  [哈希表, 数学, 动态规划, 堆（优先队列）]
 
@@ -317,3 +400,31 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [消失的两个数字](src/math/missing_two_lcci.rs)  [位运算, 数组, 哈希表]
 
   - LeetCode 面试题 17.19. 消失的两个数字 <https://leetcode.cn/problems/missing-two-lcci>
+
+- [统计字典序元音字符串的数目](src/math/count_sorted_vowel_strings.rs)  [数学, 动态规划, 组合数学]
+
+  - LeetCode 1641. 统计字典序元音字符串的数目 <https://leetcode.cn/problems/count-sorted-vowel-strings>
+
+- [公因子的数目](src/math/number_of_common_factors.rs)  [数学, 枚举, 数论]
+
+  - LeetCode 2427. 公因子的数目 <https://leetcode.cn/problems/number-of-common-factors>
+
+- [负二进制转换](src/math/convert_to_base_2.rs)  [数学]
+
+  - LeetCode 1017. 负二进制转换 <https://leetcode.cn/problems/convert-to-base-2>
+
+- [最小的必要团队](src/math/smallest_sufficient_team.rs)  [位运算, 数组, 动态规划, 状态压缩]
+
+  - LeetCode 1125. 最小的必要团队 <https://leetcode.cn/problems/smallest-sufficient-team>
+
+- [困于环中的机器人](src/math/robot_bounded_in_circle.rs)  [数学, 字符串, 模拟]
+
+  - LeetCode 1041. 困于环中的机器人 <https://leetcode.cn/problems/robot-bounded-in-circle>
+
+- [统计共同度过的日子数](src/math/count_days_spent_together.rs)  [数学, 字符串]
+
+  - LeetCode 2409. 统计共同度过的日子数 <https://leetcode.cn/problems/count-days-spent-together>
+
+- [最小偶倍数](src/math/smallest_even_multiple.rs)  [数学, 数论]
+
+  - LeetCode 2413. 最小偶倍数 <https://leetcode.cn/problems/smallest-even-multiple>
