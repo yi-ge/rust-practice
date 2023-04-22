@@ -18,3 +18,4 @@ pub mod count_good_triplets_test;
 pub mod monotonic_array_test;
 pub mod teemo_attacking_test;
 pub mod maximum_size_subarray_sum_equals_k_test;
+pub mod longest_arithmetic_subsequence_test;
