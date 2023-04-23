@@ -28,3 +28,4 @@ pub mod special_positions_in_a_binary_matrix;
 pub mod teemo_attacking;
 pub mod two_sum;
 pub mod zero_matrix_lcci;
+pub mod filling_bookcase_shelves;

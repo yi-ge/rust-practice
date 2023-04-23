@@ -28,3 +28,4 @@ pub mod special_positions_in_a_binary_matrix_test;
 pub mod teemo_attacking_test;
 pub mod two_sum_test;
 pub mod zero_matrix_lcci_test;
+pub mod filling_bookcase_shelves_test;
