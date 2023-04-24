@@ -6,3 +6,4 @@ pub mod check_if_binary_string_has_at_most_one_segment_of_ones;
 pub mod shortest_common_supersequence;
 pub mod masking_personal_information;
 pub mod longest_chunked_palindrome_decomposition;
+pub mod last_substring_in_lexicographical_order;

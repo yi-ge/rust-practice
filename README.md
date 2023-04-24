@@ -103,6 +103,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [按字典序排在最后的子串](src/string/last_substring_in_lexicographical_order.rs)  [双指针, 字符串]
+
+  - LeetCode 1163. 按字典序排在最后的子串 <https://leetcode.cn/problems/last-substring-in-lexicographical-order>
+
 - [段式回文](src/string/longest_chunked_palindrome_decomposition.rs)  [贪心, 双指针, 字符串, 动态规划, 哈希函数, 滚动哈希]
 
   - LeetCode 1147. 段式回文 <https://leetcode.cn/problems/longest-chunked-palindrome-decomposition>
