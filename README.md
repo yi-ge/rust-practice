@@ -355,6 +355,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [按身高排序](src/sort/sort_the_people.rs)  [数组, 哈希表, 字符串, 排序]
+
+  - LeetCode 2418. 按身高排序 <https://leetcode.cn/problems/sort-the-people>
+
 - [使数组严格递增](src/sort/make_array_strictly_increasing.rs)  [数组, 二分查找, 动态规划, 排序]
 
   - LeetCode 1187. 使数组严格递增 <https://leetcode.cn/problems/make-array-strictly-increasing>
