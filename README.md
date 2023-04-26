@@ -141,6 +141,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [两个非重叠子数组的最大和](src/array/maximum_sum_of_two_non_overlapping_subarrays.rs)  [数组, 动态规划, 滑动窗口]
+
+  - LeetCode 1031. 两个非重叠子数组的最大和 <https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays>
+
 - [填充书架](src/array/filling_bookcase_shelves.rs)  [数组, 动态规划]
 
   - LeetCode 1105. 填充书架 <https://leetcode.cn/problems/filling-bookcase-shelves>

@@ -29,3 +29,4 @@ pub mod teemo_attacking_test;
 pub mod two_sum_test;
 pub mod zero_matrix_lcci_test;
 pub mod filling_bookcase_shelves_test;
+pub mod maximum_sum_of_two_non_overlapping_subarrays_test;
