@@ -30,3 +30,4 @@ pub mod two_sum;
 pub mod zero_matrix_lcci;
 pub mod filling_bookcase_shelves;
 pub mod maximum_sum_of_two_non_overlapping_subarrays;
+pub mod longest_string_chain;

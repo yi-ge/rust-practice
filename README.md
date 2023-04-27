@@ -141,6 +141,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [最长字符串链](src/array/longest_string_chain.rs)  [数组, 哈希表, 双指针, 字符串, 动态规划]
+
+  - LeetCode 1048. 最长字符串链 <https://leetcode.cn/problems/longest-string-chain>
+
 - [两个非重叠子数组的最大和](src/array/maximum_sum_of_two_non_overlapping_subarrays.rs)  [数组, 动态规划, 滑动窗口]
 
   - LeetCode 1031. 两个非重叠子数组的最大和 <https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays>
