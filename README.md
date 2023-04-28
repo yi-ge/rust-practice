@@ -275,6 +275,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [餐盘栈](src/stack/dinner_plate_stacks.rs)  [栈, 设计, 哈希表, 堆（优先队列）]
+
+  - LeetCode 1172. 餐盘栈 <https://leetcode.cn/problems/dinner-plate-stacks>
+
 - [链表中的下一个更大节点](src/stack/next_greater_node_in_linked_list.rs)  [栈, 数组, 链表, 单调栈]
 
   - LeetCode 1019. 链表中的下一个更大节点 <https://leetcode.cn/problems/next-greater-node-in-linked-list>
