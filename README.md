@@ -397,6 +397,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [删除字符使频率相同](src/map/remove_letter_to_equalize_frequency.rs)  [哈希表, 字符串, 计数]
+
+  - LeetCode 2423. 删除字符使频率相同 <https://leetcode.cn/problems/remove-letter-to-equalize-frequency>
+
 - [统计只差一个字符的子串数目](src/map/count_substrings_that_differ_by_one_character.rs)  [哈希表, 字符串, 动态规划]
 
   - LeetCode 1638. 统计只差一个字符的子串数目 <https://leetcode.cn/problems/count-substrings-that-differ-by-one-character>
