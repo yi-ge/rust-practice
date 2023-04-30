@@ -8,3 +8,4 @@ pub mod smallest_sufficient_team;
 pub mod robot_bounded_in_circle;
 pub mod count_days_spent_together;
 pub mod smallest_even_multiple;
+pub mod moving_stones_until_consecutive;
