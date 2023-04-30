@@ -6,3 +6,4 @@ pub mod longest_univalue_path;
 pub mod insert_into_a_binary_search_tree;
 pub mod camelcase_matching;
 pub mod maximum_difference_between_node_and_ancestor;
+pub mod time_needed_to_inform_all_employees;

@@ -313,6 +313,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 树
 
+- [通知所有员工所需的时间](src/tree/time_needed_to_inform_all_employees.rs)  [树, 深度优先搜索, 广度优先搜索]
+
+  - LeetCode 1376. 通知所有员工所需的时间 <https://leetcode.cn/problems/time-needed-to-inform-all-employees>
+
 - [节点与其祖先之间的最大差值](src/tree/maximum_difference_between_node_and_ancestor.rs)  [树, 深度优先搜索, 二叉树]
 
   - LeetCode 1026. 节点与其祖先之间的最大差值 <https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor>
