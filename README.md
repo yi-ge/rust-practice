@@ -393,6 +393,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [强整数](src/map/powerful_integers.rs)  [哈希表, 数学]
+
+  - LeetCode 970. 强整数 <https://leetcode.cn/problems/powerful-integers>
+
 - [统计只差一个字符的子串数目](src/map/count_substrings_that_differ_by_one_character.rs)  [哈希表, 字符串, 动态规划]
 
   - LeetCode 1638. 统计只差一个字符的子串数目 <https://leetcode.cn/problems/count-substrings-that-differ-by-one-character>
