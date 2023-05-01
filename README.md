@@ -275,6 +275,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [餐盘栈](src/stack/dinner_plate_stacks.rs)  [栈, 设计, 哈希表, 堆（优先队列）]
+
+  - LeetCode 1172. 餐盘栈 <https://leetcode.cn/problems/dinner-plate-stacks>
+
 - [链表中的下一个更大节点](src/stack/next_greater_node_in_linked_list.rs)  [栈, 数组, 链表, 单调栈]
 
   - LeetCode 1019. 链表中的下一个更大节点 <https://leetcode.cn/problems/next-greater-node-in-linked-list>
@@ -308,6 +312,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
   - LeetCode 1475. 商品折扣后的最终价格 <https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop>
 
 ### 树
+
+- [通知所有员工所需的时间](src/tree/time_needed_to_inform_all_employees.rs)  [树, 深度优先搜索, 广度优先搜索]
+
+  - LeetCode 1376. 通知所有员工所需的时间 <https://leetcode.cn/problems/time-needed-to-inform-all-employees>
 
 - [节点与其祖先之间的最大差值](src/tree/maximum_difference_between_node_and_ancestor.rs)  [树, 深度优先搜索, 二叉树]
 
@@ -396,6 +404,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [强整数](src/map/powerful_integers.rs)  [哈希表, 数学]
 
   - LeetCode 970. 强整数 <https://leetcode.cn/problems/powerful-integers>
+
+- [删除字符使频率相同](src/map/remove_letter_to_equalize_frequency.rs)  [哈希表, 字符串, 计数]
+
+  - LeetCode 2423. 删除字符使频率相同 <https://leetcode.cn/problems/remove-letter-to-equalize-frequency>
 
 - [统计只差一个字符的子串数目](src/map/count_substrings_that_differ_by_one_character.rs)  [哈希表, 字符串, 动态规划]
 
