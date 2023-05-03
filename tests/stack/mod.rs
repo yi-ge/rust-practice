@@ -7,3 +7,4 @@ pub mod minimum_add_to_make_parentheses_valid_test;
 pub mod shortest_subarray_to_be_removed_to_make_array_sorted_test;
 pub mod next_greater_node_in_linked_list_test;
 pub mod dinner_plate_stacks_test;
+pub mod check_if_word_is_valid_after_substitutions_test;
