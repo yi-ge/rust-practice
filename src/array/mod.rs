@@ -31,3 +31,4 @@ pub mod zero_matrix_lcci;
 pub mod filling_bookcase_shelves;
 pub mod maximum_sum_of_two_non_overlapping_subarrays;
 pub mod longest_string_chain;
+pub mod maximum_fruits_harvested_after_at_most_k_steps;
