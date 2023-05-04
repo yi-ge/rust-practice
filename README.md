@@ -141,6 +141,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [处理用时最长的那个任务的员工](src/array/the_employee_that_worked_on_the_longest_task.rs)  [数组]
+
+  - LeetCode 2432. 处理用时最长的那个任务的员工 <https://leetcode.cn/problems/the-employee-that-worked-on-the-longest-task>
+
 - [摘水果](src/array/maximum_fruits_harvested_after_at_most_k_steps.rs)  [数组, 二分查找, 前缀和, 滑动窗口]
 
   - LeetCode 2106. 摘水果 <https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps>

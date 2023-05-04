@@ -32,3 +32,4 @@ pub mod filling_bookcase_shelves_test;
 pub mod maximum_sum_of_two_non_overlapping_subarrays_test;
 pub mod longest_string_chain_test;
 pub mod maximum_fruits_harvested_after_at_most_k_steps_test;
+pub mod the_employee_that_worked_on_the_longest_task_test;
