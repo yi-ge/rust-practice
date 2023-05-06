@@ -145,6 +145,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [总持续时间可被 60 整除的歌曲](src/array/pairs_of_songs_with_total_durations_divisible_by_60.rs)  [数组, 哈希表, 计数]
+
+  - LeetCode 1010. 总持续时间可被 60 整除的歌曲 <https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60>
+
 - [处理用时最长的那个任务的员工](src/array/the_employee_that_worked_on_the_longest_task.rs)  [数组]
 
   - LeetCode 2432. 处理用时最长的那个任务的员工 <https://leetcode.cn/problems/the-employee-that-worked-on-the-longest-task>
