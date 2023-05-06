@@ -103,6 +103,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [数青蛙](src/string/minimum_number_of_frogs_croaking.rs)  [字符串, 计数]
+
+  - LeetCode 1419. 数青蛙 <https://leetcode.cn/problems/minimum-number-of-frogs-croaking>
+
 - [按字典序排在最后的子串](src/string/last_substring_in_lexicographical_order.rs)  [双指针, 字符串]
 
   - LeetCode 1163. 按字典序排在最后的子串 <https://leetcode.cn/problems/last-substring-in-lexicographical-order>
