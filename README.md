@@ -103,6 +103,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [数青蛙](src/string/minimum_number_of_frogs_croaking.rs)  [字符串, 计数]
+
+  - LeetCode 1419. 数青蛙 <https://leetcode.cn/problems/minimum-number-of-frogs-croaking>
+
 - [按字典序排在最后的子串](src/string/last_substring_in_lexicographical_order.rs)  [双指针, 字符串]
 
   - LeetCode 1163. 按字典序排在最后的子串 <https://leetcode.cn/problems/last-substring-in-lexicographical-order>
@@ -140,6 +144,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
   - LeetCode 1417. 重新格式化字符串 <https://leetcode.cn/problems/reformat-the-string>
 
 ### 数组/队列/集合/映射
+
+- [总持续时间可被 60 整除的歌曲](src/array/pairs_of_songs_with_total_durations_divisible_by_60.rs)  [数组, 哈希表, 计数]
+
+  - LeetCode 1010. 总持续时间可被 60 整除的歌曲 <https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60>
 
 - [处理用时最长的那个任务的员工](src/array/the_employee_that_worked_on_the_longest_task.rs)  [数组]
 

@@ -7,3 +7,4 @@ pub mod shortest_common_supersequence;
 pub mod masking_personal_information;
 pub mod longest_chunked_palindrome_decomposition;
 pub mod last_substring_in_lexicographical_order;
+pub mod minimum_number_of_frogs_croaking;
