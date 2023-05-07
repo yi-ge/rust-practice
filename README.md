@@ -413,6 +413,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [推箱子](src/search/minimum_moves_to_move_a_box_to_their_target_location.rs)  [广度优先搜索, 数组, 矩阵, 堆（优先队列）]
+
+  - LeetCode 1263. 推箱子 <https://leetcode.cn/problems/minimum-moves-to-move-a-box-to-their-target-location>
+
 - [强整数](src/map/powerful_integers.rs)  [哈希表, 数学]
 
   - LeetCode 970. 强整数 <https://leetcode.cn/problems/powerful-integers>

@@ -13,3 +13,4 @@ pub mod sort;
 pub mod stack;
 pub mod string;
 pub mod tree;
+pub mod search;

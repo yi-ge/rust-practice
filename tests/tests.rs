@@ -15,3 +15,4 @@ mod sort;
 mod stack;
 mod string;
 mod tree;
+mod search;
