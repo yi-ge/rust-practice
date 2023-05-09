@@ -103,6 +103,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [有效时间的数目](src/string/number_of_valid_clock_times.rs)  [字符串, 枚举]
+
+  - LeetCode 2437. 有效时间的数目 <https://leetcode.cn/problems/number-of-valid-clock-times>
+
 - [数青蛙](src/string/minimum_number_of_frogs_croaking.rs)  [字符串, 计数]
 
   - LeetCode 1419. 数青蛙 <https://leetcode.cn/problems/minimum-number-of-frogs-croaking>
