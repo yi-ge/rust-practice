@@ -4,3 +4,4 @@ pub mod get_kth_magic_number_lcci;
 pub mod powerful_integers;
 pub mod remove_letter_to_equalize_frequency;
 pub mod valid_anagram;
+pub mod smallest_integer_divisible_by_k;

@@ -425,6 +425,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [可被 K 整除的最小整数](src/map/smallest_integer_divisible_by_k.rs)  [哈希表, 数学]
+
+  - LeetCode 1015. 可被 K 整除的最小整数 <https://leetcode.cn/problems/smallest-integer-divisible-by-k>
+
 - [推箱子](src/search/minimum_moves_to_move_a_box_to_their_target_location.rs)  [广度优先搜索, 数组, 矩阵, 堆（优先队列）]
 
   - LeetCode 1263. 推箱子 <https://leetcode.cn/problems/minimum-moves-to-move-a-box-to-their-target-location>
