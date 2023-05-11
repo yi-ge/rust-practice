@@ -103,6 +103,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [子串能表示从 1 到 N 数字的二进制串](src/string/binary_string_with_substrings_representing_1_to_n.rs)  [字符串]
+
+  - LeetCode 1016. 子串能表示从 1 到 N 数字的二进制串 <https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n>
+
 - [有效时间的数目](src/string/number_of_valid_clock_times.rs)  [字符串, 枚举]
 
   - LeetCode 2437. 有效时间的数目 <https://leetcode.cn/problems/number-of-valid-clock-times>
