@@ -66,6 +66,7 @@
     "preorder",
     "reactjs",
     "repost",
+    "repunit",
     "rngs",
     "RUSTDOCFLAGS",
     "RUSTFLAGS",
@@ -90,6 +91,5 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
-  },
-  "rust-analyzer.linkedProjects": [".\\Cargo.toml"]
+  }
 }
