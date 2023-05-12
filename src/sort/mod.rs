@@ -11,3 +11,4 @@ pub mod widest_vertical_area_between_two_points_containing_no_points;
 pub mod moving_stones_until_consecutive_ii;
 pub mod make_array_strictly_increasing;
 pub mod sort_the_people;
+pub mod largest_positive_integer_that_exists_with_its_negative;

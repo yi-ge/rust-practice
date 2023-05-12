@@ -391,6 +391,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [与对应负数同时存在的最大正整数](src/sort/largest_positive_integer_that_exists_with_its_negative.rs)  [数组, 哈希表, 双指针, 排序]
+
+  - LeetCode 2441. 与对应负数同时存在的最大正整数 <https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative>
+
 - [按身高排序](src/sort/sort_the_people.rs)  [数组, 哈希表, 字符串, 排序]
 
   - LeetCode 2418. 按身高排序 <https://leetcode.cn/problems/sort-the-people>
