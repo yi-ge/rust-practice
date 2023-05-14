@@ -7,7 +7,7 @@ use std::cmp::Ordering;
 pub struct Solution;
 
 impl Solution {
-    pub fn hardest_worker(n: i32, logs: Vec<Vec<i32>>) -> i32 {
+    pub fn hardest_worker(_n: i32, logs: Vec<Vec<i32>>) -> i32 {
         let mut ans = logs[0][0];
         let mut max_cost = logs[0][1];
         for i in 1..logs.len() {

@@ -403,6 +403,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [距离相等的条形码](src/sort/distant_barcodes.rs)  [贪心, 数组, 哈希表, 计数, 排序, 堆（优先队列）]
+
+  - LeetCode 1054. 距离相等的条形码 <https://leetcode.cn/problems/distant-barcodes>
+
 - [与对应负数同时存在的最大正整数](src/sort/largest_positive_integer_that_exists_with_its_negative.rs)  [数组, 哈希表, 双指针, 排序]
 
   - LeetCode 2441. 与对应负数同时存在的最大正整数 <https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative>
