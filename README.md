@@ -153,6 +153,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [按列翻转得到最大值等行数](src/array/flip_columns_for_maximum_number_of_equal_rows.rs)  [数组, 哈希表, 矩阵]
+
+  - LeetCode 1072. 按列翻转得到最大值等行数 <https://leetcode.cn/problems/flip-columns-for-maximum-number-of-equal-rows>
+
 - [翻转子数组得到最大的数组值](src/array/reverse_subarray_to_maximize_array_value.rs)  [贪心, 数组, 数学]
 
   - LeetCode 1330. 翻转子数组得到最大的数组值 <https://leetcode.cn/problems/reverse-subarray-to-maximize-array-value>

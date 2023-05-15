@@ -10,7 +10,7 @@ impl Solution {
         let chars: Vec<char> = s.chars().collect();
         let mut i = 0;
         let mut j = 1;
-        #[warn(unused_assignments)]
+        #[allow(unused_assignments)]
         let mut k: usize = 0;
 
         while j < n {
