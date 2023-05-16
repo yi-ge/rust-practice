@@ -36,3 +36,4 @@ pub mod the_employee_that_worked_on_the_longest_task_test;
 pub mod pairs_of_songs_with_total_durations_divisible_by_60_test;
 pub mod reverse_subarray_to_maximize_array_value_test;
 pub mod flip_columns_for_maximum_number_of_equal_rows_test;
+pub mod minimum_difficulty_of_a_job_schedule_test;

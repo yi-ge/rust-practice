@@ -36,3 +36,4 @@ pub mod the_employee_that_worked_on_the_longest_task;
 pub mod pairs_of_songs_with_total_durations_divisible_by_60;
 pub mod reverse_subarray_to_maximize_array_value;
 pub mod flip_columns_for_maximum_number_of_equal_rows;
+pub mod minimum_difficulty_of_a_job_schedule;

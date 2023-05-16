@@ -153,6 +153,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [工作计划的最低难度](src/array/minimum_difficulty_of_a_job_schedule.rs)  [数组, 动态规划]
+
+  - LeetCode 1335. 工作计划的最低难度 <https://leetcode.cn/problems/minimum-difficulty-of-a-job-schedule>
+
 - [按列翻转得到最大值等行数](src/array/flip_columns_for_maximum_number_of_equal_rows.rs)  [数组, 哈希表, 矩阵]
 
   - LeetCode 1072. 按列翻转得到最大值等行数 <https://leetcode.cn/problems/flip-columns-for-maximum-number-of-equal-rows>
