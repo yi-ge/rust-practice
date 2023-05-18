@@ -38,3 +38,4 @@ pub mod reverse_subarray_to_maximize_array_value;
 pub mod flip_columns_for_maximum_number_of_equal_rows;
 pub mod minimum_difficulty_of_a_job_schedule;
 pub mod determine_if_two_events_have_conflict;
+pub mod adding_two_negabinary_numbers;

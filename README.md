@@ -153,6 +153,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [负二进制数相加](src/array/adding_two_negabinary_numbers.rs)  [数组, 数学]
+
+  - LeetCode 1073. 负二进制数相加 <https://leetcode.cn/problems/adding-two-negabinary-numbers>
+
 - [判断两个事件是否存在冲突](src/array/determine_if_two_events_have_conflict.rs)  [数组, 字符串]
 
   - LeetCode 2446. 判断两个事件是否存在冲突 <https://leetcode.cn/problems/determine-if-two-events-have-conflict>
