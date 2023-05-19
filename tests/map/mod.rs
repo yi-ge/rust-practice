@@ -5,3 +5,4 @@ pub mod powerful_integers_test;
 pub mod remove_letter_to_equalize_frequency_test;
 pub mod valid_anagram_test;
 pub mod smallest_integer_divisible_by_k_test;
+pub mod letter_tile_possibilities_test;

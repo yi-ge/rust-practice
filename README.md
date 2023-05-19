@@ -457,6 +457,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [活字印刷](src/map/letter_tile_possibilities.rs)  [哈希表, 字符串, 回溯, 计数]
+
+  - LeetCode 1079. 活字印刷 <https://leetcode.cn/problems/letter-tile-possibilities>
+
 - [可被 K 整除的最小整数](src/map/smallest_integer_divisible_by_k.rs)  [哈希表, 数学]
 
   - LeetCode 1015. 可被 K 整除的最小整数 <https://leetcode.cn/problems/smallest-integer-divisible-by-k>
