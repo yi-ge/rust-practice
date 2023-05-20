@@ -361,6 +361,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 树
 
+- [二叉搜索子树的最大键值和](src/tree/maximum_sum_bst_in_binary_tree.rs)  [树, 深度优先搜索, 二叉搜索树, 动态规划, 二叉树]
+
+  - LeetCode 1373. 二叉搜索子树的最大键值和 <https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree>
+
 - [通知所有员工所需的时间](src/tree/time_needed_to_inform_all_employees.rs)  [树, 深度优先搜索, 广度优先搜索]
 
   - LeetCode 1376. 通知所有员工所需的时间 <https://leetcode.cn/problems/time-needed-to-inform-all-employees>
