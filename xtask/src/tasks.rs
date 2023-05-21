@@ -39,12 +39,16 @@ pub fn ci() -> AnyResult<()> {
 /// # Errors
 /// Fails if any command fails
 ///
-pub fn coverage(devmode: bool) -> AnyResult<()> {
+pub fn coverage(devmode: bool, test_name: Option<&str>) -> AnyResult<()> {
     remove_dir("coverage")?;
     create_dir_all("coverage")?;
 
     println!("=== running coverage ===");
-    cmd!("cargo", "test")
+    let mut command = cmd!("cargo", "test");
+    if let Some(name) = test_name {
+        command = cmd!("cargo", "test", "--", name);
+    }
+    command
         .env("CARGO_INCREMENTAL", "0")
         .env("RUSTFLAGS", "-Cinstrument-coverage")
         // .env("RUSTFLAGS", "-Zprofile -Ccodegen-units=1 -Copt-level=0 -Clink-dead-code -Coverflow-checks=off -Zpanic_abort_tests -Cpanic=abort")

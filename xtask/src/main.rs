@@ -10,13 +10,21 @@ fn main() -> Result<(), anyhow::Error> {
     let cli = Command::new("xtask")
         .setting(AppSettings::SubcommandRequiredElseHelp)
         .subcommand(
-            Command::new("coverage").arg(
-                Arg::new("dev")
-                    .short('d')
-                    .long("dev")
-                    .help("generate an html report")
-                    .takes_value(false),
-            ),
+            Command::new("coverage")
+                .arg(
+                    Arg::new("dev")
+                        .short('d')
+                        .long("dev")
+                        .help("generate an html report")
+                        .takes_value(false),
+                )
+                .arg(
+                    Arg::new("test_name")
+                        .short('t')
+                        .long("test")
+                        .help("specify a single test to run coverage for")
+                        .takes_value(true),
+                ),
         )
         .subcommand(Command::new("vars"))
         .subcommand(Command::new("ci"))
@@ -28,7 +36,7 @@ fn main() -> Result<(), anyhow::Error> {
 
     let root = ops::root_dir();
     let res = match matches.subcommand() {
-        Some(("coverage", sm)) => tasks::coverage(sm.is_present("dev")),
+        Some(("coverage", sm)) => tasks::coverage(sm.is_present("dev"), sm.value_of("test_name")),
         Some(("vars", _)) => {
             println!("root: {:?}", root);
             Ok(())

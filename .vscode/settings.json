@@ -43,6 +43,7 @@
     "defabc",
     "defxyabc",
     "Deque",
+    "devmode",
     "dialoguer",
     "emibcn",
     "erbottlewat",
@@ -71,6 +72,7 @@
     "repost",
     "repunit",
     "rngs",
+    "rustc",
     "RUSTDOCFLAGS",
     "RUSTFLAGS",
     "rustup",
@@ -95,5 +97,5 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
   },
-  "rust-analyzer.runnables.command": "${workspaceFolder}/bin/cargo"
+  "rust-analyzer.runnables.command": "python ${workspaceFolder}/bin/cargo.py"
 }

@@ -6,6 +6,12 @@ import subprocess
 import re
 
 def main():
+    test_name = None
+    for idx, arg in enumerate(sys.argv):
+        if arg == "--" and len(sys.argv) > idx + 1:
+            test_name = sys.argv[idx + 1]
+            break
+
     cmd = ["cargo"] + sys.argv[1:]
     print("Executing command:", " ".join(cmd))
     result = subprocess.run(cmd, capture_output=True, text=True)
@@ -15,6 +21,8 @@ def main():
 
     if test_result_pattern.search(result.stdout):
         coverage_cmd = ["cargo", "xtask", "coverage"]
+        if test_name:
+            coverage_cmd.extend(["--", "--test-name", test_name])
         print("Executing command:", " ".join(coverage_cmd))
         coverage_result = subprocess.run(coverage_cmd)
     else:
