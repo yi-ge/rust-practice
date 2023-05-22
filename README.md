@@ -431,6 +431,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [受标签影响的最大值](src/sort/largest_values_from_labels.rs)  [贪心, 数组, 哈希表, 计数, 排序]
+
+  - LeetCode 1090. 受标签影响的最大值 <https://leetcode.cn/problems/largest-values-from-labels>
+
 - [距离相等的条形码](src/sort/distant_barcodes.rs)  [贪心, 数组, 哈希表, 计数, 排序, 堆（优先队列）]
 
   - LeetCode 1054. 距离相等的条形码 <https://leetcode.cn/problems/distant-barcodes>
