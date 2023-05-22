@@ -22,7 +22,7 @@ def main():
     if test_result_pattern.search(result.stdout):
         coverage_cmd = ["cargo", "xtask", "coverage"]
         if test_name:
-            coverage_cmd.extend(["--", "--test-name", test_name])
+            coverage_cmd.extend(["name="+test_name])
         print("Executing command:", " ".join(coverage_cmd))
         coverage_result = subprocess.run(coverage_cmd)
     else:

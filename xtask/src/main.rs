@@ -19,9 +19,7 @@ fn main() -> Result<(), anyhow::Error> {
                         .takes_value(false),
                 )
                 .arg(
-                    Arg::new("test_name")
-                        .short('t')
-                        .long("test")
+                    Arg::new("name")
                         .help("specify a single test to run coverage for")
                         .takes_value(true),
                 ),
@@ -36,7 +34,7 @@ fn main() -> Result<(), anyhow::Error> {
 
     let root = ops::root_dir();
     let res = match matches.subcommand() {
-        Some(("coverage", sm)) => tasks::coverage(sm.is_present("dev"), sm.value_of("test_name")),
+        Some(("coverage", sm)) => tasks::coverage(sm.is_present("dev"), sm.value_of("name")),
         Some(("vars", _)) => {
             println!("root: {:?}", root);
             Ok(())

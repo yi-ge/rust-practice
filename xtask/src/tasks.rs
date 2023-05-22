@@ -46,7 +46,21 @@ pub fn coverage(devmode: bool, test_name: Option<&str>) -> AnyResult<()> {
     println!("=== running coverage ===");
     let mut command = cmd!("cargo", "test");
     if let Some(name) = test_name {
-        command = cmd!("cargo", "test", "--", name);
+        // 移除字符串开头的name=
+        let name = name.trim_start_matches("name=");
+        println!("=== running coverage for single test ===");
+        println!("test name: {}", name);
+        command = cmd!(
+            "cargo",
+            "test",
+            "--package",
+            "rust-practice",
+            "--test",
+            "integration",
+            "--",
+            name,
+            "--exact"
+        );
     }
     command
         .env("CARGO_INCREMENTAL", "0")
