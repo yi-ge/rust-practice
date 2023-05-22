@@ -365,6 +365,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 树
 
+- [根到叶路径上的不足节点](src/tree/insufficient_nodes_in_root_to_leaf_paths.rs)  [树, 深度优先搜索, 二叉树]
+
+  - LeetCode 1080. 根到叶路径上的不足节点 <https://leetcode.cn/problems/insufficient-nodes-in-root-to-leaf-paths>
+
 - [二叉搜索子树的最大键值和](src/tree/maximum_sum_bst_in_binary_tree.rs)  [树, 深度优先搜索, 二叉搜索树, 动态规划, 二叉树]
 
   - LeetCode 1373. 二叉搜索子树的最大键值和 <https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree>

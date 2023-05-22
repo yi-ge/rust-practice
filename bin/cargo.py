@@ -14,7 +14,7 @@ def main():
 
     cmd = ["cargo"] + sys.argv[1:]
     print("Executing command:", " ".join(cmd))
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
     print(result.stdout)
 
     test_result_pattern = re.compile(r"test result: ok.*failed;")

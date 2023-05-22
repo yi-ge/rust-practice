@@ -97,5 +97,5 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
   },
-  "rust-analyzer.runnables.command": "python ${workspaceFolder}/bin/cargo.py"
+  "rust-analyzer.runnables.command": "python3 ${workspaceFolder}/bin/cargo.py"
 }
