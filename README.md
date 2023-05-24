@@ -421,6 +421,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 图
 
+- [T 秒后青蛙的位置](src/graphs/frog_position_after_t_seconds.rs)  [树, 深度优先搜索, 广度优先搜索, 图]
+
+  - LeetCode 1377. T 秒后青蛙的位置 <https://leetcode.cn/problems/frog-position-after-t-seconds>
+
 - [不邻接植花](src/graphs/flower_planting_with_no_adjacent.rs)  [深度优先搜索, 广度优先搜索, 图]
 
   - LeetCode 1042. 不邻接植花 <https://leetcode.cn/problems/flower-planting-with-no-adjacent>

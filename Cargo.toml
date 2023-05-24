@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+approx = "0.5"
 # reformat_the_string = { path = "./src/string/reformat_the_string.rs" }
 
 [[test]]
