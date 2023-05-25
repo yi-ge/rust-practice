@@ -38,7 +38,7 @@ jobs:
 
       - name: Publish Test Results
         id: test-results
-        run: python bin/test.py
+        run: python bin/ci_test_helper.py
         if: always()
 
       - name: Set badge color
