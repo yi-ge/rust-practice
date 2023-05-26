@@ -481,6 +481,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [二进制矩阵中的最短路径](src/search/shortest_path_in_binary_matrix.rs)  [广度优先搜索, 数组, 矩阵]
+
+  - LeetCode 1091. 二进制矩阵中的最短路径 <https://leetcode.cn/problems/shortest-path-in-binary-matrix>
+
 - [活字印刷](src/map/letter_tile_possibilities.rs)  [哈希表, 字符串, 回溯, 计数]
 
   - LeetCode 1079. 活字印刷 <https://leetcode.cn/problems/letter-tile-possibilities>
