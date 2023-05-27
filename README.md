@@ -153,6 +153,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [大样本统计](src/array/statistics_from_a_large_sample.rs)  [数组, 数学, 概率与统计]
+
+  - LeetCode 1093. 大样本统计 <https://leetcode.cn/problems/statistics-from-a-large-sample>
+
 - [差值数组不同的字符串](src/array/odd_string_difference.rs)  [数组, 哈希表, 字符串]
 
   - LeetCode 2451. 差值数组不同的字符串 <https://leetcode.cn/problems/odd-string-difference>
