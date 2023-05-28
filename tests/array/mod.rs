@@ -42,3 +42,4 @@ pub mod two_sum_test;
 pub mod zero_matrix_lcci_test;
 pub mod odd_string_difference_test;
 pub mod statistics_from_a_large_sample_test;
+pub mod find_the_kth_smallest_sum_of_a_matrix_with_sorted_rows_test;
