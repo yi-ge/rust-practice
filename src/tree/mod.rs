@@ -9,3 +9,4 @@ pub mod maximum_difference_between_node_and_ancestor;
 pub mod time_needed_to_inform_all_employees;
 pub mod maximum_sum_bst_in_binary_tree;
 pub mod insufficient_nodes_in_root_to_leaf_paths;
+pub mod delete_nodes_and_return_forest;

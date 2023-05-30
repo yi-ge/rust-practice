@@ -381,6 +381,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 树
 
+- [删点成林](src/tree/delete_nodes_and_return_forest.rs)  [树, 深度优先搜索, 数组, 哈希表, 二叉树]
+
+  - LeetCode 1110. 删点成林 <https://leetcode.cn/problems/delete-nodes-and-return-forest>
+
 - [根到叶路径上的不足节点](src/tree/insufficient_nodes_in_root_to_leaf_paths.rs)  [树, 深度优先搜索, 二叉树]
 
   - LeetCode 1080. 根到叶路径上的不足节点 <https://leetcode.cn/problems/insufficient-nodes-in-root-to-leaf-paths>

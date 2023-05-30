@@ -110,6 +110,29 @@ pub fn tree_node_to_vec(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Option<i32>>
     res
 }
 
+// 用于比较的辅助方法
+// tree_to_vec 函数使用了深度优先搜索来遍历树，然后返回一个包含所有节点值的向量。这个向量是经过排序的，所以你可以直接比较两个向量是否相等。
+pub fn tree_to_vec(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+    let mut res = Vec::new();
+    let mut stack = Vec::new();
+    if let Some(node) = root {
+        stack.push(node.clone());
+    }
+    while !stack.is_empty() {
+        let node = stack.pop().unwrap();
+        let node = node.borrow();
+        res.push(node.val);
+        if let Some(right) = &node.right {
+            stack.push(right.clone());
+        }
+        if let Some(left) = &node.left {
+            stack.push(left.clone());
+        }
+    }
+    res.sort_unstable();
+    res
+}
+
 #[macro_export]
 macro_rules! tree {
     () => { None };
