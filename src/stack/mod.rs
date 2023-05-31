@@ -8,3 +8,4 @@ pub mod shortest_subarray_to_be_removed_to_make_array_sorted;
 pub mod next_greater_node_in_linked_list;
 pub mod dinner_plate_stacks;
 pub mod check_if_word_is_valid_after_substitutions;
+pub mod minimum_cost_tree_from_leaf_values;

@@ -339,6 +339,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [叶值的最小代价生成树](src/stack/minimum_cost_tree_from_leaf_values.rs)  [栈, 贪心, 数组, 动态规划, 单调栈]
+
+  - LeetCode 1130. 叶值的最小代价生成树 <https://leetcode.cn/problems/minimum-cost-tree-from-leaf-values>
+
 - [检查替换后的词是否有效](src/stack/check_if_word_is_valid_after_substitutions.rs)  [栈, 字符串]
 
   - LeetCode 1003. 检查替换后的词是否有效 <https://leetcode.cn/problems/check-if-word-is-valid-after-substitutions>
