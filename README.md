@@ -459,6 +459,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [礼盒的最大甜蜜度](src/sort/maximum_tastiness_of_candy_basket.rs)  [数组, 二分查找, 排序]
+
+  - LeetCode 2517. 礼盒的最大甜蜜度 <https://leetcode.cn/problems/maximum-tastiness-of-candy-basket>
+
 - [受标签影响的最大值](src/sort/largest_values_from_labels.rs)  [贪心, 数组, 哈希表, 计数, 排序]
 
   - LeetCode 1090. 受标签影响的最大值 <https://leetcode.cn/problems/largest-values-from-labels>

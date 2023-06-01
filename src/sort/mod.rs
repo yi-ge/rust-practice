@@ -14,3 +14,4 @@ pub mod sort_the_people;
 pub mod largest_positive_integer_that_exists_with_its_negative;
 pub mod distant_barcodes;
 pub mod largest_values_from_labels;
+pub mod maximum_tastiness_of_candy_basket;

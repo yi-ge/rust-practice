@@ -14,3 +14,4 @@ pub mod select_sort_test;
 pub mod sort_an_array_test;
 pub mod sort_the_people_test;
 pub mod widest_vertical_area_between_two_points_containing_no_points_test;
+pub mod maximum_tastiness_of_candy_basket_test;
