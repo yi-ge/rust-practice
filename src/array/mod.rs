@@ -44,3 +44,4 @@ pub mod odd_string_difference;
 pub mod statistics_from_a_large_sample;
 pub mod find_the_kth_smallest_sum_of_a_matrix_with_sorted_rows;
 pub mod average_value_of_even_numbers_that_are_divisible_by_three;
+pub mod count_vowel_strings_in_ranges;

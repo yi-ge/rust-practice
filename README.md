@@ -153,6 +153,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [统计范围内的元音字符串数](src/array/count_vowel_strings_in_ranges.rs)  [数组, 字符串, 前缀和]
+
+  - LeetCode 2559. 统计范围内的元音字符串数 <https://leetcode.cn/problems/count-vowel-strings-in-ranges>
+
 - [可被三整除的偶数的平均值](src/array/average_value_of_even_numbers_that_are_divisible_by_three.rs)  [数组, 数学]
 
   - LeetCode 2455. 可被三整除的偶数的平均值 <https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three>
