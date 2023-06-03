@@ -6,6 +6,7 @@
 pub struct Solution;
 
 impl Solution {
+    // 合并两个有序数组
     fn merge(nums: &mut Vec<i32>, left: usize, middle: usize, right: usize) {
         let mut i = left;
         let mut j = middle + 1;
@@ -33,12 +34,15 @@ impl Solution {
             }
         }
 
+        // 将排序后的数组复制回原数组
         for i in 0..=(right - left) {
             nums[left + i] = temp[i];
         }
     }
 
+    // 计算翻转对的数量
     fn merge_sort_recursion_count(nums: &mut Vec<i32>, left: usize, right: usize) -> usize {
+        // 递归终止条件
         if left >= right {
             return 0;
         }
@@ -61,6 +65,7 @@ impl Solution {
             }
         }
 
+        // 合并两个有序数组
         Self::merge(nums, left, middle, right);
         count
     }

@@ -11,32 +11,33 @@ pub struct Solution;
 impl Solution {
     pub fn make_array_increasing(arr1: Vec<i32>, arr2: Vec<i32>) -> i32 {
         let mut arr2_sorted = arr2.clone();
-        arr2_sorted.sort();
-        arr2_sorted.dedup();
-        let n = arr1.len();
-        let m = arr2_sorted.len();
-        let mut dp = vec![vec![INF; cmp::min(m, n) + 1]; n + 1];
-        dp[0][0] = -1;
+        arr2_sorted.sort(); // 将arr2排序
+        arr2_sorted.dedup(); // 去重
+        let n = arr1.len(); // arr1的长度
+        let m = arr2_sorted.len(); // 去重后的arr2的长度
+        let mut dp = vec![vec![INF; cmp::min(m, n) + 1]; n + 1]; // dp数组，用于动态规划
+        dp[0][0] = -1; // 初始化
         for i in 1..=n {
             for j in 0..=cmp::min(i, m) {
-                // If the current element is greater than the last element in the sequence
+                // 如果当前元素比序列中最后一个元素大
                 if arr1[i - 1] > dp[i - 1][j] {
-                    dp[i][j] = arr1[i - 1];
+                    dp[i][j] = arr1[i - 1]; // 直接将当前元素加入序列
                 }
                 if j > 0 && dp[i - 1][j - 1] != INF {
-                    // Find the smallest element strictly greater than dp[i - 1][j - 1]
+                    // 找到大于dp[i - 1][j - 1]的最小元素
                     let idx = arr2_sorted
                         .binary_search_by(|probe| probe.cmp(&(dp[i - 1][j - 1] + 1)))
                         .unwrap_or_else(|err| err);
                     if idx < arr2_sorted.len() {
-                        dp[i][j] = cmp::min(dp[i][j], arr2_sorted[idx]);
+                        dp[i][j] = cmp::min(dp[i][j], arr2_sorted[idx]); // 更新dp值
                     }
                 }
                 if i == n && dp[i][j] != INF {
-                    return j as i32;
+                    // 如果已经遍历完arr1并且存在符合要求的序列
+                    return j as i32; // 返回最小的步数
                 }
             }
         }
-        -1
+        -1 // 没有符合要求的序列，返回-1
     }
 }

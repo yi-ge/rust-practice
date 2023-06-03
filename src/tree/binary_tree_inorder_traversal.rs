@@ -35,29 +35,36 @@ impl Solution {
         }
 
         let mut stack = vec![]; // 用栈保存需要处理的结点
-        let mut node = root.clone();
+        let mut node = root.clone(); // 复制一份根结点，避免修改原结点
 
+        // 当结点不为空或栈不为空时，进行循环
         while node.is_some() || !stack.is_empty() {
+            // 将结点的所有左子结点都压入栈中
             while let Some(n) = node {
-                stack.push(n.clone());
-                node = n.borrow().left.clone();
+                stack.push(n.clone()); // 将结点复制并压入栈中
+                node = n.borrow().left.clone(); // 处理左子结点
             }
 
+            // 如果栈不为空，弹出栈顶结点，并处理右子结点
             if let Some(n) = stack.pop() {
-                res.push(n.borrow().val);
-                node = n.borrow().right.clone();
+                res.push(n.borrow().val); // 处理栈顶结点
+                node = n.borrow().right.clone(); // 处理右子结点
             }
         }
 
-        res
+        res // 返回结果
     }
 
+    // 递归函数，用于中序遍历二叉树
     fn inorder_recursive(root: Option<Rc<RefCell<TreeNode>>>, res: &mut Vec<i32>) {
         match root {
-            None => return,
+            None => return, // 如果结点为空，直接返回
             Some(node) => {
+                // 先处理左子结点
                 Self::inorder_recursive(node.borrow().left.clone(), res);
+                // 再处理根结点
                 res.push(node.borrow().val);
+                // 最后处理右子结点
                 Self::inorder_recursive(node.borrow().right.clone(), res);
             }
         }
@@ -70,8 +77,8 @@ impl Solution {
             return res;
         }
 
-        Self::inorder_recursive(root, &mut res);
+        Self::inorder_recursive(root, &mut res); // 调用递归函数
 
-        res
+        res // 返回结果
     }
 }

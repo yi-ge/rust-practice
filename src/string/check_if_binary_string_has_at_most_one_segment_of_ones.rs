@@ -6,6 +6,7 @@ pub struct Solution;
 
 impl Solution {
     pub fn check_ones_segment(s: String) -> bool {
+        // 如果字符串中包含"01"，说明有至少两段连续的1出现，返回false
         !s.contains("01")
     }
 }

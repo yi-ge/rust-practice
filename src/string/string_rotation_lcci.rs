@@ -7,29 +7,35 @@ pub struct Solution;
 
 impl Solution {
     pub fn is_fliped_string(s1: String, s2: String) -> bool {
-        let n = s1.len();
+        let n = s1.len(); // 获取字符串s1的长度
         if s2.len() != n {
-            return false;
+            // 如果字符串s2长度不等于s1的长度
+            return false; // 返回false
         }
 
         if n == 0 {
-            return true;
+            // 如果s1的长度为0
+            return true; // 返回true
         }
 
         for i in 0..n {
-            let mut flag = true;
+            // 遍历s1的长度
+            let mut flag = true; // 定义flag为true
             for j in 0..n {
-                let m = (i + j) % n;
+                // 遍历s1的长度
+                let m = (i + j) % n; // 计算出m的值
                 if &s1[m..=m] != &s2[j..=j] {
-                    flag = false;
-                    break;
+                    // 如果s1[m]不等于s2[j]
+                    flag = false; // 将flag设置为false
+                    break; // 跳出循环
                 }
             }
             if flag {
-                return true;
+                // 如果flag为true
+                return true; // 返回true
             }
         }
 
-        false
+        false // 否则返回false
     }
 }

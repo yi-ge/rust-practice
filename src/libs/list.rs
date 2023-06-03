@@ -2,7 +2,7 @@ use super::list_node::ListNode;
 
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub struct List {
-    pub head: Option<Box<ListNode>>,
+    pub head: Option<Box<ListNode>>, // 链表头节点
 }
 
 impl List {

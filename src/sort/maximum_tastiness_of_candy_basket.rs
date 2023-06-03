@@ -31,6 +31,7 @@ impl Solution {
         return left;
     }
 
+    // 检查是否可以以tastiness的美味度购买至少k件商品
     fn check(price: &Vec<i32>, k: i32, tastiness: i32) -> bool {
         // 初始化前一件商品的价格为最小整数
         let mut prev = i32::MIN >> 1;

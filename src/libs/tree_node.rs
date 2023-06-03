@@ -40,30 +40,36 @@ impl TreeNode {
 
 pub fn vec_to_tree_node(vec: &Vec<Option<i32>>) -> Option<Rc<RefCell<TreeNode>>> {
     if vec.get(0).is_none() {
+        // 如果向量为空，则返回 None
         return None;
     }
     if let Some(v) = vec[0] {
+        // 否则，新建一个根节点
         let root = Some(Rc::new(RefCell::new(TreeNode::new(v))));
-        let mut queue = VecDeque::new();
-        queue.push_back(root.as_ref().unwrap().clone());
+        let mut queue = VecDeque::new(); // 创建一个队列，用于层次遍历
+        queue.push_back(root.as_ref().unwrap().clone()); // 将根节点加入队列
         for children in vec[1..].chunks(2) {
+            // 对于剩下的节点，每次取两个，即为当前节点的左右子节点
             let mut iter = children.into_iter();
-            let parent = queue.pop_front().unwrap();
+            let parent = queue.pop_front().unwrap(); // 取出队列中的第一个节点，即为当前节点的父节点
             if let Some(Some(v)) = iter.next() {
+                // 如果有左子节点，则新建一个节点，并将其加入队列和父节点的 left 字段
                 parent.borrow_mut().left = Some(Rc::new(RefCell::new(TreeNode::new(*v))));
                 queue.push_back(parent.borrow().left.as_ref().unwrap().clone());
             }
             if let Some(Some(v)) = iter.next() {
+                // 如果有右子节点，同上
                 parent.borrow_mut().right = Some(Rc::new(RefCell::new(TreeNode::new(*v))));
                 queue.push_back(parent.borrow().right.as_ref().unwrap().clone());
             }
         }
-        root
+        root // 返回根节点
     } else {
         None
     }
 }
 
+// 将二叉树转换为向量
 pub fn tree_node_to_vec(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Option<i32>> {
     let mut res: Vec<Option<i32>> = vec![];
     if root.is_none() {
@@ -110,6 +116,7 @@ pub fn tree_node_to_vec(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Option<i32>>
     res
 }
 
+// 将二叉树转换为向量并排序
 // 用于比较的辅助方法
 // tree_to_vec 函数使用了深度优先搜索来遍历树，然后返回一个包含所有节点值的向量。这个向量是经过排序的，所以你可以直接比较两个向量是否相等。
 pub fn tree_to_vec(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
@@ -133,6 +140,7 @@ pub fn tree_to_vec(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
     res
 }
 
+// 宏定义，用于创建二叉树
 #[macro_export]
 macro_rules! tree {
     () => { None };

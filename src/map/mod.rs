@@ -1,9 +1,9 @@
 pub mod check_permutation_lcci;
 pub mod count_substrings_that_differ_by_one_character;
 pub mod get_kth_magic_number_lcci;
+pub mod letter_tile_possibilities;
 pub mod powerful_integers;
 pub mod remove_letter_to_equalize_frequency;
-pub mod valid_anagram;
 pub mod smallest_integer_divisible_by_k;
-pub mod letter_tile_possibilities;
 pub mod swap_for_longest_repeated_character_substring;
+pub mod valid_anagram;

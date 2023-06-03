@@ -19,6 +19,7 @@ impl Solution {
         nums
     }
 
+    // 归并排序的合并操作
     fn merge(nums: &mut Vec<i32>, left: usize, middle: usize, right: usize) {
         let mut i = left;
         let mut j = middle + 1;
@@ -26,6 +27,7 @@ impl Solution {
 
         let mut temp = vec![];
 
+        // 将nums[left..=middle]和nums[middle+1..=right]合并到temp中
         while k <= right {
             if i > middle {
                 temp.push(nums[j]);
@@ -46,11 +48,13 @@ impl Solution {
             }
         }
 
+        // 将temp中的元素复制回nums[left..=right]
         for i in 0..=(right - left) {
             nums[left + i] = temp[i];
         }
     }
 
+    // 归并排序的递归函数
     fn merge_sort_recursion(nums: &mut Vec<i32>, left: usize, right: usize) {
         if left >= right {
             return;
@@ -63,6 +67,7 @@ impl Solution {
         Self::merge(nums, left, middle, right);
     }
 
+    // 对外暴露的排序函数，调用归并排序
     pub fn sort_array(nums: Vec<i32>) -> Vec<i32> {
         Self::merge_sort(nums)
     }

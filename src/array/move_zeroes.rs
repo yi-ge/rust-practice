@@ -15,7 +15,7 @@ impl Solution {
             }
         }
 
-        // 剩余部分全部置0
+        // 将剩余部分全部置0
         for k in i..nums.len() {
             nums[k] = 0;
         }

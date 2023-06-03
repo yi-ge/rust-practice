@@ -24,16 +24,17 @@ pub struct Solution;
 // }
 impl Solution {
     pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
-        let mut prev = None;
-        let mut curr = head;
+        let mut prev = None; // 定义一个空节点prev
+        let mut curr = head; // 定义一个可变节点curr，值为head
 
         while let Some(mut curr_node) = curr.take() {
-            let next_tmp = curr_node.next.take();
-            curr_node.next = prev.take();
-            prev = Some(curr_node);
-            curr = next_tmp;
+            // 当curr_node存在时，执行以下操作
+            let next_tmp = curr_node.next.take(); // 将curr_node的下一个节点赋值给next_tmp
+            curr_node.next = prev.take(); // 将prev的值赋给curr_node的下一个节点
+            prev = Some(curr_node); // 将curr_node的值赋给prev
+            curr = next_tmp; // 将next_tmp赋值给curr
         }
 
-        prev
+        prev // 返回prev
     }
 }

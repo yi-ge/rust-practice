@@ -1,4 +1,6 @@
+// 插入排序
 pub fn insert_sort(mut nums: Vec<i32>) -> Vec<i32> {
+    // 如果数组为空，直接返回空数组
     if nums.is_empty() {
         return vec![];
     }
@@ -9,7 +11,7 @@ pub fn insert_sort(mut nums: Vec<i32>) -> Vec<i32> {
 
         let mut j = (i - 1) as i32;
         while j >= 0 {
-            // 倒序循环
+            // 倒序循环，寻找curr应该插入的位置
             if nums[j as usize] > curr {
                 // 如果当前j位置元素比curr元素大，则将j位置元素右移
                 nums[(j + 1) as usize] = nums[j as usize];

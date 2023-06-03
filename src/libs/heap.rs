@@ -32,6 +32,7 @@ fn heapify_down_up(nums: &mut Vec<i32>, index: usize) {
 pub fn build_heap_up_down(nums: &mut Vec<i32>) {
     let len = nums.len();
     for i in (0..len / 2).rev() {
+        // 从下到上遍历，从最后一个非叶子节点开始
         heapify_up_down(nums, i, len);
     }
 }
