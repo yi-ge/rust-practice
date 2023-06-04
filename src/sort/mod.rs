@@ -15,3 +15,4 @@ pub mod select_sort;
 pub mod sort_an_array;
 pub mod sort_the_people;
 pub mod widest_vertical_area_between_two_points_containing_no_points;
+pub mod number_of_distinct_averages;

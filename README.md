@@ -463,6 +463,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [不同的平均值数目](src/sort/number_of_distinct_averages.rs)  [数组, 哈希表, 双指针, 排序]
+
+  - LeetCode 2465. 不同的平均值数目 <https://leetcode.cn/problems/number-of-distinct-averages>
+
 - [礼盒的最大甜蜜度](src/sort/maximum_tastiness_of_candy_basket.rs)  [数组, 二分查找, 排序]
 
   - LeetCode 2517. 礼盒的最大甜蜜度 <https://leetcode.cn/problems/maximum-tastiness-of-candy-basket>
