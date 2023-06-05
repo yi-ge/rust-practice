@@ -153,6 +153,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [对数组执行操作](src/array/apply_operations_to_an_array.rs)  [数组, 模拟]
+
+  - LeetCode 2460. 对数组执行操作 <https://leetcode.cn/problems/apply-operations-to-an-array>
+
 - [统计范围内的元音字符串数](src/array/count_vowel_strings_in_ranges.rs)  [数组, 字符串, 前缀和]
 
   - LeetCode 2559. 统计范围内的元音字符串数 <https://leetcode.cn/problems/count-vowel-strings-in-ranges>
