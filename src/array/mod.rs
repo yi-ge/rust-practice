@@ -46,3 +46,4 @@ pub mod the_employee_that_worked_on_the_longest_task;
 pub mod two_sum;
 pub mod zero_matrix_lcci;
 pub mod apply_operations_to_an_array;
+pub mod equal_row_and_column_pairs;

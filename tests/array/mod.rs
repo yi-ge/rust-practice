@@ -46,3 +46,4 @@ pub mod find_the_kth_smallest_sum_of_a_matrix_with_sorted_rows_test;
 pub mod average_value_of_even_numbers_that_are_divisible_by_three_test;
 pub mod count_vowel_strings_in_ranges_test;
 pub mod apply_operations_to_an_array_test;
+pub mod equal_row_and_column_pairs_test;
