@@ -471,6 +471,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [老鼠和奶酪](src/sort/mice_and_cheese.rs)  [贪心, 数组, 排序, 堆（优先队列）]
+
+  - LeetCode 2611. 老鼠和奶酪 <https://leetcode.cn/problems/mice-and-cheese>
+
 - [不同的平均值数目](src/sort/number_of_distinct_averages.rs)  [数组, 哈希表, 双指针, 排序]
 
   - LeetCode 2465. 不同的平均值数目 <https://leetcode.cn/problems/number-of-distinct-averages>

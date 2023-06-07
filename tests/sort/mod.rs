@@ -16,3 +16,4 @@ pub mod sort_the_people_test;
 pub mod widest_vertical_area_between_two_points_containing_no_points_test;
 pub mod maximum_tastiness_of_candy_basket_test;
 pub mod number_of_distinct_averages_test;
+pub mod mice_and_cheese_test;
