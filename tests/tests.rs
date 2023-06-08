@@ -16,3 +16,4 @@ mod stack;
 mod string;
 mod tree;
 mod search;
+mod other;

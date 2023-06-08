@@ -26,4 +26,4 @@ pub mod string;
 // 导入树模块
 pub mod tree;
 // 导入搜索模块
-pub mod search;
+pub mod search;pub mod other;

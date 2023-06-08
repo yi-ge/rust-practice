@@ -525,6 +525,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [铺瓷砖](src/other/tiling_a_rectangle_with_the_fewest_squares.rs)  [动态规划, 回溯]
+
+  - LeetCode 1240. 铺瓷砖 <https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares>
+
 - [单字符重复子串的最大长度](src/map/swap_for_longest_repeated_character_substring.rs)  [哈希表, 字符串, 滑动窗口]
 
   - LeetCode 1156. 单字符重复子串的最大长度 <https://leetcode.cn/problems/swap-for-longest-repeated-character-substring>
