@@ -471,6 +471,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [比较字符串最小字母出现频次](src/sort/compare_strings_by_frequency_of_the_smallest_character.rs)  [数组, 哈希表, 字符串, 二分查找, 排序]
+
+  - LeetCode 1170. 比较字符串最小字母出现频次 <https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character>
+
 - [老鼠和奶酪](src/sort/mice_and_cheese.rs)  [贪心, 数组, 排序, 堆（优先队列）]
 
   - LeetCode 2611. 老鼠和奶酪 <https://leetcode.cn/problems/mice-and-cheese>
