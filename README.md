@@ -451,6 +451,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 链表
 
+- [从链表中删去总和值为零的连续节点](src/list/remove_zero_sum_consecutive_nodes_from_linked_list.rs)  [哈希表, 链表]
+
+  - LeetCode 1171. 从链表中删去总和值为零的连续节点 <https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list>
+
 - [删除链表的倒数第 N 个结点](src/list/remove_nth_node_from_end_of_list.rs)  [链表, 双指针]
 
   - LeetCode 19. 删除链表的倒数第 N 个结点 <https://leetcode.cn/problems/remove-nth-node-from-end-of-list/>
@@ -474,6 +478,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
   - LeetCode 997. 找到小镇的法官 <https://leetcode.cn/problems/find-the-town-judge>
 
 ### 排序
+
+- [比较字符串最小字母出现频次](src/sort/compare_strings_by_frequency_of_the_smallest_character.rs)  [数组, 哈希表, 字符串, 二分查找, 排序]
+
+  - LeetCode 1170. 比较字符串最小字母出现频次 <https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character>
 
 - [老鼠和奶酪](src/sort/mice_and_cheese.rs)  [贪心, 数组, 排序, 堆（优先队列）]
 
