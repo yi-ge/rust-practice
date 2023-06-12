@@ -10,3 +10,4 @@ pub mod time_needed_to_inform_all_employees_test;
 pub mod maximum_sum_bst_in_binary_tree_test;
 pub mod insufficient_nodes_in_root_to_leaf_paths_test;
 pub mod delete_nodes_and_return_forest_test;
+pub mod kth_ancestor_of_a_tree_node_test;
