@@ -47,3 +47,4 @@ pub mod average_value_of_even_numbers_that_are_divisible_by_three_test;
 pub mod count_vowel_strings_in_ranges_test;
 pub mod apply_operations_to_an_array_test;
 pub mod equal_row_and_column_pairs_test;
+pub mod number_of_unequal_triplets_in_array_test;
