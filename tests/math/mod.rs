@@ -9,3 +9,4 @@ pub mod robot_bounded_in_circle_test;
 pub mod count_days_spent_together_test;
 pub mod smallest_even_multiple_test;
 pub mod moving_stones_until_consecutive_test;
+pub mod can_make_palindrome_from_substring_test;

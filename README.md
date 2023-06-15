@@ -632,3 +632,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [最小偶倍数](src/math/smallest_even_multiple.rs)  [数学, 数论]
 
   - LeetCode 2413. 最小偶倍数 <https://leetcode.cn/problems/smallest-even-multiple>
+
+- [构建回文串检测](src/math/can_make_palindrome_from_substring.rs)  [位运算, 数组, 哈希表, 字符串, 前缀和]
+
+  - LeetCode 1177. 构建回文串检测 <https://leetcode.cn/problems/can-make-palindrome-from-substring>

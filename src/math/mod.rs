@@ -1,4 +1,5 @@
 pub mod bulb_switcher_ii;
+pub mod can_make_palindrome_from_substring;
 pub mod convert_to_base_2;
 pub mod count_days_spent_together;
 pub mod count_sorted_vowel_strings;
