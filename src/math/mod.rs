@@ -10,3 +10,4 @@ pub mod preimage_size_of_factorial_zeroes_function;
 pub mod robot_bounded_in_circle;
 pub mod smallest_even_multiple;
 pub mod smallest_sufficient_team;
+pub mod minimum_cuts_to_divide_a_circle;

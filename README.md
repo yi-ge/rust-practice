@@ -636,3 +636,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [构建回文串检测](src/math/can_make_palindrome_from_substring.rs)  [位运算, 数组, 哈希表, 字符串, 前缀和]
 
   - LeetCode 1177. 构建回文串检测 <https://leetcode.cn/problems/can-make-palindrome-from-substring>
+
+- [分割圆的最少切割次数](src/math/minimum_cuts_to_divide_a_circle.rs)  [几何, 数学]
+
+  - LeetCode 2481. 分割圆的最少切割次数 <https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle>
