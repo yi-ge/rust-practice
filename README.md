@@ -487,6 +487,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [可被三整除的最大和](src/sort/greatest_sum_divisible_by_three.rs)  [贪心, 数组, 动态规划, 排序]
+
+  - LeetCode 1262. 可被三整除的最大和 <https://leetcode.cn/problems/greatest-sum-divisible-by-three>
+
 - [比较字符串最小字母出现频次](src/sort/compare_strings_by_frequency_of_the_smallest_character.rs)  [数组, 哈希表, 字符串, 二分查找, 排序]
 
   - LeetCode 1170. 比较字符串最小字母出现频次 <https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character>
