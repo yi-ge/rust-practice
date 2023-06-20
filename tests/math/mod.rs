@@ -11,3 +11,4 @@ pub mod smallest_even_multiple_test;
 pub mod moving_stones_until_consecutive_test;
 pub mod can_make_palindrome_from_substring_test;
 pub mod minimum_cuts_to_divide_a_circle_test;
+pub mod minimum_cost_to_connect_two_groups_of_points_test;

@@ -11,3 +11,4 @@ pub mod robot_bounded_in_circle;
 pub mod smallest_even_multiple;
 pub mod smallest_sufficient_team;
 pub mod minimum_cuts_to_divide_a_circle;
+pub mod minimum_cost_to_connect_two_groups_of_points;

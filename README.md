@@ -648,3 +648,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [分割圆的最少切割次数](src/math/minimum_cuts_to_divide_a_circle.rs)  [几何, 数学]
 
   - LeetCode 2481. 分割圆的最少切割次数 <https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle>
+
+- [连通两组点的最小成本](src/math/minimum_cost_to_connect_two_groups_of_points.rs)  [位运算, 数组, 动态规划, 状态压缩, 矩阵]
+
+  - LeetCode 1595. 连通两组点的最小成本 <https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points>
