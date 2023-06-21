@@ -549,6 +549,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [黑白翻转棋](src/search/flip_chess.rs)  [广度优先搜索, 数组, 矩阵]
+
+  - LeetCode LCP 41. 黑白翻转棋 <https://leetcode.cn/problems/fHi6rV>
+
 - [统计封闭岛屿的数目](src/search/number_of_closed_islands.rs)  [深度优先搜索, 广度优先搜索, 并查集, 数组, 矩阵]
 
   - LeetCode 1254. 统计封闭岛屿的数目 <https://leetcode.cn/problems/number-of-closed-islands>
