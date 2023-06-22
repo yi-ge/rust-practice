@@ -545,6 +545,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [水域大小](src/search/pond_sizes_lcci.rs)  [深度优先搜索, 广度优先搜索, 并查集, 数组, 矩阵]
+
+  - LeetCode 面试题 16.19. 水域大小 <https://leetcode.cn/problems/pond-sizes-lcci>
+
 - [统计封闭岛屿的数目](src/search/number_of_closed_islands.rs)  [深度优先搜索, 广度优先搜索, 并查集, 数组, 矩阵]
 
   - LeetCode 1254. 统计封闭岛屿的数目 <https://leetcode.cn/problems/number-of-closed-islands>
