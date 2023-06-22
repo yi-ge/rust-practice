@@ -487,6 +487,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [可被三整除的最大和](src/sort/greatest_sum_divisible_by_three.rs)  [贪心, 数组, 动态规划, 排序]
+
+  - LeetCode 1262. 可被三整除的最大和 <https://leetcode.cn/problems/greatest-sum-divisible-by-three>
+
 - [比较字符串最小字母出现频次](src/sort/compare_strings_by_frequency_of_the_smallest_character.rs)  [数组, 哈希表, 字符串, 二分查找, 排序]
 
   - LeetCode 1170. 比较字符串最小字母出现频次 <https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character>
@@ -548,6 +552,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [水域大小](src/search/pond_sizes_lcci.rs)  [深度优先搜索, 广度优先搜索, 并查集, 数组, 矩阵]
 
   - LeetCode 面试题 16.19. 水域大小 <https://leetcode.cn/problems/pond-sizes-lcci>
+
+- [黑白翻转棋](src/search/flip_chess.rs)  [广度优先搜索, 数组, 矩阵]
+
+  - LeetCode LCP 41. 黑白翻转棋 <https://leetcode.cn/problems/fHi6rV>
 
 - [统计封闭岛屿的数目](src/search/number_of_closed_islands.rs)  [深度优先搜索, 广度优先搜索, 并查集, 数组, 矩阵]
 
@@ -648,3 +656,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [分割圆的最少切割次数](src/math/minimum_cuts_to_divide_a_circle.rs)  [几何, 数学]
 
   - LeetCode 2481. 分割圆的最少切割次数 <https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle>
+
+- [连通两组点的最小成本](src/math/minimum_cost_to_connect_two_groups_of_points.rs)  [位运算, 数组, 动态规划, 状态压缩, 矩阵]
+
+  - LeetCode 1595. 连通两组点的最小成本 <https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points>
