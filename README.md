@@ -660,3 +660,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [连通两组点的最小成本](src/math/minimum_cost_to_connect_two_groups_of_points.rs)  [位运算, 数组, 动态规划, 状态压缩, 矩阵]
 
   - LeetCode 1595. 连通两组点的最小成本 <https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points>
+
+- [最大化网格幸福感](src/math/maximize_grid_happiness.rs)  [位运算, 记忆化搜索, 动态规划, 状态压缩]
+
+  - LeetCode 1659. 最大化网格幸福感 <https://leetcode.cn/problems/maximize-grid-happiness>
