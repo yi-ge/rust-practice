@@ -14,3 +14,4 @@ pub mod minimum_cuts_to_divide_a_circle_test;
 pub mod minimum_cost_to_connect_two_groups_of_points_test;
 pub mod maximize_grid_happiness_test;
 pub mod circle_and_rectangle_overlapping_test;
+pub mod find_the_pivot_integer_test;

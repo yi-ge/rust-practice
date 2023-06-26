@@ -668,3 +668,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [圆和矩形是否有重叠](src/math/circle_and_rectangle_overlapping.rs)  [几何, 数学]
 
   - LeetCode 1401. 圆和矩形是否有重叠 <https://leetcode.cn/problems/circle-and-rectangle-overlapping>
+
+- [找出中枢整数](src/math/find_the_pivot_integer.rs)  [数学, 前缀和]
+
+  - LeetCode 2485. 找出中枢整数 <https://leetcode.cn/problems/find-the-pivot-integer>
