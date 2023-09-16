@@ -153,6 +153,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [打家劫舍](src/array/house_robber.rs)  [数组, 动态规划]
+
+  - LeetCode 198. 打家劫舍 <https://leetcode.cn/problems/house-robber>
+
 - [二进制字符串前缀一致的次数](src/array/number_of_times_binary_string_is_prefix_aligned.rs)  [数组]
 
   - LeetCode 1375. 二进制字符串前缀一致的次数 <https://leetcode.cn/problems/number-of-times-binary-string-is-prefix-aligned>
