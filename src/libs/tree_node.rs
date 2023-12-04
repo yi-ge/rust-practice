@@ -16,6 +16,37 @@ impl TreeNode {
             right: None,
         }
     }
+
+    pub fn from_vec(values: Vec<Option<i32>>) -> Option<Rc<RefCell<Self>>> {
+        if values.is_empty() {
+            return None;
+        }
+
+        let root = Rc::new(RefCell::new(TreeNode::new(values[0].unwrap())));
+        let mut queue = std::collections::VecDeque::new();
+        queue.push_back(root.clone());
+
+        let mut i = 1;
+        while i < values.len() {
+            let parent = queue.pop_front().unwrap();
+
+            if i < values.len() && values[i].is_some() {
+                let left_child = Rc::new(RefCell::new(TreeNode::new(values[i].unwrap())));
+                parent.borrow_mut().left = Some(left_child.clone());
+                queue.push_back(left_child);
+            }
+            i += 1;
+
+            if i < values.len() && values[i].is_some() {
+                let right_child = Rc::new(RefCell::new(TreeNode::new(values[i].unwrap())));
+                parent.borrow_mut().right = Some(right_child.clone());
+                queue.push_back(right_child);
+            }
+            i += 1;
+        }
+
+        Some(root)
+    }
 }
 
 // fn create_tree(vec: &Vec<Option<i32>>, index: usize) -> Option<Rc<RefCell<TreeNode>>> {
