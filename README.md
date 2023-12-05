@@ -481,6 +481,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 图
 
+- [到达首都的最少油耗](src/graphs/minimum_fuel_cost_to_report_to_the_capital.rs)  [树, 深度优先搜索, 广度优先搜索, 图]
+
+  - LeetCode 2477. 到达首都的最少油耗 <https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital>
+
 - [T 秒后青蛙的位置](src/graphs/frog_position_after_t_seconds.rs)  [树, 深度优先搜索, 广度优先搜索, 图]
 
   - LeetCode 1377. T 秒后青蛙的位置 <https://leetcode.cn/problems/frog-position-after-t-seconds>
