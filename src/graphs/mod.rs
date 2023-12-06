@@ -2,3 +2,4 @@ pub mod find_the_town_judge;
 pub mod flower_planting_with_no_adjacent;
 pub mod frog_position_after_t_seconds;
 pub mod minimum_fuel_cost_to_report_to_the_capital;
+pub mod minimize_the_total_price_of_the_trips;
