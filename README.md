@@ -481,6 +481,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 图
 
+- [重新规划路线](src/graphs/reorder_routes_to_make_all_paths_lead_to_the_city_zero.rs)  [深度优先搜索, 广度优先搜索, 图]
+
+  - LeetCode 1466. 重新规划路线 <https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero>
+
 - [最小化旅行的价格总和](src/graphs/minimize_the_total_price_of_the_trips.rs)  [树, 深度优先搜索, 图, 数组, 动态规划]
 
   - LeetCode 2646. 最小化旅行的价格总和 <https://leetcode.cn/problems/minimize-the-total-price-of-the-trips>

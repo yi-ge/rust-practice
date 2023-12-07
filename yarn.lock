@@ -377,10 +377,10 @@ lcov-parse@^1.0.0:
   resolved "https://registry.yarnpkg.com/lcov-parse/-/lcov-parse-1.0.0.tgz#eb0d46b54111ebc561acb4c408ef9363bdc8f7e0"
   integrity sha512-aprLII/vPzuQvYZnDRU78Fns9I2Ag3gi4Ipga/hxnVMCZC8DnR2nI7XBqrPoywGfxqIx/DgarGvDJZAD3YBTgQ==
 
-leetcode-test-helper@^0.4.7:
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/leetcode-test-helper/-/leetcode-test-helper-0.4.7.tgz#7798cdf1c322f1ed452b8b26d56b769a5c732aed"
-  integrity sha512-ULRnWlvIMhduzAvUdxAh1moyrraOLsm5CmA0chYXZYo7OSfpnp176B6JDca+lFGvrPvRLicDzB+3rmi1uHz0xg==
+leetcode-test-helper@^0.4.8:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/leetcode-test-helper/-/leetcode-test-helper-0.4.8.tgz#150213bc6ec96cf84117d5256272b0c61dcd3dae"
+  integrity sha512-AQp5cNKW9QQ0SqroUQ/zAeajIEiIIEMlebTfLK2n1pusb65GLse8IkqPDuzvwerQPZgVgn/hHndrVhjZ34xNvw==
   dependencies:
     playwright "^1.38.0"
     playwright-extra "^4.3.6"

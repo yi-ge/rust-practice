@@ -3,3 +3,4 @@ pub mod flower_planting_with_no_adjacent_test;
 pub mod frog_position_after_t_seconds_test;
 pub mod minimum_fuel_cost_to_report_to_the_capital_test;
 pub mod minimize_the_total_price_of_the_trips_test;
+pub mod reorder_routes_to_make_all_paths_lead_to_the_city_zero_test;
