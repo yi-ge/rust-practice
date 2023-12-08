@@ -19,3 +19,4 @@ pub mod number_of_distinct_averages_test;
 pub mod mice_and_cheese_test;
 pub mod compare_strings_by_frequency_of_the_smallest_character_test;
 pub mod greatest_sum_divisible_by_three_test;
+pub mod maximum_earnings_from_taxi_test;

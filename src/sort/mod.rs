@@ -19,3 +19,4 @@ pub mod number_of_distinct_averages;
 pub mod mice_and_cheese;
 pub mod compare_strings_by_frequency_of_the_smallest_character;
 pub mod greatest_sum_divisible_by_three;
+pub mod maximum_earnings_from_taxi;
