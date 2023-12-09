@@ -15,3 +15,4 @@ pub mod minimum_cost_to_connect_two_groups_of_points;
 pub mod maximize_grid_happiness;
 pub mod circle_and_rectangle_overlapping;
 pub mod find_the_pivot_integer;
+pub mod next_greater_numerically_balanced_number;

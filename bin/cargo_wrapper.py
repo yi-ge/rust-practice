@@ -5,6 +5,7 @@ import sys
 import subprocess
 import re
 
+
 def main():
     test_name = None
     for idx, arg in enumerate(sys.argv):
@@ -14,7 +15,8 @@ def main():
 
     cmd = ["cargo"] + sys.argv[1:]
     print("Executing command:", " ".join(cmd))
-    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    result = subprocess.run(cmd, stdout=subprocess.PIPE,
+                            stderr=subprocess.STDOUT, text=True)
     print(result.stdout)
 
     test_result_pattern = re.compile(r"test result: ok.*failed;")
@@ -27,6 +29,7 @@ def main():
         coverage_result = subprocess.run(coverage_cmd)
     else:
         print("Failed test cases found. Skipping cargo xtask coverage.")
+
 
 if __name__ == "__main__":
     main()
