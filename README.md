@@ -573,6 +573,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [最小体力消耗路径](src/search/path_with_minimum_effort.rs)  [深度优先搜索, 广度优先搜索, 并查集, 数组, 二分查找, 矩阵, 堆（优先队列）]
+
+  - LeetCode 1631. 最小体力消耗路径 <https://leetcode.cn/problems/path-with-minimum-effort>
+
 - [爬楼梯](src/search/climbing_stairs.rs)  [记忆化搜索, 数学, 动态规划]
 
   - LeetCode 70. 爬楼梯 <https://leetcode.cn/problems/climbing-stairs>

@@ -4,3 +4,4 @@ pub mod number_of_closed_islands;
 pub mod pond_sizes_lcci;
 pub mod shortest_path_in_binary_matrix;
 pub mod climbing_stairs;
+pub mod path_with_minimum_effort;
