@@ -507,6 +507,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [下一个更大元素 IV](src/sort/next_greater_element_iv.rs)  [栈, 数组, 二分查找, 排序, 单调栈, 堆（优先队列）]
+
+  - LeetCode 2454. 下一个更大元素 IV <https://leetcode.cn/problems/next-greater-element-iv>
+
 - [出租车的最大盈利](src/sort/maximum_earnings_from_taxi.rs)  [数组, 二分查找, 动态规划, 排序]
 
   - LeetCode 2008. 出租车的最大盈利 <https://leetcode.cn/problems/maximum-earnings-from-taxi>
