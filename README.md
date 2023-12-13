@@ -103,6 +103,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 字符串
 
+- [字典序最小回文串](src/string/lexicographically_smallest_palindrome.rs)  [贪心, 双指针, 字符串]
+
+  - LeetCode 2697. 字典序最小回文串 <https://leetcode.cn/problems/lexicographically-smallest-palindrome>
+
 - [子串能表示从 1 到 N 数字的二进制串](src/string/binary_string_with_substrings_representing_1_to_n.rs)  [字符串]
 
   - LeetCode 1016. 子串能表示从 1 到 N 数字的二进制串 <https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n>

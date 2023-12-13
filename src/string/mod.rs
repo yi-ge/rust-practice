@@ -33,3 +33,4 @@ pub mod number_of_valid_clock_times;
 
 // 这是一个 Rust 模块，用于生成一个二进制字符串，其中包含表示 1 到 n 的所有子串
 pub mod binary_string_with_substrings_representing_1_to_n;
+pub mod lexicographically_smallest_palindrome;
