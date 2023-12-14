@@ -50,3 +50,4 @@ pub mod equal_row_and_column_pairs;
 pub mod number_of_unequal_triplets_in_array;
 pub mod number_of_times_binary_string_is_prefix_aligned;
 pub mod house_robber;
+pub mod stamping_the_grid;
