@@ -157,6 +157,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [使用最小花费爬楼梯](src/array/min_cost_climbing_stairs.rs)  [数组, 动态规划]
+
+  - LeetCode 746. 使用最小花费爬楼梯 <https://leetcode.cn/problems/min-cost-climbing-stairs>
+
 - [用邮票贴满网格图](src/array/stamping_the_grid.rs)  [贪心, 数组, 矩阵, 前缀和]
 
   - LeetCode 2132. 用邮票贴满网格图 <https://leetcode.cn/problems/stamping-the-grid>
