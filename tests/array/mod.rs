@@ -51,3 +51,4 @@ pub mod number_of_unequal_triplets_in_array_test;
 pub mod number_of_times_binary_string_is_prefix_aligned_test;
 pub mod house_robber_test;
 pub mod stamping_the_grid_test;
+pub mod min_cost_climbing_stairs_test;
