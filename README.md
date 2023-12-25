@@ -720,3 +720,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [下一个更大的数值平衡数](src/math/next_greater_numerically_balanced_number.rs)  [数学, 回溯, 枚举]
 
   - LeetCode 2048. 下一个更大的数值平衡数 <https://leetcode.cn/problems/next-greater-numerically-balanced-number>
+
+- [不浪费原料的汉堡制作方案](src/math/number_of_burgers_with_no_waste_of_ingredients.rs)  [数学]
+
+  - LeetCode 1276. 不浪费原料的汉堡制作方案 <https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients>
