@@ -17,3 +17,4 @@ pub mod circle_and_rectangle_overlapping_test;
 pub mod find_the_pivot_integer_test;
 pub mod next_greater_numerically_balanced_number_test;
 pub mod number_of_burgers_with_no_waste_of_ingredients_test;
+pub mod maximum_students_taking_exam_test;

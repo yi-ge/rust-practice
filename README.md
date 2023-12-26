@@ -728,3 +728,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [不浪费原料的汉堡制作方案](src/math/number_of_burgers_with_no_waste_of_ingredients.rs)  [数学]
 
   - LeetCode 1276. 不浪费原料的汉堡制作方案 <https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients>
+
+- [参加考试的最大学生数](src/math/maximum_students_taking_exam.rs)  [位运算, 数组, 动态规划, 状态压缩, 矩阵]
+
+  - LeetCode 1349. 参加考试的最大学生数 <https://leetcode.cn/problems/maximum-students-taking-exam>
