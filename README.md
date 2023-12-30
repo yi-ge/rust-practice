@@ -736,3 +736,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [参加考试的最大学生数](src/math/maximum_students_taking_exam.rs)  [位运算, 数组, 动态规划, 状态压缩, 矩阵]
 
   - LeetCode 1349. 参加考试的最大学生数 <https://leetcode.cn/problems/maximum-students-taking-exam>
+
+- [一周中的第几天](src/math/day_of_the_week.rs)  [数学]
+
+  - LeetCode 1185. 一周中的第几天 <https://leetcode.cn/problems/day-of-the-week>
