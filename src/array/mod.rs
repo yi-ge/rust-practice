@@ -52,3 +52,4 @@ pub mod number_of_times_binary_string_is_prefix_aligned;
 pub mod house_robber;
 pub mod stamping_the_grid;
 pub mod min_cost_climbing_stairs;
+pub mod maximum_profit_of_operating_a_centennial_wheel;
