@@ -9,3 +9,4 @@ pub mod next_greater_node_in_linked_list_test;
 pub mod dinner_plate_stacks_test;
 pub mod check_if_word_is_valid_after_substitutions_test;
 pub mod minimum_cost_tree_from_leaf_values_test;
+pub mod remove_nodes_from_linked_list_test;

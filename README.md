@@ -383,6 +383,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [从链表中移除节点](src/stack/remove_nodes_from_linked_list.rs)  [栈, 递归, 链表, 单调栈]
+
+  - LeetCode 2487. 从链表中移除节点 <https://leetcode.cn/problems/remove-nodes-from-linked-list>
+
 - [叶值的最小代价生成树](src/stack/minimum_cost_tree_from_leaf_values.rs)  [栈, 贪心, 数组, 动态规划, 单调栈]
 
   - LeetCode 1130. 叶值的最小代价生成树 <https://leetcode.cn/problems/minimum-cost-tree-from-leaf-values>
