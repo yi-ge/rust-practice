@@ -383,6 +383,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [队列中可以看到的人数](src/stack/number_of_visible_people_in_a_queue.rs)  [栈, 数组, 单调栈]
+
+  - LeetCode 1944. 队列中可以看到的人数 <https://leetcode.cn/problems/number-of-visible-people-in-a-queue>
+
 - [从链表中移除节点](src/stack/remove_nodes_from_linked_list.rs)  [栈, 递归, 链表, 单调栈]
 
   - LeetCode 2487. 从链表中移除节点 <https://leetcode.cn/problems/remove-nodes-from-linked-list>

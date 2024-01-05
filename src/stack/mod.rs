@@ -10,3 +10,4 @@ pub mod shortest_subarray_to_be_removed_to_make_array_sorted;
 pub mod valid_parentheses;
 pub mod validate_stack_sequences;
 pub mod remove_nodes_from_linked_list;
+pub mod number_of_visible_people_in_a_queue;
