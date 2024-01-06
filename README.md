@@ -495,6 +495,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 链表
 
+- [在链表中插入最大公约数](src/list/insert_greatest_common_divisors_in_linked_list.rs)  [链表, 数学, 数论]
+
+  - LeetCode 2807. 在链表中插入最大公约数 <https://leetcode.cn/problems/insert-greatest-common-divisors-in-linked-list>
+
 - [从链表中删去总和值为零的连续节点](src/list/remove_zero_sum_consecutive_nodes_from_linked_list.rs)  [哈希表, 链表]
 
   - LeetCode 1171. 从链表中删去总和值为零的连续节点 <https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list>
