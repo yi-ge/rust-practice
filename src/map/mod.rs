@@ -7,3 +7,4 @@ pub mod remove_letter_to_equalize_frequency;
 pub mod smallest_integer_divisible_by_k;
 pub mod swap_for_longest_repeated_character_substring;
 pub mod valid_anagram;
+pub mod ransom_note;

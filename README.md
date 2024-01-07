@@ -613,6 +613,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [赎金信](src/map/ransom_note.rs)  [哈希表, 字符串, 计数]
+
+  - LeetCode 383. 赎金信 <https://leetcode.cn/problems/ransom-note>
+
 - [最小体力消耗路径](src/search/path_with_minimum_effort.rs)  [深度优先搜索, 广度优先搜索, 并查集, 数组, 二分查找, 矩阵, 堆（优先队列）]
 
   - LeetCode 1631. 最小体力消耗路径 <https://leetcode.cn/problems/path-with-minimum-effort>

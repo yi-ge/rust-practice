@@ -7,3 +7,4 @@ pub mod valid_anagram_test;
 pub mod smallest_integer_divisible_by_k_test;
 pub mod letter_tile_possibilities_test;
 pub mod swap_for_longest_repeated_character_substring_test;
+pub mod ransom_note_test;
