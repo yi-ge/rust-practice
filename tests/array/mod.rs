@@ -53,3 +53,4 @@ pub mod house_robber_test;
 pub mod stamping_the_grid_test;
 pub mod min_cost_climbing_stairs_test;
 pub mod maximum_profit_of_operating_a_centennial_wheel_test;
+pub mod number_of_boomerangs_test;

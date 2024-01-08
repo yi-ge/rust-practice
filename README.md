@@ -161,6 +161,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [回旋镖的数量](src/array/number_of_boomerangs.rs)  [数组, 哈希表, 数学]
+
+  - LeetCode 447. 回旋镖的数量 <https://leetcode.cn/problems/number-of-boomerangs>
+
 - [经营摩天轮的最大利润](src/array/maximum_profit_of_operating_a_centennial_wheel.rs)  [数组, 模拟]
 
   - LeetCode 1599. 经营摩天轮的最大利润 <https://leetcode.cn/problems/maximum-profit-of-operating-a-centennial-wheel>
