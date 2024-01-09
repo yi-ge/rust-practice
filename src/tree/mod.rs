@@ -12,3 +12,4 @@ pub mod maximum_sum_bst_in_binary_tree;
 pub mod time_needed_to_inform_all_employees;
 pub mod kth_ancestor_of_a_tree_node;
 pub mod binary_search_tree_to_greater_sum_tree;
+pub mod extra_characters_in_a_string;

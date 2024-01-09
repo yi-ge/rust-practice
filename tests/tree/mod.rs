@@ -12,3 +12,4 @@ pub mod insufficient_nodes_in_root_to_leaf_paths_test;
 pub mod delete_nodes_and_return_forest_test;
 pub mod kth_ancestor_of_a_tree_node_test;
 pub mod binary_search_tree_to_greater_sum_tree_test;
+pub mod extra_characters_in_a_string_test;

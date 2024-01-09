@@ -441,6 +441,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 树
 
+- [字符串中的额外字符](src/tree/extra_characters_in_a_string.rs)  [字典树, 数组, 哈希表, 字符串, 动态规划]
+
+  - LeetCode 2707. 字符串中的额外字符 <https://leetcode.cn/problems/extra-characters-in-a-string>
+
 - [从二叉搜索树到更大和树](src/tree/binary_search_tree_to_greater_sum_tree.rs)  [树, 深度优先搜索, 二叉搜索树, 二叉树]
 
   - LeetCode 1038. 从二叉搜索树到更大和树 <https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree>
