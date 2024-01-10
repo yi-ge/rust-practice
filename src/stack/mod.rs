@@ -11,3 +11,4 @@ pub mod valid_parentheses;
 pub mod validate_stack_sequences;
 pub mod remove_nodes_from_linked_list;
 pub mod number_of_visible_people_in_a_queue;
+pub mod minimum_string_length_after_removing_substrings;

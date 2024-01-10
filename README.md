@@ -387,6 +387,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [删除子串后的字符串最小长度](src/stack/minimum_string_length_after_removing_substrings.rs)  [栈, 字符串, 模拟]
+
+  - LeetCode 2696. 删除子串后的字符串最小长度 <https://leetcode.cn/problems/minimum-string-length-after-removing-substrings>
+
 - [队列中可以看到的人数](src/stack/number_of_visible_people_in_a_queue.rs)  [栈, 数组, 单调栈]
 
   - LeetCode 1944. 队列中可以看到的人数 <https://leetcode.cn/problems/number-of-visible-people-in-a-queue>
