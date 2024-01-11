@@ -12,3 +12,4 @@ pub mod minimum_cost_tree_from_leaf_values_test;
 pub mod remove_nodes_from_linked_list_test;
 pub mod number_of_visible_people_in_a_queue_test;
 pub mod minimum_string_length_after_removing_substrings_test;
+pub mod minimum_additions_to_make_valid_string_test;

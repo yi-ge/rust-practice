@@ -387,6 +387,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 栈
 
+- [构造有效字符串的最少插入数](src/stack/minimum_additions_to_make_valid_string.rs)  [栈, 贪心, 字符串, 动态规划]
+
+  - LeetCode 2645. 构造有效字符串的最少插入数 <https://leetcode.cn/problems/minimum-additions-to-make-valid-string>
+
 - [删除子串后的字符串最小长度](src/stack/minimum_string_length_after_removing_substrings.rs)  [栈, 字符串, 模拟]
 
   - LeetCode 2696. 删除子串后的字符串最小长度 <https://leetcode.cn/problems/minimum-string-length-after-removing-substrings>
