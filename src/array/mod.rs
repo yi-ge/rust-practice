@@ -54,3 +54,4 @@ pub mod stamping_the_grid;
 pub mod min_cost_climbing_stairs;
 pub mod maximum_profit_of_operating_a_centennial_wheel;
 pub mod number_of_boomerangs;
+pub mod count_common_words_with_one_occurrence;
