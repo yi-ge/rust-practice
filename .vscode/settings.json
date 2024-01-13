@@ -11,6 +11,7 @@
     "aaabaaa",
     "aaabbaaa",
     "AAABBC",
+    "aababab",
     "aabcbc",
     "aazz",
     "ababa",
@@ -35,11 +36,14 @@
     "bacd",
     "backgrounding",
     "barcodes",
+    "bbabaa",
+    "bbabaaa",
     "bdca",
     "breakpad",
     "cabac",
     "camelcase",
     "Ccodegen",
+    "cczazcc",
     "choco",
     "coverallsapp",
     "Coverflow",
@@ -114,7 +118,9 @@
     "zaaaz",
     "zabcf",
     "zabcfde",
-    "Zpanic"
+    "Zpanic",
+    "zzcccac",
+    "zzcccca"
   ],
   "editor.formatOnSave": true,
   "[rust]": {

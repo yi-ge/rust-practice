@@ -35,3 +35,4 @@ pub mod number_of_valid_clock_times;
 pub mod binary_string_with_substrings_representing_1_to_n;
 pub mod lexicographically_smallest_palindrome;
 pub mod count_the_repetitions;
+pub mod construct_string_with_repeat_limit;

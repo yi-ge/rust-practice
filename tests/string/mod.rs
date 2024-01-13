@@ -12,3 +12,4 @@ pub mod number_of_valid_clock_times_test;
 pub mod binary_string_with_substrings_representing_1_to_n_test;
 pub mod lexicographically_smallest_palindrome_test;
 pub mod count_the_repetitions_test;
+pub mod construct_string_with_repeat_limit_test;
