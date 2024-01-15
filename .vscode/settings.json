@@ -127,5 +127,6 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
   },
-  "rust-analyzer.runnables.command": "python3 ${workspaceFolder}/bin/cargo_wrapper.py"
+  "rust-analyzer.runnables.command": "python3 ${workspaceFolder}/bin/cargo_wrapper.py",
+  "commentTranslate.hover.enabled": false
 }

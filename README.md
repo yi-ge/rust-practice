@@ -519,6 +519,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 链表
 
+- [删除排序链表中的重复元素 II](src/list/remove_duplicates_from_sorted_list_ii.rs)  [链表, 双指针]
+
+  - LeetCode 82. 删除排序链表中的重复元素 II <https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii>
+
 - [在链表中插入最大公约数](src/list/insert_greatest_common_divisors_in_linked_list.rs)  [链表, 数学, 数论]
 
   - LeetCode 2807. 在链表中插入最大公约数 <https://leetcode.cn/problems/insert-greatest-common-divisors-in-linked-list>
