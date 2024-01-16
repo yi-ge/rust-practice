@@ -20,3 +20,4 @@ pub mod number_of_burgers_with_no_waste_of_ingredients_test;
 pub mod maximum_students_taking_exam_test;
 pub mod day_of_the_week_test;
 pub mod maximum_rows_covered_by_columns_test;
+pub mod count_of_integers_test;

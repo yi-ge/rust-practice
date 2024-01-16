@@ -796,3 +796,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [被列覆盖的最多行数](src/math/maximum_rows_covered_by_columns.rs)  [位运算, 数组, 回溯, 枚举, 矩阵]
 
   - LeetCode 2397. 被列覆盖的最多行数 <https://leetcode.cn/problems/maximum-rows-covered-by-columns>
+
+- [统计整数数目](src/math/count_of_integers.rs)  [数学, 字符串, 动态规划]
+
+  - LeetCode 2719. 统计整数数目 <https://leetcode.cn/problems/count-of-integers>
