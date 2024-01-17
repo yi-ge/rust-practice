@@ -55,3 +55,4 @@ pub mod teemo_attacking_test;
 pub mod the_employee_that_worked_on_the_longest_task_test;
 pub mod two_sum_test;
 pub mod zero_matrix_lcci_test;
+pub mod find_maximum_number_of_string_pairs_test;

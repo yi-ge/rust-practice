@@ -165,6 +165,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [最大字符串配对数目](src/array/find_maximum_number_of_string_pairs.rs)  [数组, 哈希表, 字符串, 模拟]
+
+  - LeetCode 2744. 最大字符串配对数目 <https://leetcode.cn/problems/find-maximum-number-of-string-pairs>
+
 - [统计出现过一次的公共字符串](src/array/count_common_words_with_one_occurrence.rs)  [数组, 哈希表, 字符串, 计数]
 
   - LeetCode 2085. 统计出现过一次的公共字符串 <https://leetcode.cn/problems/count-common-words-with-one-occurrence>
