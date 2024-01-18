@@ -22,3 +22,4 @@ pub mod greatest_sum_divisible_by_three;
 pub mod maximum_earnings_from_taxi;
 pub mod next_greater_element_iv;
 pub mod buy_two_chocolates;
+pub mod removing_minimum_number_of_magic_beans;

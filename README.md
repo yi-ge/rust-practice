@@ -571,6 +571,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 排序
 
+- [拿出最少数目的魔法豆](src/sort/removing_minimum_number_of_magic_beans.rs)  [数组, 前缀和, 排序]
+
+  - LeetCode 2171. 拿出最少数目的魔法豆 <https://leetcode.cn/problems/removing-minimum-number-of-magic-beans>
+
 - [购买两块巧克力](src/sort/buy_two_chocolates.rs)  [数组, 排序]
 
   - LeetCode 2706. 购买两块巧克力 <https://leetcode.cn/problems/buy-two-chocolates>
