@@ -165,6 +165,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [分割数组的最大值](src/array/split_array_largest_sum.rs)  [贪心, 数组, 二分查找, 动态规划, 前缀和]
+
+  - LeetCode 410. 分割数组的最大值 <https://leetcode.cn/problems/split-array-largest-sum>
+
 - [按分隔符拆分字符串](src/array/split_strings_by_separator.rs)  [数组, 字符串]
 
   - LeetCode 2788. 按分隔符拆分字符串 <https://leetcode.cn/problems/split-strings-by-separator>

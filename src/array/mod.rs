@@ -57,3 +57,4 @@ pub mod number_of_boomerangs;
 pub mod count_common_words_with_one_occurrence;
 pub mod find_maximum_number_of_string_pairs;
 pub mod split_strings_by_separator;
+pub mod split_array_largest_sum;
