@@ -816,3 +816,7 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 - [统计整数数目](src/math/count_of_integers.rs)  [数学, 字符串, 动态规划]
 
   - LeetCode 2719. 统计整数数目 <https://leetcode.cn/problems/count-of-integers>
+
+- [最大交换](src/math/maximum_swap.rs)  [贪心, 数学]
+
+  - LeetCode 670. 最大交换 <https://leetcode.cn/problems/maximum-swap>

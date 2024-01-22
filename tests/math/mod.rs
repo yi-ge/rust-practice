@@ -21,3 +21,4 @@ pub mod maximum_students_taking_exam_test;
 pub mod day_of_the_week_test;
 pub mod maximum_rows_covered_by_columns_test;
 pub mod count_of_integers_test;
+pub mod maximum_swap_test;
