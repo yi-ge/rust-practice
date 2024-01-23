@@ -165,6 +165,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [最长交替子数组](src/array/longest_alternating_subarray.rs)  [数组, 枚举]
+
+  - LeetCode 2765. 最长交替子数组 <https://leetcode.cn/problems/longest-alternating-subarray>
+
 - [分割数组的最大值](src/array/split_array_largest_sum.rs)  [贪心, 数组, 二分查找, 动态规划, 前缀和]
 
   - LeetCode 410. 分割数组的最大值 <https://leetcode.cn/problems/split-array-largest-sum>

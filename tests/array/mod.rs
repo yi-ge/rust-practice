@@ -58,3 +58,4 @@ pub mod zero_matrix_lcci_test;
 pub mod find_maximum_number_of_string_pairs_test;
 pub mod split_strings_by_separator_test;
 pub mod split_array_largest_sum_test;
+pub mod longest_alternating_subarray_test;
