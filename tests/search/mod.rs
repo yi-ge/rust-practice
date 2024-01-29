@@ -5,3 +5,4 @@ pub mod pond_sizes_lcci_test;
 pub mod shortest_path_in_binary_matrix_test;
 pub mod climbing_stairs_test;
 pub mod path_with_minimum_effort_test;
+pub mod freedom_trail_test;

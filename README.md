@@ -661,6 +661,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 其它
 
+- [自由之路](src/search/freedom_trail.rs)  [深度优先搜索, 广度优先搜索, 字符串, 动态规划]
+
+  - LeetCode 514. 自由之路 <https://leetcode.cn/problems/freedom-trail>
+
 - [赎金信](src/map/ransom_note.rs)  [哈希表, 字符串, 计数]
 
   - LeetCode 383. 赎金信 <https://leetcode.cn/problems/ransom-note>
