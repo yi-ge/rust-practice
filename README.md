@@ -165,6 +165,10 @@ Rust标准库`std::collections`提供了4种通用容器类型，包含一下8�
 
 ### 数组/队列/集合/映射
 
+- [使循环数组所有元素相等的最少秒数](src/array/minimum_seconds_to_equalize_a_circular_array.rs)  [数组, 哈希表]
+
+  - LeetCode 2808. 使循环数组所有元素相等的最少秒数 <https://leetcode.cn/problems/minimum-seconds-to-equalize-a-circular-array>
+
 - [最长交替子数组](src/array/longest_alternating_subarray.rs)  [数组, 枚举]
 
   - LeetCode 2765. 最长交替子数组 <https://leetcode.cn/problems/longest-alternating-subarray>
